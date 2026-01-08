@@ -239,7 +239,7 @@ This mostly follows the [official documentation][20] so do refer to that as well
 [18]: ./.github/guide_assets/vscode_front_matter.png
 [19]: ./.github/guide_assets/dev_standards_side_bar.png
 [20]: https://docs.github.com/en/desktop/making-changes-in-a-branch/committing-and-reviewing-changes-to-your-project-in-github-desktop
-[21]: ./.github/guide_assets/ghd_diff.md
+[21]: ./.github/guide_assets/ghd_diff.png
 [22]: https://en.wikipedia.org/wiki/Imperative_mood
 [23]: ./.github/guide_assets/ghd_commit.png
 [24]: .github/guide_assets/ghd_create_pr.png
