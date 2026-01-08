@@ -156,7 +156,7 @@ Note that this *front matter* isn't rendered in the preview tab.
 
 ![dev standards side bar][19]
 
-the *Environments* page at the top of the list has `order: 2` in its *front matter*, and the `Source control` page
+the *Environments* page at the top of the list has `order: 2` in its *front matter*, and the *Source control* page
 next on the list has `order: 3` and so on.
 The `index.md` page must have `order: 1` in it.
 When you create a new page you will need to ensure the order value you set will produce the correct order in the side
