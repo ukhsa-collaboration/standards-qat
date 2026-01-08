@@ -179,6 +179,46 @@ order: 2
 # My Exciting New Page
 ```
 
+### Committing Changes
+
+This mostly follows the [official documentation][20] so do refer to that as well.
+
+1. When you have finished making changes to the docs, you will need to commit them and ready them for review.
+   To do this, ensure all your changes are saved in Visual Studio Code and then reopen GitHub Desktop.
+   You should see the changes listed with diffs to show what has changed:
+
+![github desktop diff][21]
+
+2. In the bottom left hand corner, you can enter a summary for your commit and a description.
+   A commit should encapsulate a logical set of linked changes that achieve a single goal.
+   This means, a commit that updates a page's text would be a good commit, whereas a commit which updates 10 different
+   pages that have nothing to do with each other should be split into a number of commits.
+   There's no problem with creating several commits to make your changes, it usually makes it easier to review the
+   changes.
+   The commit summary **must** start `docs: `, be short, and [imperative][22].
+   The description is much less restricted and should help describe what is in the commit, it is also optional.
+
+![github desktop commit][23]
+
+3. Once you have committed at least once to your branch, you can make a pull request to have it reviewed.
+   You can do this by clicking on the publish button at the top.
+   Once you have done this, your code will exist on github and can be reviewed by others (it's not live though!).
+   At this point you can either go to GitHub and create the pull request, or you can initiate the process directly from
+   within Github Desktop by clicking on the down arrow next to the "Preview Pull Requst" button and selecting
+   "Create Pull Request".
+   Then click on "Create Pull Request" and this will launch GitHub in your browser.
+
+![github desktop commit][24]
+
+4. On GitHub you can then create your Pull Request.
+   You **must** ensure that the base branch is set to the `dev` branch, by default it will be set to `main`.
+   Just click the dropdown and select the `dev` branch from the list:
+
+![github pr][25]
+
+5. Once you have filled out your title and description, you can create the Pull Request, and it will then be reviewed
+   before it is made live.
+
 [1]: https://github.com/orgs/ukhsa-collaboration/teams/qat-standards-contributors
 [2]: https://docs.github.com/en/desktop/overview/getting-started-with-github-desktop#part-1-installing-and-authenticating
 [3]: https://github.com/ukhsa-collaboration/standards-qat
@@ -198,3 +238,9 @@ order: 2
 [17]: ./.github/guide_assets/vscode_new_file.png
 [18]: ./.github/guide_assets/vscode_front_matter.png
 [19]: ./.github/guide_assets/dev_standards_side_bar.png
+[20]: https://docs.github.com/en/desktop/making-changes-in-a-branch/committing-and-reviewing-changes-to-your-project-in-github-desktop
+[21]: ./.github/guide_assets/ghd_diff.md
+[22]: https://en.wikipedia.org/wiki/Imperative_mood
+[23]: ./.github/guide_assets/ghd_commit.png
+[24]: .github/guide_assets/ghd_create_pr.png
+[25]: ./.github/guide_assets/gh_pr.png
