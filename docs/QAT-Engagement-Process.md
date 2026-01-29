@@ -4,7 +4,7 @@ order: 2
 # QAT Engagement Process
 The Quality Assurance and Testing Team (QAT) will need to be actively engaged on entering the Beta planning phase and prior to any TACB submission.
 
-[Image]
+![Typical Initiative Enagement][init]
 
 Optionally in earlier phases such as Alpha we can assist with advice, guidance and/or early test delivery.
 
@@ -20,7 +20,7 @@ Contact Lee Woodcock (Lee.Woodcock@ukhsa.gov.uk) or Tigin Joseph (Tigin.Joseph@u
 
 The diagram below shows the high level Mandatory Test Assurance Process
 
-[Image]
+![High Level Process Flow][flow]
 
 ## Test Delivery
 Test Delivery requests are also dealt with by the QAT Initiative Lead (Lee.Woodcock@ukhsa.gov.uk) where scope, options and involvement can be discussed. 
@@ -41,6 +41,12 @@ If you are not yet sure on detail and require a higher level Rough Order of Magn
 
 For questions on the SOW Process please contact Kelvin Noble (Kelvin.Noble@ukhsa.gov.uk).
 
-<!-- References Section -->
+<!-- Link References Section -->
 [Request Test Assurance Support]: https://ukhsa.atlassian.net/servicedesk/customer/portal/22/group/46/create/282
 [Request Test Delivery Support]: https://ukhsa.atlassian.net/servicedesk/customer/portal/22/group/46/create/284
+
+<!-- Image References Section -->
+[init]: /assets/images/typical-initiative-engagement.png ("Timeline of Typical QAT Engagement")
+[flow]: /assets/images/high-level-process-flow.png ("Diagram of the High-Level Process Flow")
+
+
