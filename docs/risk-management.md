@@ -1,3 +1,6 @@
+---
+order: 14
+---
 # Risk Assessment
 UKHSA Risk Assessment framework ensures that all changes are carefully evaluated against established criteria, covering both functional and non-functional risks. This process involves defining clear acceptance criteria, documenting risk levels for each change, and assigning appropriate tests to high- and medium-risk areas.
 
@@ -7,4 +10,4 @@ Test managers/ Test leads are responsible for identifying and tracking QAT-relat
 
 Please see the flow diagram explaining the risk assessment process:
 
-<img src="docs/risks.PNG" width="600">
+<Add risk management process diagram here>

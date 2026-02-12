@@ -1,3 +1,6 @@
+---
+order: 10
+---
 # Executive Summary of the Template
 
 This template defines a process to capture application testing and templates for the UKHSA software delivery process when functional and automation testing is in scope of the software delivery lifecycle (SDLC) of the project.

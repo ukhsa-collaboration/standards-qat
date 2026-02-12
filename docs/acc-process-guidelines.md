@@ -1,3 +1,6 @@
+---
+order: 11
+---
 # Test Requirements 
 Gathering requirements is a critical first step to ensure that the final product is fully compliant with accessibility standards. Every service is measured against the Web Accessibility Initiative’s (WAI) Web Content Accessibility Guidelines 2.2 (WCAG 2.2) to give accurate feedback on any non-conforming issues. To confirm conformance with WCAG 2.2, all A and AA criteria must be achieved. 
 

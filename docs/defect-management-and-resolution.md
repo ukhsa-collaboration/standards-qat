@@ -1,3 +1,6 @@
+---
+order: 13
+---
 ## Purpose / Aim of the Defect Management process
 The purpose of the Defect Management process is to:
 

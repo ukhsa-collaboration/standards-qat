@@ -1,3 +1,7 @@
+---
+order: 9
+---
+
 # Test Design Standards
 - Test Case Identification: Automate tests that are repetitive, time-consuming, or critical to UKHSA’s business processes.
 - Test Case Structure: Each test case should have a clear objective, setup, execution steps, and validation, structured according to the POM.

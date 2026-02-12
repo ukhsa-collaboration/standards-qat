@@ -1,3 +1,6 @@
+---
+order: 16
+---
 # Test Planning
 
 • Test team must create a Test Approach and Test Plan document outlining the test strategy, scope, test levels, entry and exit criteria, resource allocation, and timelines.
