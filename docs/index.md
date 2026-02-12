@@ -29,23 +29,3 @@ The QAT team assists UKHSA programs in
 Programs can now submit requests for QAT services, including [Request Test Assurance Support][1] or [Request Test Delivery Support][2] through the new Jira Service Desk portal.
 
 Upon submission, the QAT team will reach out to guide you through the next steps.
-
-## Members within the team
-
-| Name | Role |
-| :- | :- |
-| Meenakshi Chaudhary | Head of QAT |
-| Lee Woodcock | Initiatives Lead (DXC) |
-| Amruta Bendre | Lead QA Engineer |
-| Collins Obasuyi | Lead Test Engineer |
-| Tigin Joseph | Lead Test Engineer |
-| Anu Thurai | Senior Test Engineer |
-| Sathiya Karuppaiah | Senior Test Engineer |
-
-## Want to Know More?
-
-To learn more about our team, please visit our internal [Confluence page][3]
-
-[1]: https://ukhsa.atlassian.net/servicedesk/customer/portal/22/group/46/create/282
-[2]: https://ukhsa.atlassian.net/servicedesk/customer/portal/22/group/46/create/284
-[3]: https://ukhsa.atlassian.net/wiki/display/QAT/Quality+Assurance+Testing+%28QAT%29+-+Home
