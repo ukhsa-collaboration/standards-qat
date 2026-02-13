@@ -1,9 +1,9 @@
 ---
 order: 10
 ---
-# Executive Summary of the Template
+# Test Automation - Test Plan Template
 
-This template defines a process to capture application testing and templates for the UKHSA software delivery process when functional and automation testing is in scope of the software delivery lifecycle (SDLC) of the project.
+The emplate defines a process to capture application testing and templates for the UKHSA software delivery process when functional and automation testing is in scope of the software delivery lifecycle (SDLC) of the project.
 
 The template defines the scenarios, objective, scope, testing responsibilities, environments, workflow, testing approach, test design across the systems & integration architecture.
 
@@ -20,8 +20,6 @@ It also covers:
 - Processes to support knowledge sharing, increase test coverage, and improve mitigation strategies
 
 ---
-
-# Version History and Document Review
 
 ## Version History
 

@@ -1,8 +1,13 @@
 ---
 order: 6
 ---
+# Opertaional Acceptance Testing - NFRs
 
-## Data Requirements
+The Operational Acceptance Testing (OAT) requirements are established to define the operational parameters of a system, identified collaboratively by programs and the organization. These requirements must be relevant, specific, testable, and measurable.
+
+For example, a set of Non-Functional Requirements (NFRs) should encompass the following areas. Depending on the program requirements, the OAT team must identify the qualifying entries and obtain confirmation from the project stakeholders and UKHSA OAT test manager. 
+
+## Example NFRs
 
 | Area              | Title             | Description | Example(s) |
 |-------------------|-------------------|-------------|------------|

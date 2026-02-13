@@ -19,9 +19,3 @@ The QAT team assists UKHSA programs in
   - Functional Test Delivery (integration, system and end-to-end testing)
   - Non-functional testing (performance and operational acceptance testing)
   - Accessibility testing
-
-## How to contact us
-
-Programs can now submit requests for QAT services, including [Request Test Assurance Support][1] or [Request Test Delivery Support][2] through the new Jira Service Desk portal.
-
-Upon submission, the QAT team will reach out to guide you through the next steps.
