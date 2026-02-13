@@ -1,7 +1,7 @@
 ---
 order: 6
 ---
-# Opertaional Acceptance Testing - NFRs
+# Operational Acceptance Testing - NFRs
 
 The Operational Acceptance Testing (OAT) requirements are established to define the operational parameters of a system, identified collaboratively by programs and the organization. These requirements must be relevant, specific, testable, and measurable.
 

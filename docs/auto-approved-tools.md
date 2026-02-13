@@ -14,7 +14,7 @@ order: 8
 ## Test Management Tools
 
 | Tool         | Vendor   | Purpose                                                | License Info   |
-|--------------|----------|--------------------------------------------------------|----------------|
+| ------------ | -------- | ------------------------------------------------------ | -------------- |
 | Confluence   | Atlassian | QAT documentation                                      | Managed by LSA |
 | JIRA (with Xray Add‑on) | Atlassian | Test management tool                                 | Managed by LSA |
 | Azure DevOps | Microsoft | QAT documentation, resource tracking, reporting       | UKHSA          |

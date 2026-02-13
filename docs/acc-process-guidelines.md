@@ -54,7 +54,7 @@ WCAG Compliance Test cases
 ### Data Requirements
 
 | Area              | Title             | Description | Example(s) |
-|-------------------|-------------------|-------------|------------|
+| ----------------- | ----------------- | ----------- | ---------- |
 | Data Requirements | Data Retention    | NFRs include: <br>• Retain active DB data 120 days <br>• Archive thereafter <br>• Delete archive after 240 days <br>• Define policies around what/when to archive | Data is retained 120 days, archived, then deleted after 240 days |
 | Data Requirements | Data Transfer     | NFRs include: <br>• Transfer must use SFTP <br>• Secure transfer via ISO 27001 <br>• Files encrypted AES‑256 <br>• Approved routes only | Secure SFTP with AES‑256 as per ISO 27001 |
 | Data Requirements | Data Storage      | NFRs include: <br>• Encryption at rest (Active + Archive) <br>• RBAC + least‑privilege access | Encrypted-at-rest & RBAC |
