@@ -24,12 +24,12 @@ order: 8
 ## Automation Testing Frameworks
 
 | Tool                   | Purpose                                   | Reasoning |
-|------------------------|--------------------------------------------|-----------|
+| ---------------------- | ------------------------------------------ | --------- |
 | Cypress                | Front‑end UI Functional Automation (Web)   | Pre‑approved for UKHSA QAT. It allows quicker automation and easier test creation for small/moderate complexity scripts. Supports multiple integrations such as CI/CD via ADO Pipelines, Jenkins, Azure Key Vault, JSON, Cucumber, SpecFlow, API testing and TestOps reporting dashboards. |
 | Playwright             | Front‑end UI Functional Automation (Web)   | Pre‑approved for UKHSA QAT. Offers simplified automation with rich features, works across multiple browsers (Chromium, WebKit, Firefox). Supports C#, JS, Python and Java. Integrates with Azure pipelines. |
 | Appium                 | Mobile Automation Framework                | Pre‑approved for UKHSA QAT. Supports iOS and Android automation with integration to ADO, SpecFlow and Appium Inspector. |
-| SeekReek (Screening HQ)| Website Crawling Tool                      | Pre‑approved for UKHSA QAT. Used to perform site structure and content scans. Integrates with ADO and has reporting features. |
-| Visual QA              | Cross‑browser UI, layout, API automation   | Integrated automation tool used widely within UKHSA. Provides UI validation, visual regression, accessibility checks, API automation, cloud execution and parallel execution. Includes dashboards, analytics and dedicated support. |                                                                                                     |
+| SeekReek (Screening HQ) | Website Crawling Tool                      | Pre‑approved for UKHSA QAT. Used to perform site structure and content scans. Integrates with ADO and has reporting features. |
+| Visual QA              | Cross‑browser UI, layout, API automation   | Integrated automation tool used widely within UKHSA. Provides UI validation, visual regression, accessibility checks, API automation, cloud execution and parallel execution. Includes dashboards, analytics and dedicated support. |
 
 ---
 
@@ -65,10 +65,10 @@ order: 8
 | ----------------------------------- | -------------------------- | --------- |
 | Silktide (Silktide Accessibility Pro version) | WCAG 2.2 verification tool | This tool has been pre-approved by UKHSA ensuring compliance with WCAG 2.2 standards. It offers a holistic means of verifying user-path accessibility. |
 | Wave web accessibility evaluation tool | WCAG 2.2 verification tool | The tool has been pre-approved by UKHSA ensuring compliance with WCAG 2.2 standards. It provides an intuitive region‑level WCAG 2.2 interface. |
-| DigitalA11Y Accessible Web Helper   | Colour Contrast Checker     | User‑centred tool that DigitalA11Y Accessible Web Helper for checking colour contrast on web pages. The software will help testers and developers ensure colour contrast ratios meet accessibility (WCAG 2.2 AA) compliance. |
-| Windows Narrator (MSA ARMS)        | Screen Reader               | Used to test accessibility features. |
-| Windows Magnifier                  | Screen Magnifier            | Leverages the built‑in Windows Magnifier software to ensure magnification is accessible and consistent, in alignment with the UKHSA Enterprise Architecture Principles for system‑enhancing processes. |
-| Windows Speech Recognition         | Speech Recognition Tool     | As an in‑built Windows software, Windows Speech Recognition is available to check for speech recognition ensuring accessibility for users reliant on this technology. |
+| DigitalA11Y Accessible Web Helper   | Colour Contrast Checker | User‑centred tool that DigitalA11Y Accessible Web Helper for checking colour contrast on web pages. The software will help testers and developers ensure colour contrast ratios meet accessibility (WCAG 2.2 AA) compliance. |
+| Windows Narrator (MSA ARMS)        | Screen Reader | Used to test accessibility features. |
+| Windows Magnifier                  | Screen Magnifier | Leverages the built‑in Windows Magnifier software to ensure magnification is accessible and consistent, in alignment with the UKHSA Enterprise Architecture Principles for system‑enhancing processes. |
+| Windows Speech Recognition         | Speech Recognition Tool | As an in‑built Windows software, Windows Speech Recognition is available to check for speech recognition ensuring accessibility for users reliant on this technology. |
 
 ## Mobile Devices
 

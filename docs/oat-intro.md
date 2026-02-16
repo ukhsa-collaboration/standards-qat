@@ -72,4 +72,3 @@ During this phase, the UKHSA OAT test manager will ensure that the project OAT t
 - Failure / Failover
 - Resilience & Recovery
 - Monitoring & alerting
-- 

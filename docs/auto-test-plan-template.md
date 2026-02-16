@@ -39,7 +39,7 @@ It also covers:
 | <Full Name>    | Product Owner            | Reviewer       | <v>     | <dd/mm/yyyy> |
 | <Full Name>    | Test Lead                | Reviewer       | <v>     | <dd/mm/yyyy> |
 | <Full Name>    | L1 Support Team Lead     | Reviewer       | <v>     | <dd/mm/yyyy> |
-| <Full Name>    | QAT Test/Business Manager| Reviewer       | <v>     | <dd/mm/yyyy> |
+| <Full Name>    | QAT Test/Business Manager | Reviewer       | <v>     | <dd/mm/yyyy> |
 | <Full Name>    | QAT Automation Test Lead | Author         | <v>     | <dd/mm/yyyy> |
 | <Full Name>    | Automation Tester        | Reviewer       | <v>     | <dd/mm/yyyy> |
 
@@ -252,12 +252,12 @@ Below are the key automation milestones to be tracked as part of the project.
 
 | Milestone             | Deliverable                 | Owner              | Schedule         |
 | --------------------- | ---------------------------- | ------------------- | ---------------- |
-| Framework Setup       | Automation framework setup   | QA Team             | [Date Range]     |
-| Scripting Development | Automated test scripts       | Automation Tester   | [Date Range]     |
-| Test Data Management  | Test data created            | QA/Dev Team         | [Date Range]     |
-| CI/CD Integration     | Automation tests integrated  | DevOps Team         | [Date Range]     |
-| Review & Maintenance  | Test case review, updates    | Test Lead           | [Date Range]     |
-| Test Execution        | Test execution report        | QA Team / Test Lead | [Date Range]     |
+| Framework Setup       | Automation framework setup   | QA Team             | Date Range      |
+| Scripting Development | Automated test scripts       | Automation Tester   | Date Range      |
+| Test Data Management  | Test data created            | QA/Dev Team         | Date Range      |
+| CI/CD Integration     | Automation tests integrated  | DevOps Team         | Date Range      |
+| Review & Maintenance  | Test case review, updates    | Test Lead           | Date Range      |
+| Test Execution        | Test execution report        | QA Team / Test Lead | Date Range      |
 
 ---
 
