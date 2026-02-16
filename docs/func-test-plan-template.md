@@ -4,7 +4,7 @@
 
 ---
 
-## [ Test Plan Identifier ]
+## *Test Plan Identifier Here*
 
 **Guidance Notes:**  
 Assign a unique identifier to this test plan for reference and tracking purposes.
@@ -45,7 +45,7 @@ Assign a unique identifier to this test plan for reference and tracking purposes
 | Programme Manager |                    |         |          |
 | Delivery Manager  |                    |         |          |
 | Scrum Master      |                    |         |          |
-| Solution Architect|                    |         |          |
+| Solution Architect |                    |         |          |
 | Product Owner     |                    |         |          |
 | Business Analyst  |                    |         |          |
 
