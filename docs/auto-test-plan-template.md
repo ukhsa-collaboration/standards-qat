@@ -24,7 +24,7 @@ It also covers:
 ## Version History
 
 | Version | Date       | Author        | Description                                       |
-|---------|------------|----------------|---------------------------------------------------|
+| ------- | ---------- | -------------- | ------------------------------------------------- |
 | 0.1     | <dd/mm/yyyy> | <Full Name>   | Draft Document for review and feedback            |
 | 0.2     | <dd/mm/yyyy> | <Full Name>   | Feedback Incorporated                             |
 | 1.0     | <dd/mm/yyyy> | <Full Name>   | Final Version for Approval / Sign‑off             |
@@ -34,7 +34,7 @@ It also covers:
 ## Document Review
 
 | Name           | Role                    | Responsibility | Version | Date         |
-|----------------|--------------------------|----------------|---------|--------------|
+| -------------- | ------------------------ | -------------- | ------- | ------------ |
 | <Full Name>    | Agile Delivery Manager   | Sign‑off       | <v>     | <dd/mm/yyyy> |
 | <Full Name>    | Product Owner            | Reviewer       | <v>     | <dd/mm/yyyy> |
 | <Full Name>    | Test Lead                | Reviewer       | <v>     | <dd/mm/yyyy> |
@@ -123,7 +123,7 @@ The framework will also use recommended automation patterns:
 Below is a list of the types of functional automation tests executed using “tags” in the framework.
 
 | Functional Test Type | Description |
-|----------------------|-------------|
+| -------------------- | ----------- |
 | **Smoke Tests**      | Basic checks to ensure app is up |
 | **Regression**       | Verify no new code breaks existing features |
 | **E2E**              | End‑to‑end business flow validations including integration tests |
@@ -173,7 +173,7 @@ Below is a list of the types of functional automation tests executed using “ta
 Automation test delivery can only start after completion of the below:
 
 | Entry Criteria | Responsible |
-|----------------|-------------|
+| -------------- | ----------- |
 | Reviewed & finalised App/Service details, application URLs, cloud account access etc. | Project Development Team |
 | User Access Created, Permissions Granted, Test Interface Credentials | DevOps/Project Team |
 | Test Environment Ready (SIT/UAT environment ready to use) | Automation Tester with support from DevOps/Service Desk |
@@ -187,7 +187,7 @@ Automation test delivery can only start after completion of the below:
 ## Exit Criteria
 
 | Exit Criteria                                                                 | Responsible                                  |
-|--------------------------------------------------------------------------------|-----------------------------------------------|
+| ------------------------------------------------------------------------------ | --------------------------------------------- |
 | All tests automated and executed which are in the scope of the delivery        | Automation Tester                             |
 | All automation open defects should be closed/mitigated or downgraded           | Automation Tester                             |
 | The automation regression tests are integrated in the CI/CD application deployment pipelines at test environment | Automation Tester, Project Dev Team and DevOps |
@@ -208,7 +208,7 @@ Automation test delivery can only start after completion of the below:
 > *Add/Remove relevant automation risks which impact the project deliverables. The below examples are not exhaustive—add & remove as needed.*
 
 | Risk                                             | Risk Severity | Risk Owner                    | Risk Status           |
-|--------------------------------------------------|--------------|------------------------------|------------------------|
+| ------------------------------------------------ | ------------ | ---------------------------- | ---------------------- |
 | Automation tools blocked                         | High / Medium / Low | Automation Tester / Test Lead / Automation Manager | Open / Mitigated / Closed |
 | Incomplete automation coverage                   | High / Medium / Low | Automation Tester            | Open / Mitigated / Closed |
 
@@ -235,7 +235,7 @@ See: **UKHSA Approved Tools and Automation Guidelines**
 ## Tools (examples only — replace with live tool options)
 
 | Tool               | Purpose                                 |
-|--------------------|-------------------------------------------|
+| ------------------ | ----------------------------------------- |
 | Playwright         | Browser automation                        |
 | Cypress            | Browser automation                        |
 | Selenium / WebDriver (UI) | UI automation                      |
@@ -251,7 +251,7 @@ See: **UKHSA Approved Tools and Automation Guidelines**
 Below are the key automation milestones to be tracked as part of the project.
 
 | Milestone             | Deliverable                 | Owner              | Schedule         |
-|-----------------------|------------------------------|---------------------|------------------|
+| --------------------- | ---------------------------- | ------------------- | ---------------- |
 | Framework Setup       | Automation framework setup   | QA Team             | [Date Range]     |
 | Scripting Development | Automated test scripts       | Automation Tester   | [Date Range]     |
 | Test Data Management  | Test data created            | QA/Dev Team         | [Date Range]     |
@@ -264,7 +264,7 @@ Below are the key automation milestones to be tracked as part of the project.
 # 8. Resource, Roles & Responsibilities — Key Programme Resource
 
 | Role                      | When Required | RACI | Key Responsibilities |
-|---------------------------|--------------|------|-----------------------|
+| ------------------------- | ------------ | ---- | --------------------- |
 | Agile/Test Delivery Manager | All phases | R/A | Ensure tooling & automation are aligned, sign‑off stages, oversee delivery. |
 | Test Lead / QA Manager     | All phases | R/C | Create test approach; manage test execution; coordinate across teams. |
 | QAT Test Automation Lead   | All phases | R/C | Define automation strategy; support automation activities; ensure standards followed. |
@@ -326,7 +326,7 @@ BAU handover includes:
 Example list below — expand as needed for the project.*
 
 | Abbreviation | Description                                      |
-|--------------|--------------------------------------------------|
+| ------------ | ------------------------------------------------ |
 | QAT          | Quality Assurance Testing                        |
 | Automation   | Software Functional Test Automation              |
 | CI/CD        | Continuous Integration and Continuous Delivery   |

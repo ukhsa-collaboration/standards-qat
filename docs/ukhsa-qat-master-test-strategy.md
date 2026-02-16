@@ -21,7 +21,7 @@ Next Review Date: Version Date + 1 year
 **The latest version of this document is stored electronically. Any printed copy is an uncontrolled copy for reference or training purposes only.**
 
 | Version | Version Date | Modified By | Revisions |
-|--------|---------------|-------------|-----------|
+| ------ | ------------- | ----------- | --------- |
 | 0.1     | 07/02/2025    |             | The text is an example of Master Test Strategy<br><br>**(Insert Version / Revision purpose)** |
 |        |               |             |           |
 |        |               |             |           |
@@ -34,4 +34,3 @@ Next Review Date: Version Date + 1 year
 | Test Manager | | | |
 | OAT Manager | | | |
 | **(Insert Names of Reviewers)** | | | |
-

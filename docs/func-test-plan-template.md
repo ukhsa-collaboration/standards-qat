@@ -17,7 +17,7 @@ Assign a unique identifier to this test plan for reference and tracking purposes
 ## Document Details
 
 | **Document version:** | <insert version number e.g., 0.1> |
-|------------------------|-----------------------------------|
+| ---------------------- | --------------------------------- |
 | **Last updated date:** | <insert date>                     |
 | **Author:**            | <insert author’s name>            |
 | **Status:**            | <insert status e.g., Draft or Approved> |
@@ -27,13 +27,13 @@ Assign a unique identifier to this test plan for reference and tracking purposes
 ## Version History
 
 | Version | Date       | Author (A), Contributor (C) | Notes          |
-|---------|------------|-----------------------------|----------------|
+| ------- | ----------- | ---------------------------- | -------------- |
 | V0.1    | 07/02/2025 | <insert name>               | <insert notes> |
 
 ## Document Approval
 
 | Name            | Role             | Date Approved | Comments |
-|-----------------|------------------|---------------|----------|
+| ---------------- | ------------------ | --------------- | ---------- |
 | Project Manager |                  |               |          |
 | Test Manager    |                  |               |          |
 | QAT Manager     |                  |               |          |
@@ -41,7 +41,7 @@ Assign a unique identifier to this test plan for reference and tracking purposes
 ## Document Distribution
 
 | Name              | Role               | Version | Comments |
-|-------------------|--------------------|---------|----------|
+| ------------------- | -------------------- | --------- | ---------- |
 | Programme Manager |                    |         |          |
 | Delivery Manager  |                    |         |          |
 | Scrum Master      |                    |         |          |
@@ -52,14 +52,14 @@ Assign a unique identifier to this test plan for reference and tracking purposes
 ## Document Location
 
 | Location    | Link          |
-|-------------|---------------|
+| ------------- | --------------- |
 | Confluence  | <insert link> |
 | SharePoint  | <insert link> |
 
 ## reference Documents
 
 | Number      | Name          | Location         | Notes                     |
-|-------------|---------------|------------------|---------------------------|
+| ------------- | --------------- | ------------------ | --------------------------- |
 |             |               |                  |                           |
 |             |               |                  |                           |
 
@@ -144,7 +144,7 @@ Describe the key steps in the approach.
 ## Test Process Overview
 
 | **Process**        | **Activities** |
-|--------------------|----------------|
+| -------------------- | ---------------- |
 | **1. Planning**    | - Analysis of requirement and Test Scenarios development.<br>- Review test resources and requirements.<br>- Review of test plan and test documentation tools.<br>- Review Test Environment requirements and readiness criteria.<br>- Plan and setup Test data types, sources and test data.<br>- Smoke testing, Regression testing, Defect triage.<br>- Test plan review and approval by the project stakeholders and QAT team. |
 | **2. Designing**   | - Define test scenarios and create test cases, aligned, updated in JIRA and mapped to the requirements.<br>- Update and refine test cases as per plan prior to the formal test execution.<br>- Identify a set of regression test cases to be run after defect fixes or changes are introduced. |
 | **3. Execution**   | - Review the Test Entry Criteria.<br>- Initiate test execution as per the agreed schedule.<br>- Publish interim progress in case of blockers during execution.<br>- Record and update Test Results, JIRA & other tracking tools (e.g., MS Excel).<br>- Ensure defect management triage calls based on the agreed process are in place.<br>- Record and manage issues and defects (JIRA). |
@@ -168,7 +168,7 @@ Below is an example RTM table (typically maintained in Excel):
 ### Requirement Traceability Matrix
 
 | **Requirement ID** | **Test Case ID** | **Test Case Summary** | **Priority** | **Status**     |
-|--------------------|------------------|------------------------|--------------|----------------|
+| -------------------- | ------------------ | ------------------------ | -------------- | ---------------- |
 | REQ-001            | TC-010           |                        | M            | Completed      |
 | REQ-002            | TC-020           |                        | H            | In Review      |
 | REQ-003            | TC-030           |                        | M            | In Progress    |
@@ -181,7 +181,7 @@ It is an essential tool for tracking testing progress and identifying any gaps i
 ## Requirement Traceability Matrix
 
 | **EPIC** | **User Story** | **Test Case ID** | **Test Case Summary** | **Priority** | **Status**     |
-|----------|----------------|------------------|------------------------|--------------|----------------|
+| ---------- | ---------------- | ------------------ | ------------------------ | -------------- | ---------------- |
 | ET-010   | ET-0100        | ET-010           |                        | H            | Completed      |
 | ET-010   | ET-0100        | ET-020           |                        | M            | In Review      |
 | ET-010   | ET-0100        | ET-030           |                        | H            | In Progress    |
@@ -218,7 +218,7 @@ Use the following table to describe the test environment(s) to be used for funct
 ### Functional Test Environments
 
 | **Test Environment** | **Purpose / Scope** | **Link / URL** | **Notes** |
-|----------------------|---------------------|----------------|-----------|
+| ---------------------- | --------------------- | ---------------- | ----------- |
 | Dev & Test           |                     |                |           |
 | Functional           |                     |                |           |
 | UAT                  |                     |                |           |
@@ -232,7 +232,7 @@ For example, Jira and Xray are used for test planning and execution.
 ## Tools Overview
 
 | **#** | **Tool** | **Purpose** | **Notes** |
-|-------|----------|-------------|-----------|
+| ------- | ---------- | ------------- | ----------- |
 | 1     | Jira     | Test cases development, Defect Management, Jira Boards | |
 | 2     | Xray     | Test Management, Execution and Traceability, Test Reporting | |
 | 3     | Other tools (e.g., screen grab or recording tool) | <insert text> | |
@@ -265,7 +265,7 @@ Below are the guidelines that will be used to decide the Priority of the defects
 # Defect Priority
 
 | **Priorities** | **Description / Impact to Testing if Not Fixed** | **Target Fix Required** |
-|----------------|--------------------------------------------------|--------------------------|
+| ---------------- | -------------------------------------------------- | -------------------------- |
 | **Critical (P1)** | - All testing stopped<br>- Unable to execute any test cases<br>- System or test environment required for testing unavailable<br>- Critical test cases must be executed before Go‑Live<br>- *Example:* Test environment not available or users unable to login | Immediate – Within 24 hours |
 | **High (P2)** | - Significant volume / high proportion of testing stopped / blocked<br>- Able to continue with some testing<br>- Tests blocked relate to core functionality<br>- *Example:* Notification process working but charge or update function not working | Fixed delivered in current sprint window |
 | **Medium (P3)** | - Group of tests stopped or blocked from execution<br>- Tests relate to non‑core functions or back‑end processing (e.g., batch processing)<br>- *Example:* Single screen not working or available | Fixed delivery in next sprint |
@@ -283,7 +283,7 @@ Below are the guidelines that will be used to decide the Severity of the defects
 # Defect Severity
 
 | **Severities** | **Description / Impact on UKHSA users or the UKHSA Organization If Not Fixed** | **Fix Required By** |
-|----------------|-------------------------------------------------------------------------------|----------------------|
+| ---------------- | ------------------------------------------------------------------------------- | ---------------------- |
 | **Critical (S1)** | - Breaches Legal, Regulatory or Compliance requirements<br>- Results in damage to UKHSA reputation or image<br>- Results in poor / degraded user service and generates complaints<br>- Results in Financial loss or legal actions<br>- Results in Data production leakage<br>- Unable to produce mandatory, statutory reports or produces inaccurate management information<br>- No Workaround to defect | Must Be Fixed Before Go-Live |
 | **High (S2)** | - Does not result in Severity 1 outcomes<br>- UKHSA processes or user activity will not occur for a significant period after Go‑Live i.e. Yearly reporting<br>- User service can be managed by a sustainable workaround<br>- UKHSA reporting accuracy and continuity can be maintained at a reasonable cost<br>- Workaround is sustainable in the short term for the UKHSA organization | Fix expected shortly after Go‑Live or before UKHSA required business event occurs |
 | **Medium (P3)** | - Does not result in Severity 1 or 2 outcomes<br>- Requires only moderate adjustment to UKHSA users or organization processing<br>- Workaround sustainable in the long term without significant increase in costs<br>- Workaround is sustainable in the long term to the UKHSA organization | Fix can be permitted when the area of the code is being changed |
@@ -317,7 +317,7 @@ Below are the guidelines that will be used to decide the Severity of the defects
 As an example, the key team members involved in the delivery of the testing activities are detailed as below (change and update based on the team structure and requirements):
 
 | **Role**          | **Team Member**      | **Responsibilities** | **Time Commitment** |
-|-------------------|-----------------------|-----------------------|----------------------|
+| ------------------- | ----------------------- | ----------------------- | ---------------------- |
 | Project Manager   | <Insert name>         | - Oversee project progress<br>- Manage stakeholder communication<br>- Risk management<br>- Resource allocation | <insert e.g., full time, 2 days> |
 | Test Manager      | <Insert name>         | - Lead the testing team<br>- Develop test strategy and plans<br>- Manage test execution and defect tracking | <insert e.g., full time, 2 days> |
 | Test Lead / Tester(s) | <Insert name>     | - Design and execute test cases<br>- Report and track defects<br>- Verify test results and create test execution reports | <insert e.g., full time, 2 days> |
@@ -330,7 +330,7 @@ As an example, the key team members involved in the delivery of the testing acti
 The RACI matrix (example) below (where R = Responsible, A = Accountable, C = Consulted, I = Informed) indicates the key activities/responsibilities relating to the testing of capabilities delivered in the project:
 
 | **Deliverable**          | **Test Manager** | **Test Lead** | **Dev Team** | **Project Manager** |
-|--------------------------|------------------|----------------|--------------|----------------------|
+| -------------------------- | ------------------ | ---------------- | -------------- | ---------------------- |
 | Functional Test Plan     | R                | C              | C            | C                    |
 | Test Schedule            | A                | R              | C            | I                    |
 | Defect Review            | I                | R              | C            | I                    |
@@ -362,7 +362,7 @@ It is recommended to organise RAID review meetings as part of test planning. Hig
 ## RAID Log Table
 
 | **ID** | **R/A/I/D** | **Description** | **Impact** | **Probability** | **Mitigation** | **Owner** | **Status** |
-|--------|-------------|------------------|-------------|------------------|----------------|-----------|------------|
+| -------- | ------------- | ------------------ | ------------- | ------------------ | ---------------- | ----------- | ------------ |
 |        |             |                  |             |                  |                |           |            |
 
 ---
@@ -372,7 +372,7 @@ It is recommended to organise RAID review meetings as part of test planning. Hig
 # Glossary of Terms
 
 | **Term** | **Definition** |
-|---------|----------------|
+| --------- | ---------------- |
 | 1. Defect | A deviation from the expected behaviour or requirement. |
 | 2. QAT | Quality Assurance and Test |
 | 3. UKHSA | UK Health Security Agency |

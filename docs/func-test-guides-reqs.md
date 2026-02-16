@@ -103,4 +103,3 @@ For sample templates related to the deliverables mentioned above, please refer t
       • Defect closure report
    • Risks and Issues
    • Recommendations
-``

@@ -23,8 +23,8 @@ order: 8
 
 ## Automation Testing Frameworks
 
-| Tool               | Purpose                                       | Reasoning                                                                                                                                                                                                                                                                                                                                 |
-| ------------------ | --------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Tool               | Purpose                                       | Reasoning                                                                                                                                                                                                                                                                                                                                 | 
+| ------------------ | --------------------------------------------- |  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Cypress            | Front‑end UI Functional Automation (Web)      | Pre‑approved for UKHSA QAT. It allows quicker automation and easier test creation for small/moderate complexity scripts. Supports multiple integrations such as CI/CD via ADO Pipelines, Jenkins, Azure Key Vault, JSON, Cucumber, SpecFlow, API testing and TestOps reporting dashboards.                                                |
 | Playwright         | Front‑end UI Functional Automation (Web)      | Pre‑approved for UKHSA QAT. Offers simplified automation with rich features, works across multiple browsers (Chromium, WebKit, Firefox). Supports C#, JS, Python and Java. Integrates with Azure pipelines.                                                                                                                               |
 | Appium             | Mobile Automation Framework                   | Pre‑approved for UKHSA QAT. Supports iOS and Android automation with integration to ADO, SpecFlow and Appium Inspector.                                                                                                                                                                                                                   |
@@ -36,7 +36,7 @@ order: 8
 ## Automation Testing Tools
 
 | S.No | Tool Name       | Test Phase / Process                                      | Purpose                                                                 | License Information |
-| ---- | ---------------- | -----------------------------------------------------------| ----------------------------------------------------------------------- | -------------------- |
+| ---- | ---------------- | ---------------------------------------------------------- | ----------------------------------------------------------------------- | -------------------- |
 | 1    | Visual Studio    | Functional Test Automation                                | IDE for developing automation                                           | Open Source          |
 | 2    | Cucumber         | Automation Framework                                      | Allows Behaviour Driven Development (BDD)                               | Open Source          |
 | 3    | Selenium         | Automation Framework (Web)                                | Browser automation                                                      | Open Source          |
@@ -62,7 +62,7 @@ order: 8
 ## Accessibility Testing
 
 | Tool                                | Purpose                    | Reasoning |
-| ---------------------------------- | -------------------------- | --------- |
+| ----------------------------------- | -------------------------- | --------- |
 | Silktide (Silktide Accessibility Pro version) | WCAG 2.2 verification tool | This tool has been pre-approved by UKHSA ensuring compliance with WCAG 2.2 standards. It offers a holistic means of verifying user-path accessibility. |
 | Wave web accessibility evaluation tool | WCAG 2.2 verification tool | The tool has been pre-approved by UKHSA ensuring compliance with WCAG 2.2 standards. It provides an intuitive region‑level WCAG 2.2 interface. |
 | DigitalA11Y Accessible Web Helper   | Colour Contrast Checker     | User‑centred tool that DigitalA11Y Accessible Web Helper for checking colour contrast on web pages. The software will help testers and developers ensure colour contrast ratios meet accessibility (WCAG 2.2 AA) compliance. |
