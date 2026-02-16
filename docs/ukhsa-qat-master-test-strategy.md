@@ -29,7 +29,7 @@ Next Review Date: Version Date + 1 year
 |        |               |             |           |
 
 | Name | Role/Organization | Date | Comment |
-|------|--------------------|------|---------|
+| ---- | ----------------- | ---- | ------- |
 | Project Manager | | | |
 | Test Manager | | | |
 | OAT Manager | | | |

@@ -48,7 +48,7 @@ During discovery the OAT team engage with the project to:
 The OAT test team should collate the following acceptable forms of evidence as part of the verification process, with specific comments on their handling and the involvement of stakeholders.
 
 | S.I | Acceptable Form | Comments |
-|-----|------------------|----------|
+| --- | ---------------- | -------- |
 | 1   | Email(s)         | This need to be copied to all stakeholders. |
 | 2   | Runbook(s)       | Runbook must be reviewed and accepted by Stakeholders/Support Team. |
 | 3   | Screenshot(s)    | Full screenshots or sanitised for data security as deemed appropriate. |
