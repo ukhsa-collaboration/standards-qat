@@ -2,7 +2,7 @@
 order: 1
 ---
 
-# Introduction to Quality Assurance & Testing (QAT)
+# Introduction to Quality Assurance Testing (QAT)
 
 The **Quality Assurance Testing (QAT)** Team is responsible for ensuring that software products and systems meet the required UKHSA quality standards before they are released.
 
