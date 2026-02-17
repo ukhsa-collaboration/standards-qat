@@ -18,9 +18,9 @@ For the purposes of the Defect Management process; A Defect is an issue which de
 ## Defect Lifecycle - Status workflow
  Defect Management life cycle describes the stages the defect progresses from detection to closure. JIRA will be used to log all Defects raised during each phase of the initiative.
 
-The diagram that follows provides the basic defect workflow with the relevant statuses:
+This diagram provides the basic defect workflow with the relevant statuses:
 
-<Insert diagram here>
+![Workflow Diagram](./img/defectlifecycle.png)
 
 | Defect Status       | Defect Status Set | Status (When Set & Actions)                                                                                                                                                                                                                                                                                 | Next Status (1. Standard Journey / 2. Alternative Journey)      | 
 | ------------------- | ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
