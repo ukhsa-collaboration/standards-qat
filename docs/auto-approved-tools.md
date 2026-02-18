@@ -5,12 +5,6 @@ order: 8
 
 # QAT – Approved Tools and Software
 
----
-
-## Functional and Automation Testing
-
----
-
 ## Test Management Tools
 
 | Tool         | Vendor   | Purpose                                                | License Info   |

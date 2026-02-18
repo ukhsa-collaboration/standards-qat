@@ -1,4 +1,7 @@
-# UKHSA Functional Test Plan
+---
+order: 15
+---
+# UKHSA Functional Test Plan Template
 
 *<Project/Initiative Name>*
 

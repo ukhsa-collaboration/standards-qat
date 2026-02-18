@@ -1,7 +1,7 @@
 ---
-order: 13
+order: 16
 ---
-# Defect Management & Resolution
+# UKHSA Defect Management & Resolution
 
 ## Purpose / Aim of the Defect Management process
 The purpose of the Defect Management process is to:
@@ -165,18 +165,3 @@ The following Key Performance Indicators may be used to measure the quality of t
 | **Defect Detection Effectiveness** | The number of defects detected per test case indicating test case effectiveness. | (Per Initiative, the Number of Defects / Number of Unique Test Cases Executed) * 100                  | Less than 20%                                                                        |
 | **Defect Detection Ratio**     | The number of defects detected during the Initiative per development effort (indicating development quality). | (Per Initiative, Number of Defects / Development Effort – Man‑days) * 100                             | Less than 94%                                                                        |
 | **Defect Aging / Resolution**  | The average age of defects per severity.                                                                                                                          | Per Initiative, cumulative number of days a defect spends between Open and Done status / Number of Defects (by Severity)<br><br>**Note:** Only reported for Severity 1, 2 and 3 defects | Severity 1 – Less than 4 days<br>Severity 2 – Less than 8 days<br>Severity 3 – Less than 15 days |
-
-## Defect Management and Filters / Labels
-Defects may be tagged with a Label to enable specific project reporting or filters within Jira:
-
-The QAT Team uses the following Labels to identify the Defects they raise:
-
-QAT-BUG-AT = Automation Defect
-
-QAT-BUG-FT = Functional Defect
-
-QAT-BUG-PT = Performance Defect
-
-QAT-BUG-A11Y = Accessibility Defect
-
-QAT-BUG-OAT = Operational Acceptance Defect

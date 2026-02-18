@@ -12,43 +12,43 @@ Test team must create and maintain a Requirements Traceability Matrix (RTM) at t
 Any deviations from the accessibility requirements should be documented, and the relevant approvals must be obtained. These approvals should then be shared with the UKHSA QA manager during the document review stage to ensure transparency and accountability. This process helps maintain compliance with accessibility standards while allowing for informed decision-making when exceptions are necessary 
 
 ## Test Design and Case Creation
-Accessibility requirements must be translated into test cases that are clear, traceable, and cover all specified behaviors.
-Test cases should undergo a peer review by another test team member or the test lead to ensure adequate coverage. Additionally, they should be reviewed and approved by the relevant project stakeholders including UKHSA QA manager prior to the start of test execution.
+- Accessibility requirements must be translated into test cases that are clear, traceable, and cover all specified behaviors.
+- Test cases should undergo a peer review by another test team member or the test lead to ensure adequate coverage. Additionally, they should be reviewed and approved by the relevant project stakeholders including UKHSA QA manager prior to the start of test execution.
+- Each test case should include the following sections
+ - Test Case ID
+ - Test Case Title/Name
+ - Test Case Description
+ - Preconditions
+ - Test Data
+ - Test Steps
+ - Expected Result
+ - Actual Result
+ - Priority 
 
-Each test case should include the following sections
-
-Test Case ID
-Test Case Title/Name
-Test Case Description
-Preconditions
-Test Data
-Test Steps
-Expected Result
-Actual Result
-Priority 
-The Requirements Traceability Matrix (RTM) should be updated with the corresponding Test Case IDs to ensure proper alignment between requirements and test cases
-We recommend utilizing the JIRA-XRAY tool for effective test management. (Please visit our internal page for more information about Jira test management)
+- The Requirements Traceability Matrix (RTM) should be updated with the corresponding Test Case IDs to ensure proper alignment between requirements and test cases
+- We recommend utilizing the JIRA-XRAY tool for effective test management. (Please visit our internal page for more information about Jira test management)
 
 ## Test Execution and Reporting 
-Test team must document and report all test results, including passed, failed, and blocked test cases with the appropriate screen shots  
-Defects should be logged in a tracking system and classified by severity and priority.
-Provide regular status reports and test summary reports to the project management as defined in the test plan document.
-Test cases that do not pass during testing must be documented in the Test Exit Report, along with relevant justifications and approvals from the respective project stakeholders along with UKHSA QA manager
-We recommend to use JIRA-XRAY plug in for the test management activities 
+- Test team must document and report all test results, including passed, failed, and blocked test cases with the appropriate screen shots  
+- Defects should be logged in a tracking system and classified by severity and priority.
+- Provide regular status reports and test summary reports to the project management as defined in the test plan document.
+- Test cases that do not pass during testing must be documented in the Test Exit Report, along with relevant justifications and approvals from the respective project stakeholders along with UKHSA QA manager
+- We recommend to use JIRA-XRAY plug in for the test management activities 
 
 ## Accessibility Testing Processes and Tools
 To provide a more accurate evaluation of the webpages, we have employed three distinct testing processes that must be followed 
 
-Must use of automated tools (BrowserStack, and WAVE Scan)
-Dedicated tester, manually testing specific criteria and using assistive technology.
-Automated test tools like Cypress and AIQ (Appvance) to create and execute automated scripts.
+- Must use of automated tools (BrowserStack, and WAVE Scan)
+- Dedicated tester, manually testing specific criteria and using assistive technology.
+- Automated test tools like Cypress and AIQ (Appvance) to create and execute automated scripts.
+
 The findings of these testing processes are then combined to provide comprehensive feedback on the service. The order of tests listed below, has been found to be the most efficient order.
 
 Tools and techniques used to test each success criteria are provided below from our recent experience on UKHSA projects, but a tester should be have the required level of understanding and be supported by:
 
-Testing for accessibility - Service Manual - GOV.UK
-Understanding WCAG 2.2 | WAI | W3C
-Home · alphagov/wcag-primer Wiki · GitHub
+[Testing for accessibility - Service Manual - GOV.UK](https://www.gov.uk/service-manual/helping-people-to-use-your-service/testing-for-accessibility)
+[Understanding WCAG 2.2 | WAI | W3C](https://www.w3.org/WAI/WCAG22/Understanding/)
+[Home · alphagov/wcag-primer Wiki · GitHub](https://github.com/alphagov/guide-to-wcag/wiki)
 
 WCAG Compliance Test cases
 ### Data Requirements

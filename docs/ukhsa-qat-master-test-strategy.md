@@ -603,9 +603,9 @@ Produce a Test Automation Approach
 - Define Test Pack Maintenance approach (e.g. manage tech debt to maintain and enhance the test packs)
 - Define Code Version Control, Code Reviews and Branching strategy
 - Governance and Best Practices
-   - Adopting Page Object Model
-   - Automation folder structure, folder/file naming and coding best practices (Refer UKHSA Automation Guidance confluence pages)
-   - Test Framework Enhancement and Test Case Optimization (for reduced execution time and lower maintenance)
+  - Adopting Page Object Model
+  - Automation folder structure, folder/file naming and coding best practices (Refer UKHSA Automation Guidance confluence pages)
+  - Test Framework Enhancement and Test Case Optimization (for reduced execution time and lower maintenance)
 
 - Automation Risks Logging and Mitigation
 - Automation Tests BAU Handover approach (e.g. Documentation of automation and handover to BAU at project closure)

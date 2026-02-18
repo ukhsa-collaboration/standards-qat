@@ -85,10 +85,9 @@ It also covers:
 - One-time-only scenarios.
 - Workflows dependent on third-party environments not available for automated testing.
 
----
+
 # 4. Automation Test Approach
 
----
 
 ## 4.1 Framework Architecture
 
@@ -129,8 +128,6 @@ Below is a list of the types of functional automation tests executed using “ta
 | **E2E**              | End‑to‑end business flow validations including integration tests |
 | **Cross‑Browser**    | Run tests on Chromium, Firefox, Webkit |
 
----
-
 ## 4.3 Test Data Management
 
 - Basic test data per FSD (from JIRA, FRS, LIMS/SDW)
@@ -138,8 +135,6 @@ Below is a list of the types of functional automation tests executed using “ta
 - Data stored externally in appropriate formats
 - Use data seeds for APIs / back‑end tests
 - Store complex test data as JSON files
-
----
 
 ## 4.4 Automation Version Control, Code Reviews and Branching Strategy
 
@@ -152,7 +147,6 @@ Below is a list of the types of functional automation tests executed using “ta
   - Code merged via Pull Request process
   - Testing of automation scripts before pushing to main branch
 
----
 
 ## 4.5 Defect Management
 
@@ -165,7 +159,6 @@ Below is a list of the types of functional automation tests executed using “ta
   - Steps to reproduce
   - Priority and severity
 
----
 
 ## 4.6 Entry and Exit Criteria
 
@@ -180,8 +173,6 @@ Automation test delivery can only start after completion of the below:
 | Functional Test Scenarios, Test Configurations, and Framework setup | Automation Tester |
 | All functional test cases reviewed, baselined, and approved | Project Test/Project Delivery Manager |
 
----
-
 # Exit Criteria for Automation Test Delivery
 
 ## Exit Criteria
@@ -194,14 +185,12 @@ Automation test delivery can only start after completion of the below:
 | The requirement traceability matrix (RTM) is updated for the automation tests  | Automation Tester                             |
 | Test Automation Execution Report, Defect Status Report shared with project stakeholders | Automation Test Lead / Automation Tester |
 
----
 
 ## 4.7 Automation Dependencies and Assumptions
 
 1. List down (in a bullet point list) automation dependencies from the project team or external partners.  
 2. List down (in a bullet point list) automation assumptions which require clarification from the project or external partners.
 
----
 
 ## 4.8 Automation Risks and Mitigations
 
@@ -214,7 +203,6 @@ Automation test delivery can only start after completion of the below:
 
 For more, refer to the **Project Risk Register**, where automation risks raised can be tracked.
 
----
 
 # 5. Test Environment
 
@@ -222,8 +210,6 @@ For more, refer to the **Project Risk Register**, where automation risks raised 
 - **Test URLs:** (Project Development Team to supply)  
 - **Execution Location:** Local, Docker, CI/CD (GitHub Actions, Jenkins, Azure DevOps)  
 - **Cloud Account:** AWS, Azure  
-
----
 
 # 6. Tooling
 
@@ -244,7 +230,6 @@ See: **UKHSA Approved Tools and Automation Guidelines**
 | GitHub Actions / Azure DevOps | CI/CD pipeline integration     |
 | Prettier / ESLint  | Code quality & formatting                 |
 
----
 
 # 7. Test Automation Milestones and Deliverables
 
@@ -259,7 +244,6 @@ Below are the key automation milestones to be tracked as part of the project.
 | Review & Maintenance  | Test case review, updates    | Test Lead           | Date Range      |
 | Test Execution        | Test execution report        | QA Team / Test Lead | Date Range      |
 
----
 
 # 8. Resource, Roles & Responsibilities — Key Programme Resource
 
@@ -269,8 +253,6 @@ Below are the key automation milestones to be tracked as part of the project.
 | Test Lead / QA Manager     | All phases | R/C | Create test approach; manage test execution; coordinate across teams. |
 | QAT Test Automation Lead   | All phases | R/C | Define automation strategy; support automation activities; ensure standards followed. |
 | Automation Tester          | All phases | R    | Build, maintain automation scripts; ensure stability; raise defects; support CI/CD integration. |
-
----
 
 # 9. Reporting
 
@@ -282,7 +264,6 @@ Automation reporting includes (where appropriate):
 - Coverage Metrics (Pass, Fail, Blocked, Not Run)
 - Dashboards (GitHub, Azure DevOps, Jira)
 
----
 
 # 10. Test Automation Closure and BAU Handover
 
@@ -308,17 +289,10 @@ BAU handover includes:
 - Repository structure review
 - Access and permissions setup
 
----
 
 # 11. References
 
-- [Playwright Docs](#) *(Replace the link with official documentation e.g., Playwright or Cypress Docs)*
-- [Internal QA Guidelines](#) – Confluence guidance links or project guidance
-- [Test Case Management Board Link](#) – Jira / Jira‑Xray
-- [Project GitHub Repo Link for Automation](#)
-- Include references to other relevant project documents (e.g., Project Test Strategy)
-
----
+*List document references here*
 
 # 12. Glossary
 
