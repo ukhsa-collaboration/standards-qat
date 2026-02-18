@@ -154,7 +154,7 @@ Insert specific project / initiative Governance as required.
 ## 3.0  Test Method and Test Deliverables
 This Test Strategy drives the Project Master Test Plan and Test Level Test Plan documents. The following table shows the key deliverables with the high-level content expectations of those deliverables.
 
-![Workflow Diagram](/docs/img/teststrategysequence.PNG)
+![Workflow Diagram](./img/teststrategysequence.PNG)
 
 Table 3‑1 Test Method
 
