@@ -45,7 +45,7 @@ It also covers:
 
 ---
 
-# 1 Overview
+# Overview
 
 **Project Name:** <Enter Project Name>  
 **Application Name / Use Case:** <Enter Use Case>  
