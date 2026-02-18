@@ -63,7 +63,7 @@ Next Review Date: Version Date + 1 year
 
  <span style="color:red; font-weight:bold">The Sections below should be reviewed and included as part of a New Project / Initiative, as required</span>
  
-# 1.0 Introduction
+## 1.0 Introduction
 This Organisation Level Test Strategy is necessary to attain a common view on testing between all relevant stakeholders within the UKHSA.
 
 Testing is an independent assessment of the state of the functionality and the achieved quality of the product.  Specifically, the Build or Development team is responsible for the state of the quality of the product.
@@ -136,7 +136,7 @@ Design for testing – design and development of a product supports the ability 
 
 Use tools for specific advantage – test tools are used where appropriate, and for every tool used, the benefits will be understood and agreed in advance
 
-# 2.0  Governance
+## 2.0  Governance
 ## 2.1 Organization Level Test Strategy Sponsorship
 This Test Strategy is sponsored by the UKHSA Head of Quality Assurance and Testing
 
@@ -151,10 +151,10 @@ The UKHSA Test Manager is accountable and responsible for maintaining this Test 
 
 Insert specific project / initiative Governance as required.
 
-# 3.0  Test Method and Test Deliverables
+## 3.0  Test Method and Test Deliverables
 This Test Strategy drives the Project Master Test Plan and Test Level Test Plan documents. The following table shows the key deliverables with the high-level content expectations of those deliverables.
 
-![Workflow Diagram](./img/teststrategysequence.PNG)
+![Workflow Diagram](/docs/img/teststrategysequence.PNG)
 
 Table 3‑1 Test Method
 
@@ -162,7 +162,7 @@ Every project requires a Project Master Test Plan document. If the project deliv
 
 Test Level Test Plans are required for each test level within every project or phase of project; they are detailed documents that describe the testing scope, dependencies and schedule. They contain the test specification. 
 
-# 4.0  Test Overview & Test Levels
+## 4.0  Test Overview & Test Levels
 ## 4.1 Test Approach
 The test approach to be taken for delivery of all new solutions and systems as well as the enhancement or change of existing solutions and systems is to:
 
@@ -309,7 +309,7 @@ Table 4‑2 Standard test Level Descriptions
 
 **  Operational Acceptance – The Oracle Cloud Platform is managed by Oracle, as this programme is subscribing to this platform the actual test execution allowed by customers is dependent on the subscription service. For example, Security and Penetration Testing is not allowed against Oracle Software as a Service (SaaS) Cloud, there are also varying restrictions and rules of engagement on Platform as a Service (PaaS) and Infrastructure as a Service (IaaS). Once the design documents are available describing which system releases are hosted on the different platforms, the Master and/or Level Test Plans will provide more details on which areas require tests by this programme
 
-4.6.1 Performance Testing
+### 4.6.1 Performance Testing
 Performance Testing is a ‘Test Type’ rather than a Test Level but depending upon the requirements and risk can warrant its own Test Level Plan. Performance testing is a type of testing that is performed, from one perspective, to determine how fast some aspect of an application/system performs under a particular workload. It can also serve to validate and verify other quality attributes of the system, such as scalability, reliability, and resource usage.
 
 The performance test in scope for each UKHSA project will be determined by the requirements and/or the risk of performance failure.  For example, if the system under test has business critical response times and includes a significant increase in load which has not been seen previously in similarly architected system, then performance testing should be included in the requirements.
@@ -362,7 +362,7 @@ They will undertake:
 - Plan and organize Penetration Testing with the Authority for newly introduced or changed externally facing Services or Infrastructure
 - Plan and organize Penetration Testing with the Authority for any existing externally facing Services or Infrastructure which are due or past an annual Penetration Test
 
-4.6.3 Approach to Accessibility Testing
+### 4.6.3 Approach to Accessibility Testing
 Compliance with UKHSA Accessible Digital Standards. As per Section 6.1 (copied below)
 
 UKHSA and their Suppliers shall comply with (or with equivalents to):
@@ -381,7 +381,7 @@ Accessibility should be considered from the outset in design principles. Where a
 
 To ensure robust testing of assistive technologies it is suggested that the use of tooling is limited to early development phases and that manual and assistive Technology users with appropriate devices where possible partake in User Acceptance Tests.
 
-4.6.4 Equality and Diversity
+### 4.6.4 Equality and Diversity
 Taking into account the contractual schedule (40.3 copied below) requirements will need to be documented within the requirements for the relevant delivery. This will include (but is not limited to): Assistive Technology Requirements, Standards, Welsh Language, Foreign Language, Print Solutions etc.
 
 The Master Test Plans for the relevant delivery must include this area within its scope or out of scope section.
@@ -399,7 +399,7 @@ UKHSA and their Suppliers shall:
 
 - take all necessary steps, and inform the Authority of the steps taken, to prevent unlawful discrimination designated as such by any court or tribunal, or the Equality and Human Rights Commission or (any successor organisation).
 
-# 5.0   Test Readiness and Assurance Process
+## 5.0   Test Readiness and Assurance Process
 ## 5.1 Test Deliverable Sign-Off Procedure
 The table below identifies all the test documentation types that will be delivered to UKHSA Test Assurance during the testing and shows the trigger points for derived delivery dates.
 
@@ -556,7 +556,7 @@ A priority high, medium or low will be allocated to each Acceptance Criteria:
 - Acceptance Criteria maintaining non-critical data such as source information or static data that rarely changes
 - Reports/enquiries where no information is used to make critical management or business decisions.
 
-# 6 Test Automation
+## 6 Test Automation
 Test Automation has the potential to reduce test execution time and reduce costs; however, there is a heavy upfront investment, and consideration must be given to the effort involved in ongoing automation script maintenance. So, test automation should only be applied to testing where there is a clear business benefit to do so.
 
 The testing that most benefits from automation are tests that are repeated frequently over a long period of time and do not require human intervention e.g., regression and integration testing of critical business processes, reduce manual testing effort and increase test coverage of the application.
@@ -612,7 +612,7 @@ Produce a Test Automation Approach
 
 Each Project Master Test Plan will describe the Test Automation usage relevant to its delivery.
 
-# 7 Metrics and Reporting
+## 7 Metrics and Reporting
 ## 7.1 Testing Results Tracking
 The results of the execution of each test case will be recorded as the test case is completed. This approach allows for accurate and timely progress reporting, thus providing the Test Manager with the ability to determine the status of the testing effort at any time during the day. The Test Manager will analyze this information to determine progress against weekly completion goals.
 
@@ -638,7 +638,7 @@ All projects will collect and report the following measures:
 
 Programmes and Projects are formed on a project-by-project basis via an NSSR. The NSSR sets out the purpose of the project, scope and all deliverables.
 
-# 8 Organization and Resources
+## 8 Organization and Resources
 The Master Test Strategy created for each project, programme and enhancement. This document defines the scope of what is to be delivered, processes to be followed, as well as the resource profile and deliverables.
 
 ## 8.1 Test Organization and Interfaces
@@ -813,7 +813,7 @@ The detailed testing roles and responsibilities (RACI matrix) for performing, ap
 
 ![Workflow Diagram](./img/RACI.PNG)
 
-# 9 Test Tools, Environments and Data
+## 9 Test Tools, Environments and Data
 ## 9.1 Test Tools
 The Initiative / Project is responsible for provisioning, licensing, and supporting Test Tools.
 
@@ -855,7 +855,7 @@ Particular attention will be paid to the UKHSA security requirements in terms of
 
 However, it must be noted that there is an assumption brought through from the bid stage that the initial projects will be able to use copies of production data within each environment. There is currently no cost or time provision within the programme schedule to deploy and utilise Test Data Management tools.
 
-# 10 Release and Configuration Management
+## 10 Release and Configuration Management
 All releases used within testing or deployment must be held under configuration management [3].  All releases into test or deployment must have a release note [5].  As a minimum a Release Note will contain:
 
 - Release Number
@@ -877,7 +877,7 @@ All releases used within testing or deployment must be held under configuration 
 
 The Project will confirm contents of a release by review of the Release Note. As soon as a suitable environment is available, the Project Test Team will request deployment on to specific test environment(s).
 
-# 11 Defect or Test Issue Management Process
+## 11 Defect or Test Issue Management Process
 UKHSA Schedule 6.3 Testing Procedures [1] defines ‘Test Issues’. For the purposes of this document the term ‘test issue’ is understood to indicate a possibility that questionable behavior is not necessarily a true defect.
 
 11.1 Intended audience
@@ -929,7 +929,7 @@ When recording a resolution to a defect the nominated resource(s) will:
 - Record where in the Software Development Lifecycle the Issue was introduced and where fixed
 - If the issue cannot be recreated or more information is required; comments will be added and re-assignment of the issue back to the tester
 
-# 12 Risk Management & Assumptions
+## 12 Risk Management & Assumptions
 ## 12.1 Risk Management
 The UKHSA Risk Management Process will be used for monitoring and control of testing-related risks. Any risk identified by the Test Teams will automatically be added to the Project RAID register and be escalated higher to get sufficient management attention.
 
@@ -974,7 +974,7 @@ The review will be conducted against the following areas using the table below:
 | 9.  | Project Reporting                  |                |                       |                                    |
 | 10. | Live Support / ELS                 |                |                       |                                    |
 
-14. Project Closedown
+## 14. Project Closedown
 At the completion of the project there should be a close-down of all activities.  The project manager should ensure:
 
 - Project confluence pages are up-to-date with latest content and documents
@@ -984,7 +984,7 @@ At the completion of the project there should be a close-down of all activities.
 - All project team resources rolled off
 - Test Closure report produced: See link for document template: Overall Test Closure Report - <Project Name/Initiative Name> <Version> - QAT - Confluence
 
-15. Appendix A - Acronyms & Definitions
+## 15. Appendix A - Acronyms & Definitions
 **Automated Testing:**  Dynamic testing undertaken using tools which automate the execution of a test script or technical process
 
 **Black box test design technique:** Procedure to derive and/or select test scripts based on an analysis of the specification, either functional or non-functional, of a component or system without reference to its internal structure
@@ -1047,7 +1047,7 @@ SCTTP: Supply Chain Technology and Transformation Partner
 
 **WSR:** Weekly Status Report
 
-# 16 Appendix B - Ambiguity Assessment Criteria
+## 16 Appendix B - Ambiguity Assessment Criteria
 
 | Quality Attribute | Considerations |
 | ---------------- | -------------- |
