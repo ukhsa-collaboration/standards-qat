@@ -19,30 +19,7 @@ It also covers:
 - Software readiness criteria
 - Processes to support knowledge sharing, increase test coverage, and improve mitigation strategies
 
-## Version History
-
-| Version | Date       | Author        | Description                                       |
-| ------- | ---------- | -------------- | ------------------------------------------------- |
-| 0.1     | *dd/mm/yyyy* | *Full Name*   | Draft Document for review and feedback            |
-| 0.2     | *dd/mm/yyyy* | *Full Name*   | Feedback Incorporated                             |
-| 1.0     | *dd/mm/yyyy* | *Full Name*   | Final Version for Approval / Sign‑off             |
-
-
-## Document Review
-
-| Name           | Role                    | Responsibility | Version | Date         |
-| -------------- | ------------------------ | -------------- | ------- | ------------ |
-| Full Name    | Agile Delivery Manager   | Sign‑off       | *v*     | *dd/mm/yyyy* |
-| *Full Name*    | Product Owner            | Reviewer       | *v*     | *dd/mm/yyyy* |
-| *Full Name*    | Test Lead                | Reviewer       | *v*     | *dd/mm/yyyy* |
-| *Full Name*    | L1 Support Team Lead     | Reviewer       | *v*     | *dd/mm/yyyy* |
-| *Full Name*    | QAT Test/Business Manager | Reviewer       | *v*     | *dd/mm/yyyy* |
-| *Full Name*    | QAT Automation Test Lead | Author         | *v*     | *dd/mm/yyyy* |
-| *Full Name*    | Automation Tester        | Reviewer       | *v*     | *dd/mm/yyyy* |
-
----
-
-# 1.0 Overview
+# 1 Overview
 
 **Project Name:** *Enter Project Name*
 **Application Name / Use Case:** *Enter Use Case*  
