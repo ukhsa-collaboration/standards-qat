@@ -19,7 +19,6 @@ It also covers:
 - Software readiness criteria
 - Processes to support knowledge sharing, increase test coverage, and improve mitigation strategies
 
----
 
 ## Version History
 
@@ -29,7 +28,6 @@ It also covers:
 | 0.2     | <dd/mm/yyyy> | <Full Name>   | Feedback Incorporated                             |
 | 1.0     | <dd/mm/yyyy> | <Full Name>   | Final Version for Approval / Sign‑off             |
 
----
 
 ## Document Review
 
@@ -43,7 +41,6 @@ It also covers:
 | <Full Name>    | QAT Automation Test Lead | Author         | <v>     | <dd/mm/yyyy> |
 | <Full Name>    | Automation Tester        | Reviewer       | <v>     | <dd/mm/yyyy> |
 
----
 
 # 1.0 Overview
 
@@ -55,7 +52,6 @@ It also covers:
 **Reference Documents:** BRD / FSD / TSD / Architecture Document  
 **Version:** <Version Number>  
 
----
 
 # 2 Objectives
 
@@ -69,7 +65,6 @@ It also covers:
 - Enhance operational efficiency through reduced manual testing effort and increased coverage.
 - Ensure alignment with best practices for automation for future reuse in other UKHSA deliveries.
 
----
 
 # 3 Scope
 
@@ -87,7 +82,6 @@ It also covers:
 
 
 # 4 Automation Test Approach
-
 
 ## 4.1 Framework Architecture
 
