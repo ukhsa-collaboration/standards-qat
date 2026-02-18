@@ -19,42 +19,42 @@ It also covers:
 - Software readiness criteria
 - Processes to support knowledge sharing, increase test coverage, and improve mitigation strategies
 
-
 ## Version History
 
 | Version | Date       | Author        | Description                                       |
 | ------- | ---------- | -------------- | ------------------------------------------------- |
-| 0.1     | <dd/mm/yyyy> | <Full Name>   | Draft Document for review and feedback            |
-| 0.2     | <dd/mm/yyyy> | <Full Name>   | Feedback Incorporated                             |
-| 1.0     | <dd/mm/yyyy> | <Full Name>   | Final Version for Approval / Sign‑off             |
+| 0.1     | *dd/mm/yyyy* | *Full Name*   | Draft Document for review and feedback            |
+| 0.2     | *dd/mm/yyyy* | *Full Name*   | Feedback Incorporated                             |
+| 1.0     | *dd/mm/yyyy* | *Full Name*   | Final Version for Approval / Sign‑off             |
 
 
 ## Document Review
 
 | Name           | Role                    | Responsibility | Version | Date         |
 | -------------- | ------------------------ | -------------- | ------- | ------------ |
-| <Full Name>    | Agile Delivery Manager   | Sign‑off       | <v>     | <dd/mm/yyyy> |
-| <Full Name>    | Product Owner            | Reviewer       | <v>     | <dd/mm/yyyy> |
-| <Full Name>    | Test Lead                | Reviewer       | <v>     | <dd/mm/yyyy> |
-| <Full Name>    | L1 Support Team Lead     | Reviewer       | <v>     | <dd/mm/yyyy> |
-| <Full Name>    | QAT Test/Business Manager | Reviewer       | <v>     | <dd/mm/yyyy> |
-| <Full Name>    | QAT Automation Test Lead | Author         | <v>     | <dd/mm/yyyy> |
-| <Full Name>    | Automation Tester        | Reviewer       | <v>     | <dd/mm/yyyy> |
+| Full Name    | Agile Delivery Manager   | Sign‑off       | *v*     | *dd/mm/yyyy* |
+| *Full Name*    | Product Owner            | Reviewer       | *v*     | *dd/mm/yyyy* |
+| *Full Name*    | Test Lead                | Reviewer       | *v*     | *dd/mm/yyyy* |
+| *Full Name*    | L1 Support Team Lead     | Reviewer       | *v*     | *dd/mm/yyyy* |
+| *Full Name*    | QAT Test/Business Manager | Reviewer       | *v*     | *dd/mm/yyyy* |
+| *Full Name*    | QAT Automation Test Lead | Author         | *v*     | *dd/mm/yyyy* |
+| *Full Name*    | Automation Tester        | Reviewer       | *v*     | *dd/mm/yyyy* |
 
+---
 
 # 1.0 Overview
 
-**Project Name:** <Enter Project Name>  
-**Application Name / Use Case:** <Enter Use Case>  
+**Project Name:** *Enter Project Name*
+**Application Name / Use Case:** *Enter Use Case*  
 **Application Environment:** Test Plan for SIT / UAT / OAT / performance  
-**Document Date:** <dd/mm/yyyy>  
-**Document Owner:** <Project Manager / Test Lead / Product Owner>  
+**Document Date:** *dd/mm/yyyy*  
+**Document Owner:** *Project Manager / Test Lead / Product Owner*  
 **Reference Documents:** BRD / FSD / TSD / Architecture Document  
-**Version:** <Version Number>  
+**Version:** *Version Number*  
 
+---
 
 # 2 Objectives
-
 - Define the purpose of the automation effort.
 - Validate design readiness for test automation.
 - Enable robust automation across all systems using Playwright / Cypress or any other UKHSA-approved automation tool.
@@ -65,6 +65,7 @@ It also covers:
 - Enhance operational efficiency through reduced manual testing effort and increased coverage.
 - Ensure alignment with best practices for automation for future reuse in other UKHSA deliveries.
 
+---
 
 # 3 Scope
 
@@ -137,7 +138,7 @@ Below is a list of the types of functional automation tests executed using “ta
   - Peer review by project/test leads before merge
 - Implementation of branching strategy:
   - Developers create feature branches
-  - Independent branch creation for automation features (e.g., feature/<test‑area>)
+  - Independent branch creation for automation features (e.g., feature/*test‑area*)
   - Code merged via Pull Request process
   - Testing of automation scripts before pushing to main branch
 
