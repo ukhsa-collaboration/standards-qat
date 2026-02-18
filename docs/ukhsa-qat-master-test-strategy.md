@@ -593,10 +593,10 @@ Produce a Test Automation Approach
   - User authentication exemptions, any limitations for the automation (e.g. exclusion of MFA etc.)
 
 - Produce a Test Execution Approach
-   - Define CI/CD Integration approach (e.g. execution on code commits and deployment, execution frequency and manual/scheduled trigger of jobs, parallel execution, any docker containersation applicable etc.)
-   - Define test data provisioning (mock or dummy data) and data management.
-   - Automated test execution and test coverage reports (e.g. Allure or html execution reports, Jira test coverage reports etc.)
-   - Tests logs capture, debugging and issue logging approach
+  - Define CI/CD Integration approach (e.g. execution on code commits and deployment, execution frequency and manual/scheduled trigger of jobs, parallel execution, any docker containersation applicable etc.)
+  - Define test data provisioning (mock or dummy data) and data management.
+  - Automated test execution and test coverage reports (e.g. Allure or html execution reports, Jira test coverage reports etc.)
+  - Tests logs capture, debugging and issue logging approach
 
 - Framework Development 
 - Automation Scripting (Refer UKHSA Automation Guidance confluence pages)
@@ -636,9 +636,7 @@ All projects will collect and report the following measures:
 | Daily Defect Report                  | Project Test Manager | Project Manager                      | Project Team / UKHSA Test Manager      | Daily during test execution                        |
 | End of Test Level Report             | Project Test Manager | Project Team / UKHSA Test Manager    |                                        | At end of each UKHSA Test Level                    |
 
-Programmes and Projects are formed on a project-by-project basis via an NSSR. The NSSR sets out the purpose of the project, scope and all deliverables [6].
-
- 
+Programmes and Projects are formed on a project-by-project basis via an NSSR. The NSSR sets out the purpose of the project, scope and all deliverables.
 
 # 8 Organization and Resources
 The Master Test Strategy created for each project, programme and enhancement. This document defines the scope of what is to be delivered, processes to be followed, as well as the resource profile and deliverables.

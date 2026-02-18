@@ -14,7 +14,7 @@ UKHSA QAT_Test Exit Report Template (Replace with Initiative Name)
 | ------- | ---------- | ------------- | ----------------------------------------------- | -------------------------------- |
 | 0.1     | YYYY-MM-DD | Author Name | Initial draft                                   | —                                |
 | 0.2     | YYYY-MM-DD | Author Name | Revised draft with updates based on review feedback | —                            |
-| 1.0     | YYYY-MM-DD | Author Name | Final version for release                       | [Approver Name]                  |
+| 1.0     | YYYY-MM-DD | Author Name | Final version for release                       | Approver Name                  |
 | 1.1     | YYYY-MM-DD | Author Name | Minor updates or clarifications                 | Approver Name, if needed       |
 
 # 2. Document References
@@ -27,7 +27,7 @@ UKHSA QAT_Test Exit Report Template (Replace with Initiative Name)
 | 4              | e.g., Performance Test Plan |         |
 
 2. Purpose
-This document provides a summary of the testing activities conducted for the [Project Name]. It includes results, defect analysis, test coverage, and overall quality assessment, validating whether the software meets its acceptance criteria as defined in the Test Plan.
+This document provides a summary of the testing activities conducted for the *Project Name*. It includes results, defect analysis, test coverage, and overall quality assessment, validating whether the software meets its acceptance criteria as defined in the Test Plan.
 
 # 3. Scope
 ## 3.1  In Scope
@@ -53,8 +53,9 @@ Anything out of Scope as mentioned in Test Plan.
 
 # 4. Test Summary
 
-# 5. Test Results Summary  
-(Update the below sections as per your requirement)
+# 5. Test Results Summary
+*Update the below sections as per your requirement*
+
 ## 5.1 Unit Testing
 
 | Test Area | Total Tests | Total Executed | Passed | Failed | % Executed vs total tests | % Passed vs executed | % Passed vs total tests |
