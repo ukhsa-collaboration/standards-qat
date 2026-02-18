@@ -19,7 +19,7 @@ It also covers:
 - Software readiness criteria
 - Processes to support knowledge sharing, increase test coverage, and improve mitigation strategies
 
-# 1 Overview
+## 1 Overview
 
 **Project Name:** *Enter Project Name*
 **Application Name / Use Case:** *Enter Use Case*  
@@ -31,7 +31,7 @@ It also covers:
 
 ---
 
-# 2 Objectives
+## 2 Objectives
 - Define the purpose of the automation effort.
 - Validate design readiness for test automation.
 - Enable robust automation across all systems using Playwright / Cypress or any other UKHSA-approved automation tool.
@@ -44,7 +44,7 @@ It also covers:
 
 ---
 
-# 3 Scope
+## 3 Scope
 
 ## In-Scope
 - End-to-end (E2E) flows of the application/business functions being automated.
@@ -134,7 +134,7 @@ Below is a list of the types of functional automation tests executed using “ta
 
 ## 4.6 Entry and Exit Criteria
 
-### Entry Criteria
+### Entry criteria for automation test delivery
 Automation test delivery can only start after completion of the below:
 
 | Entry Criteria | Responsible |
@@ -145,9 +145,7 @@ Automation test delivery can only start after completion of the below:
 | Functional Test Scenarios, Test Configurations, and Framework setup | Automation Tester |
 | All functional test cases reviewed, baselined, and approved | Project Test/Project Delivery Manager |
 
-# Exit Criteria for Automation Test Delivery
-
-## Exit Criteria
+## Exit Criteria for automation test delivery
 
 | Exit Criteria                                                                 | Responsible                                  |
 | ------------------------------------------------------------------------------ | --------------------------------------------- |
@@ -176,14 +174,14 @@ Automation test delivery can only start after completion of the below:
 For more, refer to the **Project Risk Register**, where automation risks raised can be tracked.
 
 
-# 5 Test Environment
+## 5 Test Environment
 
 - **Browsers:** Chromium (Chrome, Edge), Firefox, WebKit  
 - **Test URLs:** (Project Development Team to supply)  
 - **Execution Location:** Local, Docker, CI/CD (GitHub Actions, Jenkins, Azure DevOps)  
 - **Cloud Account:** AWS, Azure  
 
-# 6 Tooling
+## 6 Tooling
 
 The automation tools you or your team select must be reviewed from the UKHSA recommended/approved automation toolset.  
 If automation leads/engineers choose any tools which aren’t from the UKHSA approved toolset, test leads must seek approval via the Enterprise Architecture Governance (EAG) formal approval process.
@@ -203,7 +201,7 @@ See: **UKHSA Approved Tools and Automation Guidelines**
 | Prettier / ESLint  | Code quality & formatting                 |
 
 
-# 7 Test Automation Milestones and Deliverables
+## 7 Test Automation Milestones and Deliverables
 
 Below are the key automation milestones to be tracked as part of the project.
 
@@ -217,7 +215,7 @@ Below are the key automation milestones to be tracked as part of the project.
 | Test Execution        | Test execution report        | QA Team / Test Lead | Date Range      |
 
 
-# 8 Resource, Roles & Responsibilities — Key Programme Resource
+## 8 Resource, Roles & Responsibilities — Key Programme Resource
 
 | Role                      | When Required | RACI | Key Responsibilities |
 | ------------------------- | ------------ | ---- | --------------------- |
@@ -226,7 +224,7 @@ Below are the key automation milestones to be tracked as part of the project.
 | QAT Test Automation Lead   | All phases | R/C | Define automation strategy; support automation activities; ensure standards followed. |
 | Automation Tester          | All phases | R    | Build, maintain automation scripts; ensure stability; raise defects; support CI/CD integration. |
 
-# 9 Reporting
+## 9 Reporting
 
 Automation reporting includes (where appropriate):
 
@@ -237,7 +235,7 @@ Automation reporting includes (where appropriate):
 - Dashboards (GitHub, Azure DevOps, Jira)
 
 
-# 10 Test Automation Closure and BAU Handover
+## 10 Test Automation Closure and BAU Handover
 
 Automation closure is complete when:
 
@@ -262,11 +260,11 @@ BAU handover includes:
 - Access and permissions setup
 
 
-# 11 References
+## 11 References
 
 *List document references here*
 
-# 12 Glossary
+## 12 Glossary
 
 *Include a glossary of terms or link to a separate QAT / UKHSA glossary.  
 Example list below — expand as needed for the project.*
@@ -276,5 +274,3 @@ Example list below — expand as needed for the project.*
 | QAT          | Quality Assurance Testing                        |
 | Automation   | Software Functional Test Automation              |
 | CI/CD        | Continuous Integration and Continuous Delivery   |
-
----
