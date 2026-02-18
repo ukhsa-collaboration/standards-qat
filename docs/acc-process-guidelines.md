@@ -15,15 +15,15 @@ Any deviations from the accessibility requirements should be documented, and the
 - Accessibility requirements must be translated into test cases that are clear, traceable, and cover all specified behaviors.
 - Test cases should undergo a peer review by another test team member or the test lead to ensure adequate coverage. Additionally, they should be reviewed and approved by the relevant project stakeholders including UKHSA QA manager prior to the start of test execution.
 - Each test case should include the following sections
- - Test Case ID
- - Test Case Title/Name
- - Test Case Description
- - Preconditions
- - Test Data
- - Test Steps
- - Expected Result
- - Actual Result
- - Priority 
+  - Test Case ID
+  - Test Case Title/Name
+  - Test Case Description
+  - Preconditions
+  - Test Data
+  - Test Steps
+  - Expected Result
+  - Actual Result
+  - Priority 
 
 - The Requirements Traceability Matrix (RTM) should be updated with the corresponding Test Case IDs to ensure proper alignment between requirements and test cases
 - We recommend utilizing the JIRA-XRAY tool for effective test management. (Please visit our internal page for more information about Jira test management)
