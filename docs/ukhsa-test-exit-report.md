@@ -6,37 +6,37 @@ order: 19
 
 UKHSA QAT_Test Exit Report Template (Replace with Initiative Name)
 
-**Project Name:** [Project Title]
+**Project Name:** Project Title
 
 # 1. Document Control
 
 | Version | Date       | Author        | Change Description                             | Approved By                     |
 | ------- | ---------- | ------------- | ----------------------------------------------- | -------------------------------- |
-| 0.1     | YYYY-MM-DD | [Author Name] | Initial draft                                   | —                                |
-| 0.2     | YYYY-MM-DD | [Author Name] | Revised draft with updates based on review feedback | —                            |
-| 1.0     | YYYY-MM-DD | [Author Name] | Final version for release                       | [Approver Name]                  |
-| 1.1     | YYYY-MM-DD | [Author Name] | Minor updates or clarifications                 | [Approver Name, if needed]       |
+| 0.1     | YYYY-MM-DD | Author Name | Initial draft                                   | —                                |
+| 0.2     | YYYY-MM-DD | Author Name | Revised draft with updates based on review feedback | —                            |
+| 1.0     | YYYY-MM-DD | Author Name | Final version for release                       | [Approver Name]                  |
+| 1.1     | YYYY-MM-DD | Author Name | Minor updates or clarifications                 | Approver Name, if needed       |
 
 # 2. Document References
 
 | Reference Number | Reference Document Name     | Version |
 | ---------------- | --------------------------- | ------- |
-| [1]              | e.g., Test Plan             | v1.0    |
-| [2]              | e.g., Test Strategy         |         |
-| [3]              | e.g., Automation Test Plan  |         |
-| [4]              | e.g., Performance Test Plan |         |
+| 1              | e.g., Test Plan             | v1.0    |
+| 2              | e.g., Test Strategy         |         |
+| 3              | e.g., Automation Test Plan  |         |
+| 4              | e.g., Performance Test Plan |         |
 
 2. Purpose
-This document provides a summary of the testing activities conducted for the [Project Name]. It includes results, defect analysis, test coverage, and overall quality assessment, validating whether the software meets its acceptance criteria as defined in the Test Plan[1]
+This document provides a summary of the testing activities conducted for the [Project Name]. It includes results, defect analysis, test coverage, and overall quality assessment, validating whether the software meets its acceptance criteria as defined in the Test Plan.
 
 # 3. Scope
 ## 3.1  In Scope
 
-This document details the Testing Scope, (as defined on Test Plan or any deviations from Test Plan to be in detailed)  testing results for the tests that were performed against (Release name and Version ) 
+This document details the Testing Scope, (as defined on Test Plan or any deviations from Test Plan to be in detailed)  testing results for the tests that were performed against (Release name and Version) 
 
 This report covers the following levels of testing and provides Test Summary,  Overview of testing & test results (Functional Testing including Automation and Non -Functional Test results ), Open defects & observations.
 
- ( Amend the scope as per your requirement)
+ (Amend the scope as per your requirement)
 
 - Unit Testing
 - Integration Testing
@@ -47,7 +47,7 @@ This report covers the following levels of testing and provides Test Summary,  O
 
 (As defined on Test Plan or any deviations from Test Plan to be in detailed)
 
-Anything out of Scope as mentioned in Test Plan [1] .
+Anything out of Scope as mentioned in Test Plan.
 
  eg: Pen Testing/security testing.
 
@@ -58,7 +58,7 @@ Anything out of Scope as mentioned in Test Plan [1] .
 ## 5.1 Unit Testing
 
 | Test Area | Total Tests | Total Executed | Passed | Failed | % Executed vs total tests | % Passed vs executed | % Passed vs total tests |
-| --------- | ----------- | -------------- |--------|--------| -------------------------- | ---------------------- | ------------------------- |
+| --------- | ----------- | -------------- | ------ | ------ | -------------------------- | ---------------------- | ------------------------- |
 |           |             |                |        |        |                            |                        |                           |
 
 ## 5.2 Integration Testing
@@ -101,17 +101,17 @@ Followed UKHSA approved Defect Management Process
 
 [Defect Management and Resolution - DevOps Standards](./defect-management-and-resolution.md).
 
-[Provide Defect Summary on Severity Basis]
+Provide Defect Summary on Severity Basis
 
 | Severity     | Reported | Closed | Deferred | Outstanding |
 | ------------ | -------- | ------ | -------- | ----------- |
-| 1 – Critical | [X]      | [X]    | [X]      | [X]         |
-| 2 – High     | [X]      | [X]    | [X]      | [X]         |
-| 3 – Medium   | [X]      | [X]    | [X]      | [X]         |
-| 4 – Low      | [X]      | [X]    | [X]      | [X]         |
+| 1 – Critical | X      | X    | X      | X         |
+| 2 – High     | X      | X    | X      | X         |
+| 3 – Medium   | X      | X    | X      | X         |
+| 4 – Low      | X      | X    | X      | X         |
 
 # 7. Test Coverage
-- Requirements Covered: [ eg:, 95% of - Functional Requirements are covered ]
+- Requirements Covered:  eg:, 95% of - Functional Requirements are covered
 - Traceability Matrix: Attached / Link Provided
 
 # 8. Risks and Mitigations
@@ -119,11 +119,11 @@ This section outlines key risks identified during the testing phase that may imp
 
 | Risk Description              | Impact | Mitigation Strategy              | Risk Owner |
 | ----------------------------- | ------- | -------------------------------- | ----------- |
-| [Example: UAT delays]         | High    | Parallel system testing to catch up |             |
-| [Example: Environment issues] | Medium  | Added buffer for re-testing         |             |
+| Example: UAT delays         | High    | Parallel system testing to catch up |             |
+| Example: Environment issues | Medium  | Added buffer for re-testing         |             |
 
 # 9. Exit Criteria Evaluation
-As Detailed in Test Plan[1] . Any deviation should be detailed in section 10
+As Detailed in Test Plan. Any deviation should be detailed in section 10
 
 | Ref | Exit Criteria | Complete |
 | --- | ------------- | -------- |
@@ -144,7 +144,7 @@ No Impact - It’s absence will not result in issues in Production or next test 
 
 ## 10.1  Outstanding Defects 
 
-[Any Open Defects should be detailed here along with a Justification to say Go or No-Go and impacts]
+Any Open Defects should be detailed here along with a Justification to say Go or No-Go and impacts
 
 | Defect Id | Description | Severity | Impact (High/Low/No) | Owner | Plan of Action |
 | --------- | ----------- | -------- | --------------------- | ----- | --------------- |
@@ -152,7 +152,7 @@ No Impact - It’s absence will not result in issues in Production or next test 
 
 ## 10.2 Test exit criteria not met
 
-[Any Deviations from the Original Test Plan should be detailed here along with a Justification and impacts]
+Any Deviations from the Original Test Plan should be detailed here along with a Justification and impacts
 
 | Criteria not met | Justification | Action Planned for Resolution | Impact | Owner | Release/Due Date |
 | ---------------- | ------------- | ----------------------------- | ------ | ----- | ---------------- |
@@ -160,7 +160,7 @@ No Impact - It’s absence will not result in issues in Production or next test 
 
 ## 10.3 Planned tests not run
 
-[Any Deviations from the Original Test Plan should be detailed here along with a Justification and impacts]
+Any Deviations from the Original Test Plan should be detailed here along with a Justification and impacts
 
 | Test not run | Rationale | Action Planned for Resolution | Impact | Owner | Release |
 | ------------- | ---------- | ----------------------------- | ------ | ----- | -------- |
@@ -168,14 +168,14 @@ No Impact - It’s absence will not result in issues in Production or next test 
 
 ## 10.4 Tests not passed
 
-[Any Deviations from the Original Test Plan should be detailed here along with a Justification and impacts]
+Any Deviations from the Original Test Plan should be detailed here along with a Justification and impacts
 
 | Test not passed | Rationale/Justification | Action Planned for Resolution | Impact | Owner | Release |
 | ---------------- | ------------------------ | ----------------------------- | ------ | ----- | -------- |
 |                  |                          |                               |        |       |          |
 
 ## 11. Lessons Learned
-- [Brief notes on what went well, what can be improved.]
+- Brief notes on what went well, what can be improved.
 
 ### Lessons Learned – Summary
 
@@ -199,6 +199,6 @@ No Impact - It’s absence will not result in issues in Production or next test 
 
 | Name          | Role        | Signature | Date |
 | ------------- | ----------- | --------- | ---- |
-| [Test Manager]  | Test Lead    |           |      |
-| [Project Manager] | Project Lead |           |      |
-| [Client Rep]     | UAT Approver |           |      |
+| Test Manager  | Test Lead    |           |      |
+| Project Manager | Project Lead |           |      |
+| Client Rep     | UAT Approver |           |      |

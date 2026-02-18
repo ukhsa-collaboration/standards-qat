@@ -5,7 +5,7 @@ order: 18
 # UKHSA QAT Master Test Strategy Template
 
 This template can be used to create a master test strategy for you project or initiative.
----
+
 Version: v0.1
 
 ## Document Revision History
@@ -38,11 +38,11 @@ Next Review Date: Version Date + 1 year
 
 ## Approvers List
 
-| Name                       | Role/Organization | Date | Comment |
-| -                          | -                 | -    | -       |
-| Project Manager            |                   |      |         |
-| Test Manager               |                   |      |         |
-| QAT Manager                |                   |      |         |
+| Name | Role/Organization | Date | Comment |
+| - | -                 | -    | -       |
+| Project Manager |                   |      |         |
+| Test Manager |                   |      |         |
+| QAT Manager |                   |      |         |
 | <Insert Name of approver> |                   |      |         |
 
 ## Distribution List
@@ -409,10 +409,10 @@ The table below identifies all the test documentation types that will be deliver
 | Test Strategy                           | Defines the testing/validation approach across all UKHSA projects                                                                                                      | Day 1                                                                                             |
 | Project Master Test Plan(s)             | Test plan(s) to test the specific areas in scope across Projects                                                                                                       | Due 20 business days prior to the start of test execution for that test phase                     |
 | Test Level Test Plan                    | For larger projects that have multiple test phases (e.g., System Test, SIT, UAT)                                                                                       | Due 20 business days prior to the start of test execution for that test phase                     |
-| Test Scripts                            | Test Scripts written based on requirements and design used to validate solution/process/deliverable. Testing Results will be added to the Test Scripts                  | Due 10 business days prior to the start of test execution for that test phase                     |
+| Test Scripts                            | Test Scripts written based on requirements and design used to validate solution/process/deliverable. Testing Results will be added to the Test Scripts | Due 10 business days prior to the start of test execution for that test phase                     |
 | Test Readiness Review                   | Successful completion of the Test Readiness Review                                                                                                                     | Commence 1 week before execution activities for given test phase                                  |
 | Test Issue Management Process           | Defined reporting and management of defects and issues raised during test/validation activities                                                                        | To be defined as part of project                                                                  |
-| Test Issue Tracker, Issues Log & Summary| Status and up‑to‑date comments of the reported defects raised via the defect management process, by individual Projects                                               | Produced at the agreed frequency stated in the Test Plan (daily)                                  |
+| Test Issue Tracker, Issues Log & Summary | Status and up‑to‑date comments of the reported defects raised via the defect management process, by individual Projects                                               | Produced at the agreed frequency stated in the Test Plan (daily)                                  |
 | Project Test Status Report              | Individual Project Status Reports on Testing Progress of the agreed scope                                                                                              | Produced at the agreed frequency stated in the Test Plan (daily)                                  |
 | Test Tracking Metrics                   | Tracking test progress details across Projects                                                                                                                         | Daily from commencement of Test Planning                                                          |
 | Test Completion Reports                 | Collated view of all testing metrics summarised showing the outcome of testing and recommendations gated reviews – by individual Projects                              | Due 5 days after the completion of testing for each test phase                                    |
@@ -433,14 +433,14 @@ It is expected that UKHSA Test Assurance will consolidate and return any review 
  The Test Witnesses:
 
 - Will actively review the Test documentation
--  Will attend and engage in the performance of the Tests on behalf of the Authority to enable the Authority to gain an informed view of whether a Test Issue may be closed or whether the relevant element of the Test should be re-Tested
+- Will attend and engage in the performance of the Tests on behalf of the Authority to enable the Authority to gain an informed view of whether a Test Issue may be closed or whether the relevant element of the Test should be re-Tested
 - Will not be involved in the execution of any Test
 - Will be required to verify that the Supplier conducted the Tests in accordance with the Test Success Criteria and the relevant Project Test Plan and Test Specification
 - May produce and deliver their own, independent reports on Testing, which may be used by the Authority to assess whether the Tests have been Achieved
 - May raise Test Issues on the Test Issue Management Log in respect of any Testing; and
 - May require the Supplier to demonstrate modifications made to any defective Deliverable before a Test Issue is closed
 
-     ### 5.3 Test Entry and exit criteria
+### 5.3 Test Entry and exit criteria
 A project must determine when a system, function or service will have achieved a level of quality that is “good enough” for it to pass from:
 
 - one supplier test level to another
@@ -592,24 +592,23 @@ Produce a Test Automation Approach
   - Define Automation test user accounts needs
   - User authentication exemptions, any limitations for the automation (e.g. exclusion of MFA etc.)
 
- - Produce a Test Execution Approach
+- Produce a Test Execution Approach
    - Define CI/CD Integration approach (e.g. execution on code commits and deployment, execution frequency and manual/scheduled trigger of jobs, parallel execution, any docker containersation applicable etc.)
    - Define test data provisioning (mock or dummy data) and data management.
    - Automated test execution and test coverage reports (e.g. Allure or html execution reports, Jira test coverage reports etc.)
    - Tests logs capture, debugging and issue logging approach
 
- - Framework Development 
- - Automation Scripting (Refer UKHSA Automation Guidance confluence pages)
- - Define Test Pack Maintenance approach (e.g. manage tech debt to maintain and enhance the test packs)
- - Define Code Version Control, Code Reviews and Branching strategy
- - Governance and Best Practices
+- Framework Development 
+- Automation Scripting (Refer UKHSA Automation Guidance confluence pages)
+- Define Test Pack Maintenance approach (e.g. manage tech debt to maintain and enhance the test packs)
+- Define Code Version Control, Code Reviews and Branching strategy
+- Governance and Best Practices
    - Adopting Page Object Model
    - Automation folder structure, folder/file naming and coding best practices (Refer UKHSA Automation Guidance confluence pages)
    - Test Framework Enhancement and Test Case Optimization (for reduced execution time and lower maintenance)
 
- - Automation Risks Logging and Mitigation
-
- - Automation Tests BAU Handover approach (e.g. Documentation of automation and handover to BAU at project closure)
+- Automation Risks Logging and Mitigation
+- Automation Tests BAU Handover approach (e.g. Documentation of automation and handover to BAU at project closure)
 
 Each Project Master Test Plan will describe the Test Automation usage relevant to its delivery.
 
@@ -973,7 +972,7 @@ The review will be conducted against the following areas using the table below:
 | 5.  | Non‑Functional Testing             |                |                       |                                    |
 | 6.  | Risk Management                    |                |                       |                                    |
 | 7.  | Automation                         |                |                       |                                    |
-| 8.  | Change Control / Release Management|                |                       |                                    |
+| 8.  | Change Control / Release Management |                |                       |                                    |
 | 9.  | Project Reporting                  |                |                       |                                    |
 | 10. | Live Support / ELS                 |                |                       |                                    |
 
