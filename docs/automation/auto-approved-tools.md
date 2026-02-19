@@ -1,6 +1,3 @@
----
-order: 8
----
 # Automation Testing - Approved Tools & Software
 
 # QAT – Approved Tools and Software

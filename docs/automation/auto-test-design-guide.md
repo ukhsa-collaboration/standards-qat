@@ -1,6 +1,3 @@
----
-order: 9
----
 # Automation Testing - Test Design & Standards
 
 # Test Design Standards
