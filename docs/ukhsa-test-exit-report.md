@@ -8,7 +8,7 @@ UKHSA QAT_Test Exit Report Template (Replace with Initiative Name)
 
 **Project Name:** Project Title
 
-# 1. Document Control
+## 1. Document Control & References
 
 | Version | Date       | Author        | Change Description                             | Approved By                     |
 | ------- | ---------- | ------------- | ----------------------------------------------- | -------------------------------- |
@@ -17,8 +17,6 @@ UKHSA QAT_Test Exit Report Template (Replace with Initiative Name)
 | 1.0     | YYYY-MM-DD | Author Name | Final version for release                       | Approver Name                  |
 | 1.1     | YYYY-MM-DD | Author Name | Minor updates or clarifications                 | Approver Name, if needed       |
 
-# 2. Document References
-
 | Reference Number | Reference Document Name     | Version |
 | ---------------- | --------------------------- | ------- |
 | 1              | e.g., Test Plan             | v1.0    |
@@ -26,10 +24,10 @@ UKHSA QAT_Test Exit Report Template (Replace with Initiative Name)
 | 3              | e.g., Automation Test Plan  |         |
 | 4              | e.g., Performance Test Plan |         |
 
-2. Purpose
+## 2. Document Purpose
 This document provides a summary of the testing activities conducted for the *Project Name*. It includes results, defect analysis, test coverage, and overall quality assessment, validating whether the software meets its acceptance criteria as defined in the Test Plan.
 
-# 3. Scope
+## 3. Scope
 ## 3.1  In Scope
 
 This document details the Testing Scope, (as defined on Test Plan or any deviations from Test Plan to be in detailed)  testing results for the tests that were performed against (Release name and Version) 
@@ -51,9 +49,9 @@ Anything out of Scope as mentioned in Test Plan.
 
  eg: Pen Testing/security testing.
 
-# 4. Test Summary
+## 4. Test Summary
 
-# 5. Test Results Summary
+## 5. Test Results Summary
 *Update the below sections as per your requirement*
 
 ## 5.1 Unit Testing
@@ -97,7 +95,7 @@ Anything out of Scope as mentioned in Test Plan.
 ## 5.7 Accessibility Test Summary
 <Brief about Tools used and update Test Summary >
 
-# 6. Defect Summary
+## 6. Defect Summary
 Followed UKHSA approved Defect Management Process
 
 [Defect Management and Resolution - DevOps Standards](./defect-management-and-resolution.md).
@@ -111,11 +109,11 @@ Provide Defect Summary on Severity Basis
 | 3 – Medium   | X      | X    | X      | X         |
 | 4 – Low      | X      | X    | X      | X         |
 
-# 7. Test Coverage
+## 7. Test Coverage
 - Requirements Covered:  eg:, 95% of - Functional Requirements are covered
 - Traceability Matrix: Attached / Link Provided
 
-# 8. Risks and Mitigations
+## 8. Risks and Mitigations
 This section outlines key risks identified during the testing phase that may impact the quality, timeline, or stability of the release along with its Mitigation Strategy.
 
 | Risk Description              | Impact | Mitigation Strategy              | Risk Owner |
@@ -123,7 +121,7 @@ This section outlines key risks identified during the testing phase that may imp
 | Example: UAT delays         | High    | Parallel system testing to catch up |             |
 | Example: Environment issues | Medium  | Added buffer for re-testing         |             |
 
-# 9. Exit Criteria Evaluation
+## 9. Exit Criteria Evaluation
 As Detailed in Test Plan. Any deviation should be detailed in section 10
 
 | Ref | Exit Criteria | Complete |
@@ -134,7 +132,7 @@ As Detailed in Test Plan. Any deviation should be detailed in section 10
 | 4   | All open Severity 3 and 4 defects will be reviewed with the business and, if Critical for go-live, defects should be fixed, retested, and closed. Deferred defects must have Project Manager/Product Owner approval and a documented closure plan. | Yes |
 | 5   | Test Completion Report including test results and list of open defects approved by QAT Test Assurance Manager and Project Manager and shared with key stakeholders. | Yes |
 
-# 10.  Outstanding Issues/Deviations
+## 10.  Outstanding Issues/Deviations
  Impact has been added to the outstanding issues in the tables below.  The  Impact values are defined as follows:
 
 High Impact - Will result in the same defect in Production

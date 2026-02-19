@@ -13,7 +13,7 @@ order: 15
 Assign a unique identifier to this test plan for reference and tracking purposes.
 
 **Example:**  
-`XXXX-FTP-NN`, `EDAP-FTP-01`
+XXXX-FTP-NN, EDAP-FTP-01
 
 ---
 
@@ -66,9 +66,9 @@ Assign a unique identifier to this test plan for reference and tracking purposes
 |             |               |                  |                           |
 |             |               |                  |                           |
 
-# Introduction
+## 1. Introduction
 
-## Project Background
+## 1.1 Project Background
 
 **Guidance:**  
 Provide a high-level summary of the project, including a brief overview of the project background, business objectives, and timelines (if available).  
@@ -77,7 +77,7 @@ Include references where appropriate (e.g., SOW, Business Requirements, etc.).
 
 ---
 
-## Purpose of the Document
+## 1.2 Purpose of the Document
 
 **Guidance:**
 
@@ -93,7 +93,7 @@ The primary purpose of this document is to define the test scope and coverage, t
 
 ---
 
-## Intended Audience
+## 1.3 Intended Audience
 
 **Guidance:**  
 Identify the main teams or individuals who rely on the test plan and must be informed of its contents, scope, and objectives.  
@@ -110,41 +110,28 @@ Examples include: Development, DevOps, Testing, Business Analysts, Scrum Masters
 
 ---
 
-## Test Scope
+## 2.0 Test Scope
 
 **Guidance:**  
 Describe the features and functionalities to be tested, and specify what is out of scope for this execution.  
-Identify all test items, features included in testing, and exclusions.
 
----
-
-## Features to Be Tested
-
+## 2.1 In scope
 **Guidance:**  
 Describe all features and requirements to be covered in functional testing.  
 If Jira is used for test planning, insert a Jira filter listing all **Epics**, **User Stories**, and **Functional/Non-Functional Requirements** included in this test plan.
 
----
-
-## Out of Scope
-
+## 2.2 Out of scope
 **Guidance:**  
-Describe all functional and non-functional requirements and any project-specific items that are **not** included in the testing activities.
+Describe all functional and non-functional requirements and any project-specific items that **are not** included in the testing activities.
 
 ---
 
-## Test Approach
+## 3.0 Test Approach
 
 **Guidance:**  
 Define the functional testing approach and methodology (e.g., Agile), based on the application and solution.  
 Specify the intended coverage of manual versus automated testing, and list the test types to be executed (e.g., positive, negative, boundary, workflow).  
-Include references to standard tools for test planning and management (e.g., Jira, Xray).
-
-Describe the key steps in the approach.
-
-## Process and Activities
-
-## Test Process Overview
+Include references to standard tools for test planning and management (e.g., Jira, Xray). Describe the key steps in the approach.
 
 | **Process**        | **Activities** |
 | -------------------- | ---------------- |
@@ -157,7 +144,7 @@ Describe the key steps in the approach.
 
 ---
 
-## Requirement Traceability Matrix (RTM)
+## 4.0 Requirement Traceability Matrix (RTM)
 
 **Guidance:**  
 Developing a Requirement Traceability Matrix (RTM) is a key test planning activity that ensures each requirement is covered by at least one or more test cases.  
@@ -172,29 +159,27 @@ Below is an example RTM table (typically maintained in Excel):
 
 | **Requirement ID** | **Test Case ID** | **Test Case Summary** | **Priority** | **Status**     |
 | -------------------- | ------------------ | ------------------------ | -------------- | ---------------- |
-| REQ-001            | TC-010           |                        | M            | Completed      |
-| REQ-002            | TC-020           |                        | H            | In Review      |
-| REQ-003            | TC-030           |                        | M            | In Progress    |
+| REQ-001            | ET-010          |                        | M            | Completed      |
+| REQ-002            | ET-100           |                        | H            | In Review      |
+| REQ-003            | ET-150           |                        | M            | In Progress    |
 
 # Agile Requirement Traceability Matrix (RTM)
 
 This Agile‑specific RTM helps teams ensure that every User Story is adequately tested and allows for a transparent, iterative approach to testing in Agile.  
-It is an essential tool for tracking testing progress and identifying any gaps in test coverage.
+It is an essential tool for tracking testing progress, ensuring requirements have been met, and identifying any gaps in test coverage.
 
-## Requirement Traceability Matrix
-
-| **EPIC** | **User Story** | **Test Case ID** | **Test Case Summary** | **Priority** | **Status**     |
-| ---------- | ---------------- | ------------------ | ------------------------ | -------------- | ---------------- |
-| ET-010   | ET-0100        | ET-010           |                        | H            | Completed      |
-| ET-010   | ET-0100        | ET-020           |                        | M            | In Review      |
-| ET-010   | ET-0100        | ET-030           |                        | H            | In Progress    |
-| ET-011   | ET-0125        | ET-100           |                        | M            | In Progress    |
-| ET-012   | ET-0125        | ET-150           |                        | L            | In Review      |
-| ET-012   | ET-0125        | ET-200           |                        | M            | In Progress    |
+| **EPIC** | **User Story** | **Test Case ID** | **Test Case Summary** | **Requirement ID** | **Priority** | **Status** |
+| - | - | - | - | - | - | - |
+| ET-010 | ET-0100 | ET-010 |  | REQ-001 | H | Completed |
+| ET-010 | ET-0100 | ET-020 |  | REQ-004 | M | In Review |
+| ET-010 | ET-0100 | ET-030 |  | REQ-005 | H | In Progress |
+| ET-011 | ET-0125 | ET-100 |  | REQ-002 | M | In Progress |
+| ET-012 | ET-0125 | ET-150 |  | REQ-003 | L | In Review |
+| ET-012 | ET-0125 | ET-200 |  | REQ-006 | M | In Progress |
 
 ---
 
-# Test Schedule
+## 5.0 Test Schedule
 
 **Guidance**: Provide a detailed timeline (as much as possible at the time of writing) outlining the testing activities, including start and end dates for the functional test phase.
 
@@ -205,9 +190,9 @@ Project Implementation Schedule or Sprint Plan on a page showing a dedicated sch
 
 ---
 
-# Test Environment and Tools
+## 6.0 Test Environment and Tools
 
-## Test Environment
+## 6.1 Test Environment
 
 **Guidance:**  
 A Functional Test Environment is a configuration‑managed setup that includes the required software, resources, infrastructure, and support services as defined in the solution design documents.
@@ -226,7 +211,7 @@ Use the following table to describe the test environment(s) to be used for funct
 | Functional           |                     |                |           |
 | UAT                  |                     |                |           |
 
-# Testing Tools
+## 6.2 Testing Tools
 
 **Guidance:**  
 Provide details on the number and type of tools to be used for the test phase, defect and test management activities.  
@@ -242,17 +227,17 @@ For example, Jira and Xray are used for test planning and execution.
 
 ---
 
-# Test Data Requirements (Optional)
+## 6.3 Test Data Requirements (Optional)
 
 **Guidance:** Define the data required for testing, including any test data sources and how the data will be prepared.
 
 ---
 
-# Defect Management
+## 7.0 Defect Management
 
 **Guidance:** Explain the defect lifecycle, including how defects will be managed, recorded, reported, and triaged with agreed definitions of severity and priority.
 
-**Add defect management workflow here**
+![Workflow Diagram](./img/defectlifecycle.png)]
 
 Formal defect tracking will occur throughout the test execution phase. JIRA will be used to track and manage defects. Defects will be raised when a test case fails and will be linked to the test case or a defect can be raised which is not linked to a test case (ad-hoc defects) generally found during ad-hoc testing.
 
@@ -260,7 +245,7 @@ All defects identified will be recorded within the defect management tool. The T
 
 Root Cause will be captured mandatorily at the time of defect closure.
 
-## Defect Priority:
+## 7.1 Defect Priority
 The Priority of the defect relates to the impact the issue has on testing and the Priority may change as the initiative approaches Go-Live. The Priority may be initially set by the Test Lead or Test Manager and will be reviewed at a project level. Priority is set independent and separate from Severity.
 
 Below are the guidelines that will be used to decide the Priority of the defects identified during testing:
@@ -276,7 +261,7 @@ Below are the guidelines that will be used to decide the Priority of the defects
 
 ---
 
-# Defect Severity
+## 7.2 Defect Severity
 
 The Severity of an issue is the measure of the impact the issue would have to UKHSA users or the UKHSA organisation, if the code was in a Production environment.  
 The Severity of the defect does not change during the delivery of the initiative. Severity is set independent and separate from Priority.
@@ -292,11 +277,11 @@ Below are the guidelines that will be used to decide the Severity of the defects
 | **Medium (P3)** | - Does not result in Severity 1 or 2 outcomes<br>- Requires only moderate adjustment to UKHSA users or organization processing<br>- Workaround sustainable in the long term without significant increase in costs<br>- Workaround is sustainable in the long term to the UKHSA organization | Fix can be permitted when the area of the code is being changed |
 | **Low (S4)** | - Does not result in Severity 1, 2 or 3 outcomes<br>- Cosmetic issue relating to screens, printing or documentation<br>- Very minor changes required to UKHSA processing without any additional costs<br>- No workaround required. Service levels can be maintained | No Fix Required |
 
-# Test Quality Gate Criteria
+## 8.0 Test Quality Gate Criteria
 **Guidance:** This section covers the entry and exit criteria for the testing execution. Entry criteria are clear statements of requirements that must be satisfied before the functional testing can commence, and exit criteria indicate what must be satisfied before this test stage can be completed. 
  
 
-## Entry Criteria
+## 8.1 Entry Criteria
 - Functional System Test Plan (this document) to be reviewed and signed off by the Project Manager, QAT Test Assurance Manager etc.
 - Successful unit testing of features or components to be tested.
 - Test Environments are stable and available for test execution.
@@ -308,13 +293,13 @@ Below are the guidelines that will be used to decide the Severity of the defects
 
  
 
-## Exit Criteria
+## 8.2 Exit Criteria
 - All planned test cases executed, and pass percentage is >= 95%
 - All Severity 1 or Severity 2 defects are fixed, retested and closed.
 - Severity 3 and Severity 4 open defects to be agreed with the business and if required for go-live to be fixed, retested and closed. Any outstanding defects that are agreed to deferred (not to be fixed in the functional test phase) documented with Project Manager/Product Owner approvals and with a plan in place for the defect closure.
 - Test Completion Report including test results and list of open defects approved by QAT Test Assurance Manager and Project Manager and shared with key stakeholders.
 
-# Project (or Test) Team Role and Responsibilities:
+## 9.0 Project (or Test) Team Role and Responsibilities:
 **Guidance:** The Project or Test Team Resources table can be used for the current test phase, outlining the team members' roles, responsibilities, and resource allocation:
 
 As an example, the key team members involved in the delivery of the testing activities are detailed as below (change and update based on the team structure and requirements):
@@ -328,7 +313,7 @@ As an example, the key team members involved in the delivery of the testing acti
 
 ---
 
-# RACI Matrix (optional)
+## 10.0 RACI Matrix (optional)
 
 The RACI matrix (example) below (where R = Responsible, A = Accountable, C = Consulted, I = Informed) indicates the key activities/responsibilities relating to the testing of capabilities delivered in the project:
 
@@ -340,7 +325,7 @@ The RACI matrix (example) below (where R = Responsible, A = Accountable, C = Con
 | Reporting                | I                | I              | I            | I                    |
 | Test Exit Report         | R                | I              | I            | I                    |
 
-# Test RAID Log
+## 11.0 Test RAID Log
 
 **Keys:**
 
@@ -361,9 +346,6 @@ It is recommended to organise RAID review meetings as part of test planning. Hig
 - **Dependency:** A dependencies refers to external or internal factors that affects the testing timeline, resources, or activities, and which must be managed to ensure successful testing start or completion.
 
 ---
-
-## RAID Log Table
-
 | **ID** | **R/A/I/D** | **Description** | **Impact** | **Probability** | **Mitigation** | **Owner** | **Status** |
 | -------- | ------------- | ------------------ | ------------- | ------------------ | ---------------- | ----------- | ------------ |
 |        |             |                  |             |                  |                |           |            |
@@ -372,7 +354,7 @@ It is recommended to organise RAID review meetings as part of test planning. Hig
 
 **Note:** All RAID items must be documented and regularly reviewed in the project's RAID log.
 
-# Glossary of Terms
+## 12.0 Glossary of Terms
 
 | **Term** | **Definition** |
 | --------- | ---------------- |

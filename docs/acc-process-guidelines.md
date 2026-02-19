@@ -50,15 +50,38 @@ Tools and techniques used to test each success criteria are provided below from 
 [Understanding WCAG 2.2 | WAI | W3C](https://www.w3.org/WAI/WCAG22/Understanding/)
 [Home · alphagov/wcag-primer Wiki · GitHub](https://github.com/alphagov/guide-to-wcag/wiki)
 
-WCAG Compliance Test cases
-### Data Requirements
-
-| Area              | Title             | Description | Example(s) |
-| ----------------- | ----------------- | ----------- | ---------- |
-| Data Requirements | Data Retention    | NFRs include: <br>• Retain active DB data 120 days <br>• Archive thereafter <br>• Delete archive after 240 days <br>• Define policies around what/when to archive | Data is retained 120 days, archived, then deleted after 240 days |
-| Data Requirements | Data Transfer     | NFRs include: <br>• Transfer must use SFTP <br>• Secure transfer via ISO 27001 <br>• Files encrypted AES‑256 <br>• Approved routes only | Secure SFTP with AES‑256 as per ISO 27001 |
-| Data Requirements | Data Storage      | NFRs include: <br>• Encryption at rest (Active + Archive) <br>• RBAC + least‑privilege access | Encrypted-at-rest & RBAC |
-| Data Requirements | Data Location     | All system data stored within the UK | UK-only storage |
-| Data Requirements | Data Backup       | NFRs include: <br>• Full backup daily 00:00 (≤ 90 min) <br>• Incremental backups every 15/30/45 mins <br>• Master Copy stored separately <br>• Regular backups required | Daily full backups; incremental every 15 min |
-| GDPR              | Ownership         | Roles, responsibilities, and ownership must follow UK Gov guidance | Ownership model per UK Gov |
-| GDPR              | Processing Consent | NFRs include: <br>• Personal data collected with consent <br>• Data anonymised <br>• Breach reported in 24h | Consent + anonymisation + 24h breach notice |
+### WCAG Compliance Test cases
+| Test_ID | WCAG Level | Success Criteria | Description |
+| - | - | - | - |
+| 1 | A | **1.1.1 - Non-text Content** | Provide text alternatives for non-text content. Exceptions: controls, time‑based media, tests, sensory content, decoration. Applicable to images, SVGs, background images, icons, video, audio, multimedia, animation, CAPTCHAs. Verification: (a) alt/aria-label/longdesc; (b) decorative = aria-hidden="true". |
+| 5 | A | **1.3.1 - Info and Relationships** | Logical structure must match visual structure. Headings, links, tables, lists, buttons must use semantic HTML or correct ARIA. Correct ARIA roles. Tables must not have empty cells. Forms must have proper labels or aria-labelledby. |
+| 6 | A | **1.3.2 - Meaningful Sequence** | Content reading order must match visual order. Layout tables must linearize in a meaningful left‑to‑right, top‑to‑bottom order. |
+| 31 | A | **4.1.2 - Name, Role, Value** | All elements must expose accessible name, role, value programmatically. |
+| 35 | AA | **1.3.5 - Identify Input Purpose** | Inputs must use HTML autocomplete attributes wherever applicable. |
+| 7 | A | **1.3.3 - Sensory Characteristics** | Instructions must not rely only on shape, colour, size, visual location, orientation, or sound. “See the link on the right” fails. “Above/below” allowed if reflecting reading order. |
+| 8 | A | **1.4.1 - Use of Colour** | Colour alone must not convey meaning. Exceptions: coloured links, text with background colour. |
+| 19 | A | **2.4.4 - Link Purpose (In Context)** | Every link’s purpose must be clear from context. Links to downloads must identify file format. |
+| 22 | A | **2.5.3 - Label in Name** | The accessible name must contain the visually shown text. Labels may be visible text or images of text. |
+| 44 | AA | **2.4.6 - Headings and Labels** | Use clear headings and labels. If none exist, this SC is not applicable. |
+| 28 | A | **3.3.1 - Error Identification** | Input errors must be clearly identified and programmatically associated (aria-describedby etc.). Page title must reflect presence of errors. |
+| 52 | AA | **3.3.3 - Error Suggestion** | Suggest fixes for input errors (e.g., missing @ in email). If no error messages exist, not applicable. |
+| 53 | AA | **3.3.4 - Error Prevention (Legal, Financial, Data)** | Users must be able to review and correct sensitive information before final submission. |
+| 45 | AA | **2.4.7 - Focus Visible** | Keyboard focus must be visible and clear. |
+| 46 | AA | **2.4.11 - Focus Not Obscured (Minimum)** | Focused component must not be entirely hidden by author‑created content. |
+| 10 | A | **2.1.1 - Keyboard** | All functionality must be keyboard accessible. Exceptions: drag/drop, date‑pickers must offer alternative operation. |
+| 11 | A | **2.1.2 - No Keyboard Trap** | Keyboard users must be able to move focus away from components. |
+| 16 | A | **2.4.1 - Bypass Blocks** | Provide a “Skip to Content” link. |
+| 18 | A | **2.4.3 - Focus Order** | Focus order must follow visual order. Inserted content must appear after trigger element. |
+| 12 | A | **2.1.4 - Character Key Shortcuts** | Single-key shortcuts must be removable, remappable, or only active on focus. |
+| 25 | A | **3.2.1 - On Focus** | Components must not change when receiving focus. |
+| 26 | A | **3.2.2 - On Input** | Input must not cause unexpected context changes: scrolling, submitting, opening new tabs, content shifts. |
+| 27 | A | **3.2.6 - Consistent Help** | Help mechanisms must be easy to find and consistent across pages. |
+| 29 | A | **3.3.2 - Labels or Instructions** | Forms must clearly label required vs optional fields and provide necessary instructions. |
+| 30 | A | **3.3.7 - Redundant Entry** | Repeated user inputs must be auto‑populated or selectable. |
+| 17 | A | **2.4.2 - Page Titled** | Page title must describe page content and be unique. iFrames must have meaningful titles. |
+| 24 | A | **3.1.1 - Language of Page** | HTML must have `lang`. iFrames must also declare language. |
+| 49 | AA | **3.1.2 - Language of Parts** | Inform users when language changes. Always applicable. |
+| 50 | AA | **3.2.3 - Consistent Navigation** | Menus and repeated navigation elements must appear consistently. |
+| 51 | AA | **3.2.4 - Consistent Identification** | Icons and components with the same function must be visually consistent. |
+| 55 | AA | **4.1.3 - Status Changes** | Dynamic changes must be announced to assistive tech without requiring focus. |
+| 13 | A | **2.2.1 - Timing Adjustable** | Time limits must be adjustable (extend, turn off). Exceptions: real‑time events, essential timing, >20 hours. |
