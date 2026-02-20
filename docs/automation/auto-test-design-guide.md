@@ -1,3 +1,13 @@
+---
+title: Auto Design & Standards
+eleventyNavigation:
+  key: auto-test-design-guide
+  parent: automation
+  order: 2
+layout: base
+---
+
+
 # Automation Testing - Test Design & Standards
 
 # Test Design Standards

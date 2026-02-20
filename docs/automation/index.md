@@ -1,4 +1,3 @@
-
 ---
 title: Automation
 layout: sub-navigation

@@ -1,3 +1,13 @@
+---
+title: Auto Approved Tools
+eleventyNavigation:
+  key: auto-approved-tools
+  parent: automation
+  order: 1
+layout: base
+---
+
+
 # Automation Testing - Approved Tools & Software
 
 # QAT – Approved Tools and Software
