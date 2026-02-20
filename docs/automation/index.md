@@ -1,11 +1,13 @@
 ---
 title: Automation
+layout: base
 eleventyNavigation:
   key: automation
-  order: 10
   title: Automation
-layout: base
+  order: 10
+  parent: null   # ← cancels the inherited parent so this becomes the section header
 ---
+
 
 # Automation
 
