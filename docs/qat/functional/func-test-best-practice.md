@@ -1,7 +1,4 @@
----
-order: 13
----
-# Functional Testing - Best Practice & Guidelines
+# Functional Testing Best Practice & Guidelines
 
 The purpose of this document is to establish standardised guidelines for conducting functional testing across all projects.  
 Functional testing ensures that software performs as intended and fulfils user requirements. It involves evaluating the software's features, capabilities, and interactions with various components to identify potential defects and issues before the product is released to users.

@@ -1,5 +1,5 @@
 ---
-order: 19
+order: 8
 ---
 
 # UKHSA Test Exit Report Template
@@ -40,6 +40,8 @@ This report covers the following levels of testing and provides Test Summary,  O
 - Integration Testing
 - System Testing
 - User Acceptance Testing (UAT)
+- Performance Testing
+- Operational Acceptance Testing (OAT)
 
 ## 3.2 Out Of Scope
 

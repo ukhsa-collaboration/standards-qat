@@ -1,7 +1,4 @@
----
-order: 12
----
-# Accessibility - Approved Tools
+# Approved Accessibility Tools
 Approved UKHSA accessibility Tools and Software are listed below:
 
 - BrowserStack Accessibility

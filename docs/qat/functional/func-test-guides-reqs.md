@@ -1,7 +1,7 @@
 ---
 order: 14
 ---
-# Functional Testing - Requirements & Guidelines
+# Functional Testing Planning and Requirements Guidelines
 
 ## Test Planning
 

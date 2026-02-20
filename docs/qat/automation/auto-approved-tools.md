@@ -1,4 +1,4 @@
-# Automation Testing - Approved Tools & Software
+# Automation Approved Tools & Software
 
 # QAT – Approved Tools and Software
 

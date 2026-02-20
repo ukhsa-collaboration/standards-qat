@@ -1,10 +1,10 @@
 ---
 order: 3
 ---
-# Performance Testing - Execution & Reporting
+# Performance Test Execution & Reporting Guidelines
 
 ## Test Execution Standards
-Once the test plan's defined criteria are satisfied, the Performance Testing (PT) team may proceed with executing the tests specified in the detailed test plan. The project team should offer necessary technical support—such as addressing defects, managing test data, resolving environmental or application issues, and aiding in performance tuning—during the execution phase, as stipulated in the test plan.
+Once the test plan is defined criteria are satisfied, the Performance Testing (PT) team may proceed with executing the tests specified in the detailed test plan. The project team should offer necessary technical support—such as addressing defects, managing test data, resolving environmental or application issues, and aiding in performance tuning—during the execution phase, as stipulated in the test plan.
 
 The **Test exit Report** should be distributed to the relevant project stakeholders at regular intervals—daily or weekly—as specified in the test plan with following sections
 

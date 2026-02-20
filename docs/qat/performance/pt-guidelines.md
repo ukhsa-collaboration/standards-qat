@@ -1,7 +1,7 @@
 ---
 order: 4
 ---
-# Performance Testing - Guidelines
+# Performance Testing Approach, Planning, and Tooling Standards
 
 The performance test lead/team is responsible for developing the performance testing strategy and creating test plan documents based on the information provided by the project team. The test approach and test plan documents must be agreed upon with the relevant project stakeholders.
 
@@ -60,21 +60,9 @@ Automated regression test pack creation and maintenance should be controlled via
 - **Version Control:** History of changes and versioning information for test assets.  
 
 ---
-
-## Test Environment and Data
-
-It is the responsibility of the engaging project to provide a primary, production‑sized and stable environment for the PT test execution as detailed in the PT test plan.  
-Any deviation should be documented in the PT test exit report with appropriate justification and approvals.
-
-An environment test readiness review should be held with all relevant stakeholders to agree transition to the execution phase of the engagement.
-
-**Test data:** The project team should provide the necessary test data to enable interaction between the tooling and the test environment. In specific circumstances, the PT team may create additional test data with appropriate approvals or guidance from the project team.
-
----
-
 ## Tools and Technologies
 
-The performance testing team is free to utilize any open‑source or proprietary load testing tools that are capable of simulating load, measuring performance, and analyzing the system's behavior when under stress.  
+The performance testing team utilise the approved performance test tools referenced further down this page. Suppliers are free to use whatever tool they see fit as long as it meets the requirements for test scenario complexity and results reporting. The supplier must, however, seek approval for the use of test tools within the UKHSA estate in the event that they are not in the approved list below.
 
 Approved UKHSA performance testing tools are:
 
