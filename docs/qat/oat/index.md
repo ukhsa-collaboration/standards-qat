@@ -1,5 +1,5 @@
 ---
-order: 3
+order: 5
 includeInBreadcrumbs: true
 eleventyNavigation:
   parent: qat

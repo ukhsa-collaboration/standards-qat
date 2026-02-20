@@ -1,5 +1,5 @@
 ---
-order: 8
+order: 10
 ---
 
 # UKHSA Test Exit Report Template
