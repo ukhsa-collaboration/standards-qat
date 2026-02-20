@@ -1,8 +1,10 @@
 ---
-order: 1
-includeInBreadcrumbs: true
+title: Automation
 eleventyNavigation:
   key: automation
+  order: 10
+  title: Automation
+layout: base
 ---
 
 # Automation

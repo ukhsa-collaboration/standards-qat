@@ -1,3 +1,11 @@
+---
+title: Auto Test Design Guide
+eleventyNavigation:
+  key: auto-test-design-guide
+  order: 2
+---
+
+
 # Automation Testing - Test Design & Standards
 
 # Test Design Standards

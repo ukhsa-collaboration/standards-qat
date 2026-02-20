@@ -1,3 +1,6 @@
-{  "caption": "Automation",
-  "layout": "sub-navigation"
+{
+  "layout": "base",
+  "eleventyNavigation": {
+    "parent": "automation"
+  }
 }
