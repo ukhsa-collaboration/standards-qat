@@ -1,11 +1,13 @@
 ---
 title: Auto Approved Tools
+layout: base
 eleventyNavigation:
   key: auto-approved-tools
   parent: automation
   order: 1
-layout: base
+permalink: /standards-qat/automation/auto-approved-tools/
 ---
+
 
 
 # Automation Testing - Approved Tools & Software

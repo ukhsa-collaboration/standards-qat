@@ -1,6 +1,5 @@
 {
-  "layout": "sub-navigation",
-  "caption": "Automation",
-  "sectionKey": "automation"
+  "layout": "base",
+  "sectionKey": "automation",
+  "caption": "Automation"
 }
-

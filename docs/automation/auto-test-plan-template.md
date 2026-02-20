@@ -1,11 +1,14 @@
 ---
-title: Auto Test Plan Template
+title: Test Plan Template
+layout: base
 eleventyNavigation:
   key: auto-test-plan-template
   parent: automation
   order: 3
-layout: base
+permalink: /standards-qat/automation/auto-test-plan-template/
 ---
+
+
 # Automation Testing - Test Plan Template
 
 The emplate defines a process to capture application testing and templates for the UKHSA software delivery process when functional and automation testing is in scope of the software delivery lifecycle (SDLC) of the project.
