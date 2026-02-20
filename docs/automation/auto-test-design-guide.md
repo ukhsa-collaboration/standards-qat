@@ -1,15 +1,3 @@
----
-title: Auto Approved Tools
-eleventyNavigation:
-  key: auto-approved-tools
-  parent: automation
-  order: 2
-layout: base
-
----
-
-
-
 # Automation Testing - Test Design & Standards
 
 # Test Design Standards
