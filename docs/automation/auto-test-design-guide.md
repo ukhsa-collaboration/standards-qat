@@ -1,9 +1,13 @@
 ---
-title: Auto Test Design Guide
+title: Auto Approved Tools
 eleventyNavigation:
-  key: auto-test-design-guide
+  key: auto-approved-tools
+  parent: automation
   order: 2
+layout: base
+
 ---
+
 
 
 # Automation Testing - Test Design & Standards

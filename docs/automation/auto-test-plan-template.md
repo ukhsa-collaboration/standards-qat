@@ -1,9 +1,13 @@
 ---
-title: Automation Test Plan Template
+title: Auto Approved Tools
 eleventyNavigation:
-  key: auto-test-plan-template
+  key: auto-approved-tools
+  parent: automation
   order: 3
+layout: base
+
 ---
+
 
 # Automation Testing - Test Plan Template
 

@@ -1,6 +1,6 @@
 {
   "layout": "base",
-  "eleventyNavigation": {
-    "parent": "automation"
-  }
+  "caption": "Automation",
+  "sectionKey": "automation"
 }
+

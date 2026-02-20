@@ -1,12 +1,19 @@
+
 ---
 title: Automation
-layout: base
+layout: sub-navigation
+sectionKey: automation
 eleventyNavigation:
   key: automation
   title: Automation
   order: 10
-  parent: null   # ← cancels the inherited parent so this becomes the section header
+
 ---
+
+# Automation
+
+Welcome to the Automation documentation section.
+
 
 
 # Automation
