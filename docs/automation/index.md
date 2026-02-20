@@ -1,15 +1,10 @@
 ---
-title: Automation
-layout: sub-navigation
-sectionKey: automation
-caption: Automation
+order: 10
+includeInBreadcrumbs: true
 eleventyNavigation:
+  parent: automation
   key: automation
-  title: Automation
-  order: 10
-permalink: /standards-qat/automation/
 ---
-
 
 # Automation
 

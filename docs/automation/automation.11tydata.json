@@ -1,5 +1,4 @@
 {
-  "layout": "base",
-  "sectionKey": "automation",
-  "caption": "Automation"
+  "caption": "Performance, Reliability & Monitoring",
+  "layout": "sub-navigation"
 }

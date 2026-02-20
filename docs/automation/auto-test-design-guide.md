@@ -1,15 +1,3 @@
----
-title: Auto Test Design Guide
-layout: base
-eleventyNavigation:
-  key: auto-test-design-guide
-  parent: automation
-  order: 2
-permalink: /standards-qat/automation/auto-test-design-guide/
----
-
-
-
 # Automation Testing - Test Design & Standards
 
 # Test Design Standards
