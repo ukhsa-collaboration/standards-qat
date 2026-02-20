@@ -2,7 +2,6 @@
 order: 10
 includeInBreadcrumbs: true
 eleventyNavigation:
-  parent: automation
   key: automation
 ---
 
