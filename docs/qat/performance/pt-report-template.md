@@ -12,7 +12,7 @@ order: 7
 *Add scope here*
 ### 1.3 Key Findings
 *Add key findings here*
-###  1.4 Overall Assessment
+### 1.4 Overall Assessment
 *Add assessment here*
 ## 2. Test Overview
 ### 2.1 Test Objectives
