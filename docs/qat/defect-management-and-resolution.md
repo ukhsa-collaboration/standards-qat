@@ -1,7 +1,7 @@
 ---
 order: 7
 ---
-# UKHSA Defect Management & Resolution
+# Defect Management & Resolution
 
 ## Purpose / Aim of the Defect Management process
 The purpose of the Defect Management process is to:

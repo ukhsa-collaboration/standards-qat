@@ -2,7 +2,7 @@
 order: 10
 ---
 
-# UKHSA Test Exit Report Template
+# Test Exit Report Template
 
 UKHSA QAT_Test Exit Report Template (Replace with Initiative Name)
 

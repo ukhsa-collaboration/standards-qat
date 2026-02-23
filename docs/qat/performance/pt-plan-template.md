@@ -2,7 +2,7 @@
 order: 6
 ---
 
-#Performance Test PLan Template
+# Performance Test Plan Template
 
 ## 1. Introduction
 ### 1.1 Purpose

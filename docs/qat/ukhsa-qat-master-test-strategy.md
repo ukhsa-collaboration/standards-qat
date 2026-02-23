@@ -2,7 +2,7 @@
 order: 9
 ---
 
-# UKHSA QAT Master Test Strategy Template
+# Master Test Strategy Template
 
 This template can be used to create a master test strategy for you project or initiative.
 
@@ -78,6 +78,7 @@ This document provides a high-level guide to the test process and practices.
 The strategy is applicable to the delivery of all new solutions and systems (projects) as well as the enhancement or change of existing solutions and systems (BAU) managed under the UKHSA Contract.
 
 ## 1.2 Purpose of this document
+### 1.2.1 Document Aims
 This Test Strategy aims to:
 
 - Attain a common view
@@ -85,26 +86,6 @@ This Test Strategy aims to:
 - Advise a consistent test approach
 - Establish the foundation for software testing
 - Details the implementation of the testing process and methodology
-
-### 1.2.1 Overview and Structure of the Document
-This document also reflects Schedule 6.3 (Testing Procedures) for Test Strategy documents and details the various test cycles that could be considered for Testing and the potential Reports to be generated as articulated in this document and agreed in the schedule.
-
-| Schedule 6.1 Statement                                                                                                                                              | This document section                        |
-| -                                                                                                                                                                   | -                                             |
-| Section 6.2.1 an overview of how Testing will be conducted in accordance with the Implementation Plan                                                              | 4 – Test Overview & Test Levels               |
-| Section 6.2.2 a description of the approach to Testing                                                                                                             | 4 – Test Overview & Test Levels               |
-| Section 6.2.3 the processes to be used to capture and record Test results and the categorisation of Test Issues                                                    | 7 Metrics and Reporting<br>11 Defect or Test Issue Management Process |
-| Section 6.2.4 the method for mapping the expected Test results to the Test Success Criteria                                                                        | 7 Test Results tracking                        |
-| Section 6.2.5 the processes to be followed by a Deliverable Test to satisfy the Test Success Criteria or produce unexpected results, including a procedure for the resolution of Test Issues | 11 Defect or Test Issue Management Process     |
-| Section 6.2.6 the procedure to be followed to sign off each Test                                                                                                   | 3 Test Readiness and Assurance Process         |
-| Section 6.2.7 the processes for the production and maintenance of Test Reports and reporting, including templates for the Test Reports and the Test Issue Management Log, and a sample path for the resolution of Test Issues | 7 Metrics and Reporting<br>11 Defect or Test Issue Management Process |
-| Section 6.2.8 the names and contact details of the Authority’s and the Supplier’s Test representatives                                                              | 2.3 Key Testing Stakeholders                   |
-| Section 6.2.9 a high-level identification of the resources required for Testing, including facilities, infrastructure, personnel and Authority involvement in the conduct of the Tests | 8 Organisation and resources                   |
-| Section 6.2.10 any dependencies affecting the Testing, including reliance on third parties                                                                         | 1.1 Dependencies                               |
-| Section 6.2.11 any assumptions made by the Supplier that may have an impact upon Testing                                                                           | 12.3 General Assumptions                       |
-| Section 6.2.12 any perceived risks to Testing together with the impact of such risks and proposed methods of mitigation                                            | 12.2 Risk Management                           |
-| Section 6.2.13 the technical environments required to support the Tests                                                                                            | 9 Test Tools, Environments and Data            |
-| Section 6.2.14 the procedures for managing the configuration of the Test environments                                                                              | 10 Release and Configuration Management         |
 
 ### 1.2.2 Scope and Structure of the project 
 The objective of this project (Insert Project / Initiative Name) And include outline of the project objectives, with details of any images / process diagrams)
