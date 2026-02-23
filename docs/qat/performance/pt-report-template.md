@@ -2,7 +2,7 @@
 order: 7
 ---
 
-# Performance Test Execution Report
+# Performance Test Execution Report Template
 
 ## 1. Executive Summary
 ### 1.1 Purpose of the Test

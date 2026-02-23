@@ -28,7 +28,7 @@ This diagram provides the basic defect workflow with the relevant statuses:
 | **Triaged**         | Defect Manager or Test Lead or Initiative Lead             | Delivery or Agile Lead sets status to **“Triaged”** when the defect has been reviewed and *Priority* and *Severity* have been agreed. Status may be set to **“Closed”** when the defect is *Rejected* and *Root Cause* completed. | **“Back‑log”** / **“In‑progress”** / **“Closed”** or Any Status |
 | **Back‑log**        | Defect Manager or Test Lead or Initiative Lead             | Delivery or Agile Lead sets status to **“Backlog”** following a meeting with “Triaged”; the defect will not be fixed immediately.                                                                                                                                                                           | **“In‑progress”** / **“Closed”** or Any Status                  |
 
-* "Any Status" enables the Jira user to assign the defect and change the status without being forced through the standard workflow.
+\* The "Any Status" enables the Jira user to assign the defect and change the status without being forced through the standard workflow.
 
 Definition and Setting of Defect Priority And Severity
 Defect Priority:
@@ -44,7 +44,7 @@ Below are the guidelines that will be used to decide the Priority of the defects
 | **3**  | **Medium (P3)**   | • Group of tests stopped or blocked from execution<br>• Tests relate to non‑core functions or back‑end processing (e.g., batch processing)<br><br>**Example:** Single screen not working or available                                                                                                             | Fixed delivery in next sprint             |
 | **4**  | **Low (P4)**      | • Stops or blocks a handful of non‑core test cases from being executed<br>• Tests relate to very infrequently used or very low priority functionality<br><br>**Example:** Cosmetic issue (e.g., spelling on screen or documentation)                                                                                | Fix delivery optional                     |
 
-Defect Severity
+## Defect Severity
 
 The Severity of an issue is the measure of the impact the issue would have to UKHSA users or the UKHSA organization, if the code was in a Production environment.  The Severity of the defect does not change during the delivery of the initiative. Severity is set independent and separate from Priority.
 

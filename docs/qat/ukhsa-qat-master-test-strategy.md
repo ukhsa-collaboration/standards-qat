@@ -61,7 +61,7 @@ Next Review Date: Version Date + 1 year
 | Confluence | Insert link here |
 | SharePoint | Insert link here |
 
- <span style="color:red; font-weight:bold">The Sections below should be reviewed and included as part of a New Project / Initiative, as required</span>
+ <span style="color:red; font-weight:bold">The Sections below should be reviewed and included as part of a New Project or Initiative as required</span>
  
 ## 1.0 Introduction
 This Organisation Level Test Strategy is necessary to attain a common view on testing between all relevant stakeholders within the UKHSA.
@@ -982,7 +982,7 @@ At the completion of the project there should be a close-down of all activities.
 - All Jira tickets and tasks are closed down or reassigned
 - Lessons Learned meeting booked and actions captured
 - All project team resources rolled off
-- Test Closure report produced: See link for document template: Overall Test Closure Report - <Project Name/Initiative Name> <Version> - QAT - Confluence
+- Test Closure report produced
 
 ## 15. Appendix A - Acronyms & Definitions
 **Automated Testing:**  Dynamic testing undertaken using tools which automate the execution of a test script or technical process

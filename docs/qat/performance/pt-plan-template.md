@@ -2,6 +2,8 @@
 order: 6
 ---
 
+#Performance Test PLan Template
+
 ## 1. Introduction
 ### 1.1 Purpose
 Describe the purpose of the performance testing, including the specific non-functional requirements being validated.
@@ -16,14 +18,14 @@ State the main objectives of the performance testing, such as response time, thr
 List any documents, standards, or tools that will be referenced during the testing process.
 
 ## 2. System Overview
-2.1 System Description
+### 2.1 System Description
 Provide a high-level description of the system under test (SUT).
 
 ### 2.2 Architecture Diagram
 Include an architecture diagram to give a visual representation of the system components and their interactions.
 
 ## 3. Non-Functional Requirements
-### 3.1 Performance Requirements
+
 Response Time: Define the acceptable response time for different types of transactions.
 
 Throughput: Specify the required number of transactions per second, hour, or other time unit.
@@ -34,14 +36,7 @@ Scalability: Describe how the system should scale under increased load.
 
 Reliability: Specify uptime requirements and acceptable failure rates.
 
-### 3.2 Other Non-Functional Requirements
-Security: Mention any security requirements relevant to performance testing.
-
-Usability: Describe any usability metrics that need to be tested.
-
-Compliance: State any regulatory or compliance requirements.
-
-# 4. Test Environment
+## 4. Test Environment
 ### 4.1 Hardware
 Detail the hardware setup, including servers, network devices, and other infrastructure components.
 
