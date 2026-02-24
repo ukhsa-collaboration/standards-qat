@@ -3,13 +3,13 @@ order: 4
 ---
 # Performance Testing Approach, Planning, and Tooling Standards
 
-The performance test lead/team is responsible for developing the performance testing strategy and creating test plan documents based on the information provided by the project team. The test approach and test plan documents must be agreed upon with the relevant project stakeholders.
+The project's performance test team or nominated individual is responsible for developing the performance testing strategy and creating test plan documents based on the information provided by the project team. The test approach and test plan documents must be agreed upon with the relevant project stakeholders.
 
 ---
 
 ## Test Approach
 
-Based on the initial inputs from the project team, the Performance Testing Team will formulate a test approach document. At a minimum, this document should include:
+Based on the initial inputs from the project team, the Performance Test Team formulates a test approach document. At a minimum, this document should include:
 
 - Plan on a Page showing delivery timelines  
 - High level test objectives  
@@ -47,7 +47,7 @@ This test plan will be delivered with an accompanying walkthrough with all relev
 
 ## Test Cases Standards
 
-The NFT team will be responsible for setting up, managing, and storing the performance test cases. Test cases should be stored in Jira or another appropriate management tool and should be accessible to project stakeholders. All test cases should be peer‑reviewed by the PT team. Test case coverage should be documented, and out-of-scope details should be recorded in the PT exit report and agreed upon with the respective project stakeholders.
+The project performance test team will be responsible for setting up, managing, and storing the performance test cases. Test cases should be stored in Jira or another appropriate management tool and should be accessible to project stakeholders. All test cases should be peer‑reviewed by the PT team. Test case coverage should be documented, and out-of-scope details should be recorded in the PT exit report and agreed upon with the respective project stakeholders.
 
 Automated regression test pack creation and maintenance should be controlled via Git or another repository management tool and may include the following assets:
 
@@ -62,7 +62,7 @@ Automated regression test pack creation and maintenance should be controlled via
 ---
 ## Tools and Technologies
 
-The performance testing team utilise the approved performance test tools referenced further down this page. Suppliers are free to use whatever tool they see fit as long as it meets the requirements for test scenario complexity and results reporting. The supplier must, however, seek approval for the use of test tools within the UKHSA estate in the event that they are not in the approved list below.
+The QAT performance testing team utilise the approved performance test tools referenced further down this page. Suppliers are free to use whatever tool they see fit as long as it meets the requirements for test scenario complexity and results reporting. The supplier must, however, seek approval for the use of test tools within the UKHSA estate in the event that they are not in the approved list below.
 
 Approved UKHSA performance testing tools are:
 
