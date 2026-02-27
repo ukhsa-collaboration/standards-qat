@@ -71,7 +71,7 @@ CI/CD‑integrated performance testing embeds automated performance checks into 
 
 ### 4.2 Test Types
 | Test Type | Standalone | CI/CD |
-|-----------|------------|-------|
+| --------- | ---------- | ----- |
 | Load Test | ✔ Full load | ✔ Light load |
 | Stress Test | ✔ | ✖ Not suitable |
 | Soak / Endurance Test | ✔ | ✖ Too long |
