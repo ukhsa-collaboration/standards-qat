@@ -10,7 +10,7 @@ order: 7
 
 ### 1.2 Scope
 *Add scope here*
-### 1.3 Key Findings
+### 1.3 Executive Summary
 *Add key findings here*
 ### 1.4 Overall Assessment
 *Add assessment here*

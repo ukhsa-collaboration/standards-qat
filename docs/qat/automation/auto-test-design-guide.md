@@ -1,4 +1,4 @@
-# Automation Test Design & Standards
+# Automation Test Designs & Standards
 
 # Test Design Standards
 - Test Case Identification: Automate tests that are repetitive, time-consuming, or critical to UKHSA’s business processes.
