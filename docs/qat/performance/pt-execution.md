@@ -154,7 +154,7 @@ A mature performance engineering strategy combines both approaches.
 
 **Pull Request Stage**
 
-- 1–3 minute performance smoke test
+- 1 – 3 minute performance smoke test
 - Fail if latency increases more than a defined threshold
 
 **Nightly Build**
