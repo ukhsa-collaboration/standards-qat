@@ -1,9 +1,9 @@
 ---
-order: 6
 includeInBreadcrumbs: true
 eleventyNavigation:
-  parent: qat
+  parent: standards-qat
   key: performance
+order: 6
 ---
 
 # Performance Testing

@@ -1,4 +1,9 @@
 ---
+caption: QAT Standards
+includeInBreadcrumbs: true
+eleventyNavigation:
+  parent: home
+  key: standards-qat
 order: 1
 ---
 
