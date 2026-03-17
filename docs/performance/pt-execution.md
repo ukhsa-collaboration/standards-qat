@@ -1,4 +1,3 @@
-
 # Performance Testing: Standalone Execution vs CI/CD‑Integrated Execution
 
 Both UKHSA developed and supplier developed systems should be performance tested. The two key approaches to performance testing are defined below:
@@ -83,7 +82,7 @@ CI/CD‑integrated performance testing embeds automated performance checks into 
 ### 4.2 Test Types
 
 | Test Type | Standalone | CI/CD |
-| --------- | ---------- | ----- |
+| - | - | - |
 | Load Test | ✔ Full load | ✔ Light load |
 | Stress Test | ✔ | ✖ Not suitable |
 | Soak / Endurance Test | ✔ | ✖ Too long |
@@ -100,7 +99,7 @@ CI/CD‑integrated performance testing embeds automated performance checks into 
 ### 4.4 Execution Duration
 
 - **Standalone:** Hours to days
-- **CI/CD:** Seconds to ~20 minutes
+- **CI/CD:** Seconds to \~20 minutes
 
 ### 4.5 Observability
 

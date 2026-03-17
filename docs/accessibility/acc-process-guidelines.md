@@ -1,17 +1,20 @@
-
 # Accessibility Testing Guidelines
 
-## Test Requirements 
-Gathering requirements is a critical first step to ensure that the final product is fully compliant with accessibility standards. Every service is measured against the Web Accessibility Initiative’s (WAI) Web Content Accessibility Guidelines 2.2 (WCAG 2.2) to give accurate feedback on any non-conforming issues. To confirm conformance with WCAG 2.2, all A and AA criteria must be achieved. 
+## Test Requirements
+
+Gathering requirements is a critical first step to ensure that the final product is fully compliant with accessibility standards. Every service is measured against the Web Accessibility Initiative’s (WAI) Web Content Accessibility Guidelines 2.2 (WCAG 2.2) to give accurate feedback on any non-conforming issues. To confirm conformance with WCAG 2.2, all A and AA criteria must be achieved.
 
 Please refer to the WCAG Compliance section for a detailed overview of the A, AA, and AAA levels
 
 Test team must create and maintain a Requirements Traceability Matrix (RTM) at this stage to ensure clear and efficient tracking of requirements throughout the testing process
-Any deviations from the accessibility requirements should be documented, and the relevant approvals must be obtained. These approvals should then be shared with the UKHSA QA manager during the document review stage to ensure transparency and accountability. This process helps maintain compliance with accessibility standards while allowing for informed decision-making when exceptions are necessary 
+Any deviations from the accessibility requirements should be documented, and the relevant approvals must be obtained. These approvals should then be shared with the UKHSA QA manager during the document review stage to ensure transparency and accountability. This process helps maintain compliance with accessibility standards while allowing for informed decision-making when exceptions are necessary
 
 ## Test Design and Case Creation
+
 - Accessibility requirements must be translated into test cases that are clear, traceable, and cover all specified behaviors.
+
 - Test cases should undergo a peer review by another test team member or the test lead to ensure adequate coverage. Additionally, they should be reviewed and approved by the relevant project stakeholders including UKHSA QA manager prior to the start of test execution.
+
 - Each test case should include the following sections
   - Test Case ID
   - Test Case Title/Name
@@ -21,20 +24,23 @@ Any deviations from the accessibility requirements should be documented, and the
   - Test Steps
   - Expected Result
   - Actual Result
-  - Priority 
+  - Priority
 
 - The Requirements Traceability Matrix (RTM) should be updated with the corresponding Test Case IDs to ensure proper alignment between requirements and test cases
+
 - We recommend utilizing the JIRA-XRAY tool for effective test management. (Please visit our internal page for more information about Jira test management)
 
-## Test Execution and Reporting 
-- Test team must document and report all test results, including passed, failed, and blocked test cases with the appropriate screen shots  
+## Test Execution and Reporting
+
+- Test team must document and report all test results, including passed, failed, and blocked test cases with the appropriate screen shots
 - Defects should be logged in a tracking system and classified by severity and priority.
 - Provide regular status reports and test summary reports to the project management as defined in the test plan document.
 - Test cases that do not pass during testing must be documented in the Test Exit Report, along with relevant justifications and approvals from the respective project stakeholders along with UKHSA QA manager
-- We recommend to use JIRA-XRAY plug in for the test management activities 
+- We recommend to use JIRA-XRAY plug in for the test management activities
 
 ## Accessibility Testing Processes and Tools
-To provide a more accurate evaluation of the webpages, we have employed three distinct testing processes that must be followed 
+
+To provide a more accurate evaluation of the webpages, we have employed three distinct testing processes that must be followed
 
 - Must use of automated tools (BrowserStack, and WAVE Scan)
 - Dedicated tester, manually testing specific criteria and using assistive technology.
@@ -44,12 +50,13 @@ The findings of these testing processes are then combined to provide comprehensi
 
 Tools and techniques used to test each success criteria are provided below from our recent experience on UKHSA projects, but a tester should be have the required level of understanding and be supported by:
 
-[Testing for accessibility - Service Manual - GOV.UK](https://www.gov.uk/service-manual/helping-people-to-use-your-service/testing-for-accessibility)
-[Understanding WCAG 2.2 | WAI | W3C](https://www.w3.org/WAI/WCAG22/Understanding/)
-[Home · alphagov/wcag-primer Wiki · GitHub](https://github.com/alphagov/guide-to-wcag/wiki)
+[Testing for accessibility - Service Manual - GOV.UK][1]
+[Understanding WCAG 2.2 | WAI | W3C][2]
+[Home · alphagov/wcag-primer Wiki · GitHub][3]
 
 ### WCAG Compliance Test cases
-| Test_ID | WCAG Level | Success Criteria | Description |
+
+| Test\_ID | WCAG Level | Success Criteria | Description |
 | - | - | - | - |
 | 1 | A | **1.1.1 - Non-text Content** | Provide text alternatives for non-text content. Exceptions: controls, time‑based media, tests, sensory content, decoration. Applicable to images, SVGs, background images, icons, video, audio, multimedia, animation, CAPTCHAs. Verification: (a) alt/aria-label/longdesc; (b) decorative = aria-hidden="true". |
 | 5 | A | **1.3.1 - Info and Relationships** | Logical structure must match visual structure. Headings, links, tables, lists, buttons must use semantic HTML or correct ARIA. Correct ARIA roles. Tables must not have empty cells. Forms must have proper labels or aria-labelledby. |
@@ -83,3 +90,7 @@ Tools and techniques used to test each success criteria are provided below from 
 | 51 | AA | **3.2.4 - Consistent Identification** | Icons and components with the same function must be visually consistent. |
 | 55 | AA | **4.1.3 - Status Changes** | Dynamic changes must be announced to assistive tech without requiring focus. |
 | 13 | A | **2.2.1 - Timing Adjustable** | Time limits must be adjustable (extend, turn off). Exceptions: real‑time events, essential timing, >20 hours. |
+
+[1]: https://www.gov.uk/service-manual/helping-people-to-use-your-service/testing-for-accessibility
+[2]: https://www.w3.org/WAI/WCAG22/Understanding/
+[3]: https://github.com/alphagov/guide-to-wcag/wiki

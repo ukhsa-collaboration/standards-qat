@@ -1,6 +1,7 @@
 # Automation Test Designs & Standards
 
 # Test Design Standards
+
 - Test Case Identification: Automate tests that are repetitive, time-consuming, or critical to UKHSA’s business processes.
 - Test Case Structure: Each test case should have a clear objective, setup, execution steps, and validation, structured according to the POM.
 - Data-Driven Testing: Separate test logic from test data to enable reusability and flexibility.
@@ -15,7 +16,7 @@
   - Use clear, descriptive names for test cases, methods, classes, variables, and test scripts.
   - Avoid abbreviations.
 
----
+***
 
 ## Flexible and Portable Test Structure
 
@@ -42,7 +43,7 @@
   - Keep test logic and data separate.
   - Makes scripts easier to modify when data changes.
 
----
+***
 
 ## Readability and Commenting
 
@@ -55,10 +56,10 @@
   - Add meaningful comments to explain complex logic.
   - Do **not** over‑comment trivial code.
   - Comments should explain **why**, not what.
-  - Example:  
+  - Example:\
     `# This function verifies the login functionality using valid credentials.`
 
----
+***
 
 ## Error Handling and Assertions
 
@@ -78,7 +79,7 @@
   - Ensure cleanup always executes (even on failure).
   - Use teardown hooks or `finally` blocks.
 
----
+***
 
 ## Script Independence
 
@@ -93,7 +94,7 @@
 - **Containerised or Cloud Execution**
   - Use start and teardown steps or Docker/container workflows for CI/CD pipelines.
 
----
+***
 
 ## Avoid Hardcoding
 
@@ -108,7 +109,7 @@
     - CSV
     - Properties files
 
----
+***
 
 ## Performance and Optimisation
 
@@ -126,7 +127,7 @@
   - Avoid fixed sleeps like `Thread.sleep()`.
   - Implement retry mechanisms for flaky elements.
 
----
+***
 
 ## Test Reporting
 
@@ -146,7 +147,7 @@
     - Assertions
     - Exceptions
 
----
+***
 
 ## Test Data Management
 
@@ -172,11 +173,14 @@
     - Production-like environments
 
 ## Test Reporting
+
 - Reporting Mechanism
   - Ensure that tests produce detailed and consistent reports. Use built-in reporting tools or integrate with third-party tools (e.g., Allure, Extent Reports, Jenkins reports).
   - Screenshots on Failure- Capture screenshots upon test failures, particularly for UI testing. This helps with diagnosing what went wrong.
   - Logs-Use logging frameworks to add logs for actions taken, assertions made, and exceptions encountered. Ensure logs are clear and provide enough detail for debugging.
+
 ## Test Data Management
+
 - Data Sources: Identify and use consistent data sources for testing (e.g., databases, flat files) while ensuring they are applicable across mobile, web, and API tests.
 - Data Security: Ensure test data is anonymised and does not contain sensitive information, adhering to UKHSA data protection policies.
 - Data Consistency: Maintain consistency between the test data used in automated scripts and the data in the AUT.
