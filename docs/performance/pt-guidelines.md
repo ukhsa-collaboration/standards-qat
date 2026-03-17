@@ -1,6 +1,7 @@
 ---
 order: 4
 ---
+
 # Performance Testing Plannning, Documentation & Tooling
 
 Where the QAT NFT team is engaged to deliver training the test artefacts listed below will be created and maintained by the NFT team. At each stage of the process the documents and test assets will be reviewed and agreed with all stakeholders where necessary. Where the performance testing is to be delivered by the project or supplier the artefacts listed below must be presented to and agreed with the QAT NFT team as well as the relevant stakeholders
@@ -12,7 +13,7 @@ Regardless of who executes the performance testing the following assets must be 
 - Performance Test Cases
 - Performance Test Execution Report
 
----
+***
 
 ## Non-functional Requirements Traceability Matrix
 
@@ -20,26 +21,26 @@ A matrix detailing NFRs against which the delivery must be judged should be crea
 
 ## Performance Test Plan
 
-The test plan document should be built based on the details from the architectural design and infrastructure hosting, monitoring design, business design documentation, and production metrics.  
+The test plan document should be built based on the details from the architectural design and infrastructure hosting, monitoring design, business design documentation, and production metrics.\
 The standard content for a PT plan document should include:
 
-- Functional paths to be exercised (test cases)  
-- Types of test to be run (peak/soak/step/stress)  
-- Volumetric to be applied to the system under test during the abovementioned tests  
-- Monitoring approach  
-- Reporting format and reporting deliverables  
-- Necessary stubs and drivers  
-- Test data requirements and management  
+- Functional paths to be exercised (test cases)
+- Types of test to be run (peak/soak/step/stress)
+- Volumetric to be applied to the system under test during the abovementioned tests
+- Monitoring approach
+- Reporting format and reporting deliverables
+- Necessary stubs and drivers
+- Test data requirements and management
 - Non-functional requirements coverage
-- Environment comparison  
-- User access requirements  
-- Caveats and dependencies  
-- Test entry and exit criteria  
-- Defect management approach  
+- Environment comparison
+- User access requirements
+- Caveats and dependencies
+- Test entry and exit criteria
+- Defect management approach
 
 This test plan will be delivered with an accompanying walkthrough with all relevant stakeholders.
 
----
+***
 
 ## Test Case Standards
 
@@ -47,15 +48,16 @@ The project performance test team will be responsible for setting up, managing, 
 
 Automated regression test pack creation and maintenance should be controlled via Git or another repository management tool and may include the following assets:
 
-- **Test Scripts:** Test cases built into complete scenarios using JMeter or other relevant tools.  
-- **Test Data:** Data files used for testing.  
-- **Configuration Files:** Settings and configuration files for the test environment.  
-- **Documentation:** Documentation related to the test cases and their execution.  
-- **Test Results:** Logs and reports generated from test executions.  
-- **Libraries/Dependencies:** External libraries or dependencies required for the tests.  
-- **Version Control:** History of changes and versioning information for test assets.  
+- **Test Scripts:** Test cases built into complete scenarios using JMeter or other relevant tools.
+- **Test Data:** Data files used for testing.
+- **Configuration Files:** Settings and configuration files for the test environment.
+- **Documentation:** Documentation related to the test cases and their execution.
+- **Test Results:** Logs and reports generated from test executions.
+- **Libraries/Dependencies:** External libraries or dependencies required for the tests.
+- **Version Control:** History of changes and versioning information for test assets.
 
----
+***
+
 ## Test Reporting Standards
 
 The **Test exit Report** should be distributed to the relevant project stakeholders and should contain the following sections:
@@ -64,7 +66,7 @@ The **Test exit Report** should be distributed to the relevant project stakehold
 - A report of test outcomes including passed, failed and errored transactions
 - Evidence of transactions having made the full end-to-end journey e.g. marrying up front end injected volumes with back-end database counts
 - A mapping of results back to the NFRs and a statement of conformance or otherwise
-- Identification of issue which were noted during testing which were not covered by NFRs bit which warrant calling attention to 
+- Identification of issue which were noted during testing which were not covered by NFRs bit which warrant calling attention to
 - Deviations from planned
 - A comprehensive list of the defects raised or changed as part of the test execution
 - A list of risks and issues raised off the back of the test execution

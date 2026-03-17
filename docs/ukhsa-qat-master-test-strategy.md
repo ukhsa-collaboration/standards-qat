@@ -21,15 +21,15 @@ Next Review Date: Version Date + 1 year
 **The latest version of this document is stored electronically. Any printed copy is an uncontrolled copy for reference or training purposes only.**
 
 | Version | Version Date | Modified By | Revisions |
-| ------ | ------------- | ----------- | --------- |
-| 0.1     | 07/02/2025    |             | The text is an example of Master Test Strategy<br><br>**(Insert Version / Revision purpose)** |
-|        |               |             |           |
-|        |               |             |           |
-|        |               |             |           |
-|        |               |             |           |
+| - | - | - | - |
+| 0.1 | 07/02/2025 | | The text is an example of Master Test Strategy<br><br>**(Insert Version / Revision purpose)** |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
 
 | Name | Role/Organization | Date | Comment |
-| ---- | ----------------- | ---- | ------- |
+| - | - | - | - |
 | | Project Manager | | |
 | | Test Manager | | |
 | | OAT Manager | | |
@@ -39,31 +39,32 @@ Next Review Date: Version Date + 1 year
 ## Approvers List
 
 | Name | Role/Organization | Date | Comment |
-| - | -                 | -    | -       |
-| Project Manager |                   |      |         |
-| Test Manager |                   |      |         |
-| QAT Manager |                   |      |         |
-| <Insert Name of approver> |                   |      |         |
+| - | - | - | - |
+| Project Manager | | | |
+| Test Manager | | | |
+| QAT Manager | | | |
+| <Insert Name of approver> | | | |
 
 ## Distribution List
 
-| Organization | Role               | Name                         |
-| -            | -                  | -                            |
-|              | Programme Manager  | <Insert Name of Distributor> |
-|              | Delivery Manager   |                              |
-|              | Test Manager       |                              |
-|              | QAT Manager        |                              |
-|              | Business Analyst   |                              |
-|              | Business Readiness |                              |
+| Organization | Role | Name |
+| - | - | - |
+| | Programme Manager | <Insert Name of Distributor> |
+| | Delivery Manager | |
+| | Test Manager | |
+| | QAT Manager | |
+| | Business Analyst | |
+| | Business Readiness | |
 
 ## Location
 
-| Confluence | Insert link here |
-| SharePoint | Insert link here |
+\| Confluence | Insert link here |
+\| SharePoint | Insert link here |
 
- <span style="color:red; font-weight:bold">The Sections below should be reviewed and included as part of a New Project or Initiative as required</span>
- 
+<span style="color:red; font-weight:bold">The Sections below should be reviewed and included as part of a New Project or Initiative as required</span>
+
 ## 1.0 Introduction
+
 This Organisation Level Test Strategy is necessary to attain a common view on testing between all relevant stakeholders within the UKHSA.
 
 Testing is an independent assessment of the state of the functionality and the achieved quality of the product.  Specifically, the Build or Development team is responsible for the state of the quality of the product.
@@ -72,13 +73,16 @@ The key benefit of the successful implementation of this test strategy is to fac
 
 This strategy advises a consistent test approach; aligned to both any Third-Party Statement of Work (SOW), Testing Procedures) and industry best practice, which is to be adopted by UKHSA projects/initiatives.
 
-## 1.1 Scope 
+## 1.1 Scope
+
 This document provides a high-level guide to the test process and practices.
 
 The strategy is applicable to the delivery of all new solutions and systems (projects) as well as the enhancement or change of existing solutions and systems (BAU) managed under the UKHSA Contract.
 
 ## 1.2 Purpose of this document
+
 ### 1.2.1 Document Aims
+
 This Test Strategy aims to:
 
 - Attain a common view
@@ -87,10 +91,12 @@ This Test Strategy aims to:
 - Establish the foundation for software testing
 - Details the implementation of the testing process and methodology
 
-### 1.2.2 Scope and Structure of the project 
+### 1.2.2 Scope and Structure of the project
+
 The objective of this project (Insert Project / Initiative Name) And include outline of the project objectives, with details of any images / process diagrams)
 
 ## 1.3 Document Objective
+
 The objective of this document is to ensure that the following principles are applied with consistency to the full testing lifecycle:
 
 Reduce risk – releasing untested or under tested software, missing important faults and incurring failure costs
@@ -118,10 +124,13 @@ Design for testing – design and development of a product supports the ability 
 Use tools for specific advantage – test tools are used where appropriate, and for every tool used, the benefits will be understood and agreed in advance
 
 ## 2.0  Governance
+
 ## 2.1 Organization Level Test Strategy Sponsorship
+
 This Test Strategy is sponsored by the UKHSA Head of Quality Assurance and Testing
 
 ## 2.2 Master Test Strategy Implementation, Assurance and Maintenance
+
 The UKHSA Test Manager is accountable for the implementation of this Test Strategy and ensuring that it is properly and consistently implemented across the delivery of all new solutions, systems and enhancements.
 
 All UKHSA testers, including 3rd parties and test partners are responsible for the implementation and adherence to this Test Strategy.
@@ -133,18 +142,21 @@ The UKHSA Test Manager is accountable and responsible for maintaining this Test 
 Insert specific project / initiative Governance as required.
 
 ## 3.0  Test Method and Test Deliverables
+
 This Test Strategy drives the Project Master Test Plan and Test Level Test Plan documents. The following table shows the key deliverables with the high-level content expectations of those deliverables.
 
-![Workflow Diagram](./img/teststrategysequence.PNG)
+![Workflow Diagram][1]
 
 Table 3‑1 Test Method
 
 Every project requires a Project Master Test Plan document. If the project delivery is phased; there may be a Master Test Plan document per phase or release. This document is produced during the early stages of the project lifecycle while the system requirements and high-level design are being finalized. It facilitates the forward planning of test environments, facilities, resources and also details the test schedule including the resource profile and test dependencies.
 
-Test Level Test Plans are required for each test level within every project or phase of project; they are detailed documents that describe the testing scope, dependencies and schedule. They contain the test specification. 
+Test Level Test Plans are required for each test level within every project or phase of project; they are detailed documents that describe the testing scope, dependencies and schedule. They contain the test specification.
 
 ## 4.0  Test Overview & Test Levels
+
 ## 4.1 Test Approach
+
 The test approach to be taken for delivery of all new solutions and systems as well as the enhancement or change of existing solutions and systems is to:
 
 - focus on the risks – risk-based test approach
@@ -158,6 +170,7 @@ The test approach to be taken for delivery of all new solutions and systems as w
 A Test Coverage Matrix will be used to trace requirements and solution design elements to tests.
 
 ## 4.2 Traceability is important because:
+
 - It facilitates risk-based testing by using the risk and priority levels assigned to each requirement to drive the test approach
 - It facilitates easy identification of tests to be executed when a requirement changes
 - It facilitates easy identification of functional areas when tests fail unexpectedly
@@ -168,9 +181,10 @@ Where possible it will be recommended that the test coverage matrix is captured 
 - Risk Based Test Approach
 
 ## 4.3 Project Risk
+
 Project risk is the possibility that an event will endanger the project; these are risks associated with events that could delay the test plan. For example: late delivery of dependencies, test environment issues, defect fix quality or turn-around time, environment system admin support.
 
-The Project Test Team will carry out a project risk analysis, identifying risks and assigning likelihood and impact. 
+The Project Test Team will carry out a project risk analysis, identifying risks and assigning likelihood and impact.
 
 The risks are to be prioritized and decisions made on the various mitigation actions or workarounds.
 
@@ -190,7 +204,7 @@ In addition, testing is usually subjected to time pressures that come with being
 
 Therefore, the Project Test Team must apply techniques to balance risk with quality, features, budget, and schedule, allowing decision to be made about the scope of testing, taking into consideration project risk appetite & stakeholder agreement.
 
-A risk-based test approach will be used for all projects in the UKHSA. The level of acceptable risk is determined during each project.  
+A risk-based test approach will be used for all projects in the UKHSA. The level of acceptable risk is determined during each project.
 
 This Risk Based Testing approach assumes that not all functionality in a System can be or should be tested.  Therefore, the testing will be driven by the priority and risk level of the linked requirement(s) or design element. This will ensure testing is focused on the areas of the solution that are most likely to fail and where failure would have the greatest business impact.
 
@@ -214,7 +228,7 @@ The requirement priority will drive:
 - business impact of requirement failing (assessed by business)
 - priority e.g. MoSCoW
 
- **Else**
+**Else**
 
 - Requirements are assessed for technical risk and business impact and assigned a priority (P1 to P4)
 - the risk & priority assessment drives:
@@ -228,6 +242,7 @@ The requirement priority will drive:
 - Group exit criteria (# of outstanding defects and # incomplete tests) by associated requirement priority
 
 ## 4.4 Early Engagement and Static Testing
+
 The test process will focus on finding defects as soon as possible after they are introduced. This is to minimize the cost associated with resolution in later test levels.
 
 Many defects found during test execution and in production are often found to have a root cause in requirements; in that the requirements are ambiguous, inconsistent, or incomplete. These requirements are then wrongly interpreted in the design and later the code. Requirements and Design Ambiguity Testing (RDAT) is a formal verification process that assesses the system requirements in conjunction with the design. This process facilitates the discovery of defects as early as possible in the development lifecycle when they are cheaper to fix.
@@ -242,7 +257,7 @@ Requirements and Design Ambiguity will be applied using a formal verification pr
 - Testability
 - Correctness
 
-**See Appendix B**   for a detailed list of assessment criteria. 
+**See Appendix B**   for a detailed list of assessment criteria.
 
 Any ambiguities or defects will be formally captured and used to provide the Test Manager and UKHSA project stakeholders with a quantifiable assessment of the quality of the Requirements phase. The distribution of ambiguities or defects will be reported across Severity, Status and Quality Attribute.
 
@@ -250,20 +265,22 @@ This activity will be carried out by experienced testers, the technique capitali
 
 The diagram below shows the recommended early involvement with the Requirements and Design Ambiguity Testing being undertaken during the requirements and design stages of the project.
 
-![Workflow Diagram](./img/engagement.png)
+![Workflow Diagram][2]
 
 Consideration will also be given in the Projects Master Test Plan should reviews be worthwhile of other early work products, for example Early prototypes, screen designs, components, and sub-units of the final deliverables.
 
 ## 4.5 Project Lifecycle Integrations
+
 At the time of writing the UKHSA Project Delivery Lifecycle and gating process is not available.
 
 The diagram below depicts typical alignment of the test process to the project lifecycle, showing the correlation between the Project Management Process stages, and the test activities.  Test Execution activity is broken down into Test Levels.
 
-![Workflow Diagram](./img/projectlifecycle.png)
+![Workflow Diagram][3]
 
 Table 4‑1 – Project Lifecycle Integration
 
 ## 4.6 Standard Test Level Descriptions
+
 This section describes the industry standard and best practice test levels to be addressed by a Project Master Test Plan.
 
 It outlines the main responsibilities for each test level, the projects assets used as the basis for testing and the object types that may be subject to test.
@@ -274,8 +291,6 @@ These levels of testing are applicable to traditional (v-model / waterfall), ite
 
 Modify table below and include project / initiative be-poke test phases as required
 
-
-
 Table 4‑2 Standard test Level Descriptions
 
 | Test Level | Test Level Strategy Description | Owner | Test Objectives | Technique | Product deliverables |
@@ -285,12 +300,12 @@ Table 4‑2 Standard test Level Descriptions
 | System Functional | System testing is concerned with the functional requirements of the system as a whole. It includes end‑to‑end functional tests based on the requirements contained in the approved solution design documentation.<br>Note: UFD, LLD, and Acceptance Security will be maintained as testable scenarios. | Project Test Team | Ensure the application is built in line to functional and non‑functional requirements defined within detailed design documentation. | Test cycles with full system functionality executed to verify:<br>- Business workflows<br>- End‑to‑end requirements<br>- Logging and issues identified from the test in triage process<br>- Verification of confirmation screens upon defect fix | Test Pack documentation<br>Functional Test Completion report |
 | System Non‑Functional | System non‑functional test verifies non‑functional requirements for the system environment:<br>- Performance<br>- Usability<br>- Accessibility<br>- Security<br>- Data quality characteristics<br>- Resilience<br>- On‑concurrency<br>- Compatibility | Project Test Team | Ensure the application is tested in the non‑functional areas as documented in the detailed design documentation. | Non‑functional system test execution based on specification and:<br>- Performance and load testing<br>- Accessibility compliance reports<br>- Usability test results<br>- Logging and issues identified from the triage process<br>- Verification of confirmation screens upon defect fix | As per workstream maturity<br>Refer to the corresponding functional/non‑functional test approaches |
 | System Integration Testing | The focus is on the integration itself and the interactions / communication between different systems, not the functionality of the individual systems: this is done during system testing.<br><br>It typically comes after system testing or in some large-scale integrations after acceptance testing of individual systems.<br><br>It may include specific non-functional characteristics such as performance, as well as functional testing | Project Test Team | Ensure the application is built to the solution functional requirements and specifically as documented in the detailed interface design documentation | Test scripts are built around architecture, interface specifications and requirements, i.e., how are the systems required to interact<br><br>Workflow between systems can be a basis for tests<br><br>The approach to testing is driven by the availability of interface to other platforms or systems:<br>- Big Bang approach (all components available). Integration sequence is top down.<br>- Incremental approach (drivers and stubs). Integration sequence is risk dependent<br><br>Regression testing should be included<br><br>Logging test issues (defects) in a tool to track them to closure<br><br>Perform confirmation tests upon defect fixes | Test Plan document<br>Test plan schedule<br>Test coverage matrix (against requirements)<br>Test conditions and scripts<br>Test Execution evidence<br>Test issues (defects)<br>Test execution reports<br>Defect reports<br>End of test level report |
-| Acceptance | The goal of acceptance testing is to establish confidence in the system and its readiness for deployment. Its focus is not to find defects but to validate the system’s operation against the original requirements.<br><br>Acceptance can be progressive and therefore occur at various times in the build and test phase. It can also take different forms:<br><br>Security Acceptance: penetration testing of solution and/or underlying infrastructure<br><br>**Operational Acceptance by service delivery may include:<br><br>Testing of backup/restore<br>Load Resilience<br>Disaster Recovery<br>Monitoring and Alerting<br>User Management<br>Data Load and Migration<br>Checks for security vulnerabilities<br>Operational Readiness / Business Process testing of the system in conjunction with supporting business processes<br><br>User Acceptance Testing typically verifies the system’s fitness for use by business users | UKHSA Service Delivery Organisation<br><br>UKHSA Test Mgr. | To establish confidence in the operation of the system | Testing is based upon real life operational scenarios and the non-functional requirements<br><br>Logging test issues (defects) in a tool to track them to closure<br><br>Perform confirmation tests upon defect fixes | Test Plan document(s)<br>Test plan schedule<br>Test coverage matrix (against requirements)<br>Test conditions and scripts<br>Test Execution evidence<br>Test issues (defects)<br>Test execution reports<br>Defect reports<br>End of test level report(s) |
+| Acceptance | The goal of acceptance testing is to establish confidence in the system and its readiness for deployment. Its focus is not to find defects but to validate the system’s operation against the original requirements.<br><br>Acceptance can be progressive and therefore occur at various times in the build and test phase. It can also take different forms:<br><br>Security Acceptance: penetration testing of solution and/or underlying infrastructure<br><br>\*\*Operational Acceptance by service delivery may include:<br><br>Testing of backup/restore<br>Load Resilience<br>Disaster Recovery<br>Monitoring and Alerting<br>User Management<br>Data Load and Migration<br>Checks for security vulnerabilities<br>Operational Readiness / Business Process testing of the system in conjunction with supporting business processes<br><br>User Acceptance Testing typically verifies the system’s fitness for use by business users | UKHSA Service Delivery Organisation<br><br>UKHSA Test Mgr. | To establish confidence in the operation of the system | Testing is based upon real life operational scenarios and the non-functional requirements<br><br>Logging test issues (defects) in a tool to track them to closure<br><br>Perform confirmation tests upon defect fixes | Test Plan document(s)<br>Test plan schedule<br>Test coverage matrix (against requirements)<br>Test conditions and scripts<br>Test Execution evidence<br>Test issues (defects)<br>Test execution reports<br>Defect reports<br>End of test level report(s) |
 
-
-**  Operational Acceptance – The Oracle Cloud Platform is managed by Oracle, as this programme is subscribing to this platform the actual test execution allowed by customers is dependent on the subscription service. For example, Security and Penetration Testing is not allowed against Oracle Software as a Service (SaaS) Cloud, there are also varying restrictions and rules of engagement on Platform as a Service (PaaS) and Infrastructure as a Service (IaaS). Once the design documents are available describing which system releases are hosted on the different platforms, the Master and/or Level Test Plans will provide more details on which areas require tests by this programme
+\*\*  Operational Acceptance – The Oracle Cloud Platform is managed by Oracle, as this programme is subscribing to this platform the actual test execution allowed by customers is dependent on the subscription service. For example, Security and Penetration Testing is not allowed against Oracle Software as a Service (SaaS) Cloud, there are also varying restrictions and rules of engagement on Platform as a Service (PaaS) and Infrastructure as a Service (IaaS). Once the design documents are available describing which system releases are hosted on the different platforms, the Master and/or Level Test Plans will provide more details on which areas require tests by this programme
 
 ### 4.6.1 Performance Testing
+
 Performance Testing is a ‘Test Type’ rather than a Test Level but depending upon the requirements and risk can warrant its own Test Level Plan. Performance testing is a type of testing that is performed, from one perspective, to determine how fast some aspect of an application/system performs under a particular workload. It can also serve to validate and verify other quality attributes of the system, such as scalability, reliability, and resource usage.
 
 The performance test in scope for each UKHSA project will be determined by the requirements and/or the risk of performance failure.  For example, if the system under test has business critical response times and includes a significant increase in load which has not been seen previously in similarly architected system, then performance testing should be included in the requirements.
@@ -309,7 +324,6 @@ Common Performance Testing Sub-Genres:
 
 Further to this there is also the area of ETL testing which can incorprate any of the above test types.
 
-
 **Load Testing**
 
 This is the simplest form of performance testing. A load test is usually conducted to understand the behavior of the application under a specific expected load. This load can be the expected concurrent number of users on the application performing a specific number of transactions within the set duration. This test will give out the response times of all the important business critical transactions. If the database, application server, etc. are also monitored, then this simple test can itself point towards any bottlenecks in the application software.
@@ -327,6 +341,7 @@ This test is usually done to determine if the application can sustain the contin
 ETL performance testing is designed to ensure that the system under test can process data through to the end state within the timeframes stipulated for the job at the defined volumetric whilst remaining stable and not erroring.
 
 ### 4.6.2 Penetration Testing
+
 Penetration Testing is a ‘Test Type’ rather than a Test Level but depending upon the requirements and risk can warrant its own Test Level Plan.
 
 A Penetration Test, is an authorized simulated attack on a computer system, performed to evaluate the security of the system. The test is performed to identify vulnerabilities, including the potential for unauthorized parties to gain access to the system's features and data, as well as strengths.
@@ -344,17 +359,16 @@ They will undertake:
 - Plan and organize Penetration Testing with the Authority for any existing externally facing Services or Infrastructure which are due or past an annual Penetration Test
 
 ### 4.6.3 Approach to Accessibility Testing
+
 Compliance with UKHSA Accessible Digital Standards. As per Section 6.1 (copied below)
 
 UKHSA and their Suppliers shall comply with (or with equivalents to):
 
- 
+the World Wide Web Consortium (W3C) Web Accessibility Initiative (WAI) Web Content Accessibility Guidelines (WCAG) 2.2 Conformance Level AA; and
 
- the World Wide Web Consortium (W3C) Web Accessibility Initiative (WAI) Web Content Accessibility Guidelines (WCAG) 2.2 Conformance Level AA; and
+ISO/IEC 13066-1: 2011 Information Technology – Interoperability with assistive technology (AT) – Part 1: Requirements and recommendations for interoperability.
 
- ISO/IEC 13066-1: 2011 Information Technology – Interoperability with assistive technology (AT) – Part 1: Requirements and recommendations for interoperability.
-
- Technology deliveries should ensure the above standards are inherent in all development with both above standards used as a guideline to benchmark development of Technology applications.
+Technology deliveries should ensure the above standards are inherent in all development with both above standards used as a guideline to benchmark development of Technology applications.
 
 Any specific tools and their versions to be included in testing should be documented as non-functional requirements for traceability. As well as determining the tools to be included it may also be necessary to consider the method of access/type of device/browser version in some instances. Some devices may include inherent accessibilities tools.
 
@@ -363,12 +377,12 @@ Accessibility should be considered from the outset in design principles. Where a
 To ensure robust testing of assistive technologies it is suggested that the use of tooling is limited to early development phases and that manual and assistive Technology users with appropriate devices where possible partake in User Acceptance Tests.
 
 ### 4.6.4 Equality and Diversity
+
 Taking into account the contractual schedule (40.3 copied below) requirements will need to be documented within the requirements for the relevant delivery. This will include (but is not limited to): Assistive Technology Requirements, Standards, Welsh Language, Foreign Language, Print Solutions etc.
 
 The Master Test Plans for the relevant delivery must include this area within its scope or out of scope section.
 
 UKHSA and their Suppliers shall:
- 
 
 - perform its obligations under this Agreement (including those in relation to the Services) in accordance with:
 
@@ -381,37 +395,40 @@ UKHSA and their Suppliers shall:
 - take all necessary steps, and inform the Authority of the steps taken, to prevent unlawful discrimination designated as such by any court or tribunal, or the Equality and Human Rights Commission or (any successor organisation).
 
 ## 5.0   Test Readiness and Assurance Process
+
 ## 5.1 Test Deliverable Sign-Off Procedure
+
 The table below identifies all the test documentation types that will be delivered to UKHSA Test Assurance during the testing and shows the trigger points for derived delivery dates.
 
 **Table 5-1**
-| Title                                   | Description                                                                                                                                                            | Schedule                                                                                          |
-| --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
-| Test Strategy                           | Defines the testing/validation approach across all UKHSA projects                                                                                                      | Day 1                                                                                             |
-| Project Master Test Plan(s)             | Test plan(s) to test the specific areas in scope across Projects                                                                                                       | Due 20 business days prior to the start of test execution for that test phase                     |
-| Test Level Test Plan                    | For larger projects that have multiple test phases (e.g., System Test, SIT, UAT)                                                                                       | Due 20 business days prior to the start of test execution for that test phase                     |
-| Test Scripts                            | Test Scripts written based on requirements and design used to validate solution/process/deliverable. Testing Results will be added to the Test Scripts | Due 10 business days prior to the start of test execution for that test phase                     |
-| Test Readiness Review                   | Successful completion of the Test Readiness Review                                                                                                                     | Commence 1 week before execution activities for given test phase                                  |
-| Test Issue Management Process           | Defined reporting and management of defects and issues raised during test/validation activities                                                                        | To be defined as part of project                                                                  |
-| Test Issue Tracker, Issues Log & Summary | Status and up‑to‑date comments of the reported defects raised via the defect management process, by individual Projects                                               | Produced at the agreed frequency stated in the Test Plan (daily)                                  |
-| Project Test Status Report              | Individual Project Status Reports on Testing Progress of the agreed scope                                                                                              | Produced at the agreed frequency stated in the Test Plan (daily)                                  |
-| Test Tracking Metrics                   | Tracking test progress details across Projects                                                                                                                         | Daily from commencement of Test Planning                                                          |
-| Test Completion Reports                 | Collated view of all testing metrics summarised showing the outcome of testing and recommendations gated reviews – by individual Projects                              | Due 5 days after the completion of testing for each test phase                                    |
-| Final Operational Readiness Review      | Completed review of all testing undertaken and overall view of service Readiness demonstrating the status of all Project Testing, and any corrective actions required | Due 1 week prior to ORR                                                                           |
+
+| Title | Description | Schedule |
+| - | - | - |
+| Test Strategy | Defines the testing/validation approach across all UKHSA projects | Day 1 |
+| Project Master Test Plan(s) | Test plan(s) to test the specific areas in scope across Projects | Due 20 business days prior to the start of test execution for that test phase |
+| Test Level Test Plan | For larger projects that have multiple test phases (e.g., System Test, SIT, UAT) | Due 20 business days prior to the start of test execution for that test phase |
+| Test Scripts | Test Scripts written based on requirements and design used to validate solution/process/deliverable. Testing Results will be added to the Test Scripts | Due 10 business days prior to the start of test execution for that test phase |
+| Test Readiness Review | Successful completion of the Test Readiness Review | Commence 1 week before execution activities for given test phase |
+| Test Issue Management Process | Defined reporting and management of defects and issues raised during test/validation activities | To be defined as part of project |
+| Test Issue Tracker, Issues Log & Summary | Status and up‑to‑date comments of the reported defects raised via the defect management process, by individual Projects | Produced at the agreed frequency stated in the Test Plan (daily) |
+| Project Test Status Report | Individual Project Status Reports on Testing Progress of the agreed scope | Produced at the agreed frequency stated in the Test Plan (daily) |
+| Test Tracking Metrics | Tracking test progress details across Projects | Daily from commencement of Test Planning |
+| Test Completion Reports | Collated view of all testing metrics summarised showing the outcome of testing and recommendations gated reviews – by individual Projects | Due 5 days after the completion of testing for each test phase |
+| Final Operational Readiness Review | Completed review of all testing undertaken and overall view of service Readiness demonstrating the status of all Project Testing, and any corrective actions required | Due 1 week prior to ORR |
 
 All identified testing documentary deliverables will be added to a Testing Deliverables Tracker a minimum of three weeks in advance of the scheduled first draft delivery date. The Testing Deliverables Tracker will be reviewed weekly by UKHSA Test Management and the Authority Test Assurance.
 
 It is expected that UKHSA Test Assurance will consolidate and return any review comments within 5 working days. Comment responses from UKHSA will be returned within 3 days, with final approval sign off expected from UKHSA two days later.
 
-
 ## 5.2 Test Witnessing
- Tests may be witnessed by the Test Witnesses in accordance with Schedule 6.3.
 
- The Authority may, at its sole discretion, require the attendance at any Test of one or more Test Witnesses selected by the Authority, each of whom will have appropriate skills to fulfil the role of a Test Witness. This will be agreed in advance in the Project Master Test Plan.
+Tests may be witnessed by the Test Witnesses in accordance with Schedule 6.3.
 
- UKHSA and their Suppliers will give the Test Witnesses access to any documentation and Testing environments reasonably necessary and requested by the Test Witnesses to perform their role as a Test Witness in respect of the relevant Tests.
+The Authority may, at its sole discretion, require the attendance at any Test of one or more Test Witnesses selected by the Authority, each of whom will have appropriate skills to fulfil the role of a Test Witness. This will be agreed in advance in the Project Master Test Plan.
 
- The Test Witnesses:
+UKHSA and their Suppliers will give the Test Witnesses access to any documentation and Testing environments reasonably necessary and requested by the Test Witnesses to perform their role as a Test Witness in respect of the relevant Tests.
+
+The Test Witnesses:
 
 - Will actively review the Test documentation
 - Will attend and engage in the performance of the Tests on behalf of the Authority to enable the Authority to gain an informed view of whether a Test Issue may be closed or whether the relevant element of the Test should be re-Tested
@@ -422,6 +439,7 @@ It is expected that UKHSA Test Assurance will consolidate and return any review 
 - May require the Supplier to demonstrate modifications made to any defective Deliverable before a Test Issue is closed
 
 ### 5.3 Test Entry and exit criteria
+
 A project must determine when a system, function or service will have achieved a level of quality that is “good enough” for it to pass from:
 
 - one supplier test level to another
@@ -441,6 +459,7 @@ Good enough to go live in production can also be just sufficient to fulfil the p
 As well as test exit criteria projects will want to consider additional or final exit criteria that determine whether a supplier / project have met the terms of the original work package. These criteria will determine the final transition of a system into live production. The criteria must consider which outstanding defects can remain in the live system and which require resolution under a ‘work off’ plan, based on their business impact.
 
 ## 5.4 Entry criteria
+
 This is a set of criteria that define when a specific test level can commence. They will, by default, include the exit criteria defined for the previous test level as well as address factors such as:
 
 - Availability, readiness, and support of appropriate environments
@@ -456,15 +475,17 @@ This is a set of criteria that define when a specific test level can commence. T
 - The relevant SMEs are available to support testing
 
 ## 5.5 Suspension/ Resumption Criteria
+
 If during any test level execution, a situation arises where no further testing will add value or be possible; the Test Manager in consultation with the Project Manager may decide to suspend test execution. The criteria that justify testing suspension are:
 
 - Hardware/ software is not available at the times indicated in the schedule
 - Source code contains critical defects and test execution paths are blocked
 - Assigned test support resources are not available when needed by the Test Team
 - Insufficient functionality has been delivered to execute planned tests
-- Resumption will occur when the problem(s) that caused the suspension have been resolved. 
+- Resumption will occur when the problem(s) that caused the suspension have been resolved.
 
 ## 5.6 Exit Criteria
+
 - All planned test cases are executed
 - All defects (failures) and problems have been identified, documented, and managed according to agreed criteria which should be documented in the Project Master Test Plan
 - Appropriate metrics are captured, reported, and analyzed
@@ -473,6 +494,7 @@ If during any test level execution, a situation arises where no further testing 
 - Signoffs have been obtained as appropriate
 
 ## 5.7 Acceptance Criteria
+
 Acceptance Criteria provides a checklist of the requirements that must be proven before the ORR confirms the Service can go live. Where no requirements exist or those that do exist have been deemed ‘insufficient’, Acceptance Criteria can be used instead of Requirements to document what needs to be demonstrated to Business Acceptors/Owners for them to sign off that Application/Service. The Business Acceptors / Owners themselves must produce or at least sign off the Acceptance Criteria prior to test execution.
 
 Acceptance Criteria will be drafted based on as the result of formal workshops held with the relevant Business Owners/Acceptors. They must not be a substitute for Requirement’s documentation and must not be used for high priority/critical projects, applications, or services.
@@ -484,6 +506,7 @@ Acceptance Criteria must cover both functional and non-functional systems requir
 The following is a suggested list of categories for the acceptance criteria. Not all categories will be relevant to every Project:
 
 Functional
+
 - Key business functions
 - Interfaces to other systems
 
@@ -493,25 +516,30 @@ Performance
 - ETLs
 
 Security
+
 - Audit requirements
 - Access controls
 
 Capacity
+
 - Number of users
 - Transaction \ Reporting throughput
 - Volumes of data
 
 Resilience
+
 - System availability
 - Backup/Recovery requirements
 - Contingency plans
 
-Usability 
+Usability
+
 - Intuitive
 - Consistent
 - Understandable error messages
 
 Documentation
+
 - User Procedures
 - Operational Procedures
 - User Guide
@@ -538,6 +566,7 @@ A priority high, medium or low will be allocated to each Acceptance Criteria:
 - Reports/enquiries where no information is used to make critical management or business decisions.
 
 ## 6 Test Automation
+
 Test Automation has the potential to reduce test execution time and reduce costs; however, there is a heavy upfront investment, and consideration must be given to the effort involved in ongoing automation script maintenance. So, test automation should only be applied to testing where there is a clear business benefit to do so.
 
 The testing that most benefits from automation are tests that are repeated frequently over a long period of time and do not require human intervention e.g., regression and integration testing of critical business processes, reduce manual testing effort and increase test coverage of the application.
@@ -548,23 +577,31 @@ Experienced Automation Testers have been engaged to:
 
 - Assess Suitability and Benefit for automation (completed in bid phase)
 
-- Select a Test Automation tool (From the UKHSA approved list of automation tools based on automation purpose) 
+- Select a Test Automation tool (From the UKHSA approved list of automation tools based on automation purpose)
 
   - Tools Evaluation (completed in bid phase)
-  - List Tools/Technologies selected and Purpose 
+  - List Tools/Technologies selected and Purpose
   - Proof of Concept
-  - Tool Configuration 
+  - Tool Configuration
 
 Produce a Test Automation Approach
 
 - Review Solution and identify areas for Automation (e.g. define test case selection and business flows selection criteria for the automation candidates)
+
 - Types of tests intended to automate (i.e. smoke tests, regression tests, integration tests, end-to-end tests and data driven tests)
+
 - Define Framework (i.e. Type of framework, scripting programming language and reports/dashboards)
+
 - Define a scheme for selecting tests for automation (i.e. Automation tests written based on functional test cases by business priority?)
+
 - Optimal Minimum Automation Test Coverage expected (%)
+
 - Optimal Minimum Automation Tests Pass Rate (%), and minimum defects closure rate (%)
+
 - Define the Management and Storage of Automated Tests and Associated Data (e.g. GitHub, S3)
+
 - Define entry and exit criteria for the automation scripting and execution phases
+
 - Define Test Environment requirements
 
   - Cloud/On-premises
@@ -579,28 +616,37 @@ Produce a Test Automation Approach
   - Automated test execution and test coverage reports (e.g. Allure or html execution reports, Jira test coverage reports etc.)
   - Tests logs capture, debugging and issue logging approach
 
-- Framework Development 
+- Framework Development
+
 - Automation Scripting (Refer UKHSA Automation Guidance confluence pages)
+
 - Define Test Pack Maintenance approach (e.g. manage tech debt to maintain and enhance the test packs)
+
 - Define Code Version Control, Code Reviews and Branching strategy
+
 - Governance and Best Practices
   - Adopting Page Object Model
   - Automation folder structure, folder/file naming and coding best practices (Refer UKHSA Automation Guidance confluence pages)
   - Test Framework Enhancement and Test Case Optimization (for reduced execution time and lower maintenance)
 
 - Automation Risks Logging and Mitigation
+
 - Automation Tests BAU Handover approach (e.g. Documentation of automation and handover to BAU at project closure)
 
 Each Project Master Test Plan will describe the Test Automation usage relevant to its delivery.
 
 ## 7 Metrics and Reporting
+
 ## 7.1 Testing Results Tracking
+
 The results of the execution of each test case will be recorded as the test case is completed. This approach allows for accurate and timely progress reporting, thus providing the Test Manager with the ability to determine the status of the testing effort at any time during the day. The Test Manager will analyze this information to determine progress against weekly completion goals.
 
 ## 7.2 Metrics & Reports
+
 The collection, analysis and reporting of metrics is key to gauging the quality of the system under test and the effectiveness of the test process.  Metrics drive improvements and benefits for both the Programme(s) and the Customer. As such all the metrics and reports described in this section will be shared with the Programme teams including the Customer.
 
 All projects will collect and report the following measures:
+
 - Requirement Ambiguities by Severity, Status and Quality Attribute
 - Test Execution Coverage
 - Test Pass Coverage
@@ -609,33 +655,39 @@ All projects will collect and report the following measures:
 - Schedule and Effort Tracking
 
 **Table 7‑1 Reports:**
-| Report                               | From               | To                                  | Copy                                   | Frequency                                          |
-| ------------------------------------ | ------------------ | ------------------------------------ | -------------------------------------- | -------------------------------------------------- |
-| Requirements & Design Ambiguity Report | Project Test Manager | Project Manager                      | Project Team / UKHSA Test Manager      | At end of Requirements & Design Ambiguity Testing  |
-| Weekly Progress Report               | Project Test Manager | Project Manager                      | Project Team / UKHSA Test Manager      | Friday of every week                               |
-| Daily Test Execution Report          | Project Test Manager | Project Manager                      | Project Team / UKHSA Test Manager      | Daily during test execution                        |
-| Daily Defect Report                  | Project Test Manager | Project Manager                      | Project Team / UKHSA Test Manager      | Daily during test execution                        |
-| End of Test Level Report             | Project Test Manager | Project Team / UKHSA Test Manager    |                                        | At end of each UKHSA Test Level                    |
+
+| Report | From | To | Copy | Frequency |
+| - | - | - | - | - |
+| Requirements & Design Ambiguity Report | Project Test Manager | Project Manager | Project Team / UKHSA Test Manager | At end of Requirements & Design Ambiguity Testing |
+| Weekly Progress Report | Project Test Manager | Project Manager | Project Team / UKHSA Test Manager | Friday of every week |
+| Daily Test Execution Report | Project Test Manager | Project Manager | Project Team / UKHSA Test Manager | Daily during test execution |
+| Daily Defect Report | Project Test Manager | Project Manager | Project Team / UKHSA Test Manager | Daily during test execution |
+| End of Test Level Report | Project Test Manager | Project Team / UKHSA Test Manager | | At end of each UKHSA Test Level |
 
 Programmes and Projects are formed on a project-by-project basis via an NSSR. The NSSR sets out the purpose of the project, scope and all deliverables.
 
 ## 8 Organization and Resources
+
 The Master Test Strategy created for each project, programme and enhancement. This document defines the scope of what is to be delivered, processes to be followed, as well as the resource profile and deliverables.
 
 ## 8.1 Test Organization and Interfaces
+
 The diagram below illustrates how the testing organization fits within the project teams and proposed interfaces with the Authority Test Assurance and UAT.
 
-![Workflow Diagram](./img/qualitypipeline.png)
+![Workflow Diagram][4]
 
 Figure 7:  Project Organization Chart
 
 ## 8.2 Resources, Roles and Responsibilities
+
 This section provides an overview of the resources, roles and responsibilities that will be required to support projects, programs and enhancements.
 
 ### 8.2.1 Test Steering Group
+
 The purpose of the Test Steering Group is to review testing status and issues with wider programme management team on a monthly or more frequent basis during peak test times to manage risks, issues, and escalations from the Test Assurance Group.
 
 ### 8.2.2 UKHSA Acceptance Authority
+
 The UKHSA Acceptance Authority is responsible for supporting the Testing effort by performing the following activities:
 
 - Review the Projects Test Plans, UAT / Acceptance criteria, Test Completion Reports and Test Cases
@@ -646,13 +698,15 @@ The UKHSA Acceptance Authority is responsible for supporting the Testing effort 
 - Attending weekly Project Test Progress Meetings, if required
 
 ### 8.2.3 Test Assurance Group
+
 The purpose of the Test Assurance Group is to review status of deliverables, risks, and dependencies on a fortnightly or more frequent basis during peak test times.
 
- This group feeds risks, issues and escalations into Test Steering Group and confirm upcoming test events in the next period.
+This group feeds risks, issues and escalations into Test Steering Group and confirm upcoming test events in the next period.
 
- Test Managers and UKHSA Test Assurance are group members
+Test Managers and UKHSA Test Assurance are group members
 
 ### 8.2.4 UKHSA, Project Manager
+
 The specific responsibilities of a Project Manager as it relates to the Project’s Testing effort are as follows:
 
 - Overall delivery lead of the delivery activities across the defined Project
@@ -670,6 +724,7 @@ The specific responsibilities of a Project Manager as it relates to the Project�
 - Review all testing deliverables upon request
 
 ### 8.2.5 UKHSA Account Test Manager
+
 The Account Test Manager is responsible for the following activities:
 
 - Responsibility for all testing activities, reporting into the Programme Delivery Manager
@@ -684,6 +739,7 @@ The Account Test Manager is responsible for the following activities:
 - Reports accordingly though to Programme Delivery Manager level on status
 
 ### 8.2.6 UKHSA Project Test Manager
+
 The Test Manager is responsible for coordinating and managing the defined Testing effort for the delivery of new or changed solutions/systems. Responsibilities include:
 
 - Day to day responsibility for Project testing activities reporting into the Account Test Manager
@@ -708,6 +764,7 @@ The Test Manager is responsible for coordinating and managing the defined Testin
 - Manage testing issues, including appropriate escalation
 
 ### 8.2.7 UKHSA User Acceptance Testing Lead
+
 The User Acceptance testing Lead has overall responsibility for coordinating and validating the defined user testing effort & outputs and is responsible for the following activities:
 
 - Day to day responsibility for business and acceptance testing activities reporting into the Project Manager
@@ -723,7 +780,8 @@ The User Acceptance testing Lead has overall responsibility for coordinating and
 - Reviews and Analyses test results to confirm, establish, and communicate the cause of the discrepancy
 - Inputs to and monitoring of testing/validation tasks and reports accordingly – for instance production of weekly Project Test Status Report
 
-### 8.2.8 Testers – UKHSA and 3rd Party 
+### 8.2.8 Testers – UKHSA and 3rd Party
+
 The Testers are responsible for test analysis, design, preparation, and validation activities
 
 Specific responsibilities for the Testers include:
@@ -742,6 +800,7 @@ Specific responsibilities for the Testers include:
 - Support production of evidence for Acceptance gates
 
 ### 8.2.9 UKHSA and 3rd Party Test Issue Manager
+
 - Sets up and owns the defect management process defined in this Test Strategy
 - Procures, configures, and enables the defect management tools
 - Works with Test Managers and Test Leads to manage and report on defects across the Projects ensuring defects are resolved promptly
@@ -754,6 +813,7 @@ Specific responsibilities for the Testers include:
 - Liaising with the Development Team regarding workarounds, priority etc.
 
 ## 8.3 Testing Support Functions and Responsibilities
+
 Support from the following functions is critical to efficient and effective testing:
 
 - UKHSA, 3rd Party & Authority Project Management
@@ -763,6 +823,7 @@ Support from the following functions is critical to efficient and effective test
 These functions have the following responsibilities with respect to testing support and facilitation:
 
 ### 8.3.1 UKHSA, 3rd Party & Authority Subject-Matter Experts
+
 - Provide timely delivery of all architecture-related documentation
 - Review all testing deliverables upon request
 - Review Test Strategies, Test Phase Plans, Test Cases and Test Completion Reports
@@ -775,6 +836,7 @@ These functions have the following responsibilities with respect to testing supp
 - Attending weekly Project Test Progress Meetings, if required
 
 ### 8.3.2 UKHSA and 3rd Party Test Environment, Administrator, Configuration, and Change Management
+
 The above roles are responsible for supporting the Testing effort by performing the following activities:
 
 - Implementing and maintaining assigned testing environments
@@ -790,24 +852,27 @@ The above roles are responsible for supporting the Testing effort by performing 
 - Ensure testing involvement in impact analysis of all proposed system changes
 
 ## 8.3.3 Testing Responsibility Matrix
+
 The detailed testing roles and responsibilities (RACI matrix) for performing, approving, or supporting the test activity will be embedded in the test plan document.
 
-![Workflow Diagram](./img/RACI.PNG)
+![Workflow Diagram][5]
 
 ## 9 Test Tools, Environments and Data
+
 ## 9.1 Test Tools
+
 The Initiative / Project is responsible for provisioning, licensing, and supporting Test Tools.
 
 The following test tools will be used during the Projects test activities:
 
-| Test Area                         | Tool                                                                                                                                                                                                                               |
-| ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| (Test) Requirements Management | JIRA, R4J – Requirements Management for Jira; Zephyr Scale – Test Management for Jira.                                                                                                                                             |
-| This includes Requirements & Design Ambiguity Testing, Test Coverage of Requirements. |                                                                                                                                                                                                                            |
-| Test Management                | JIRA, Zephyr Scale – Test Management for Jira. <br><br> Test case, Test results, create and maintain test packs and manage the day‑to‑day test activities: test design, test execution progress and evidence, defect/issue management, and provision of test metrics/reporting. |
-| Test Automation                | Microfocus Unified Functional Testing (UFT) for GUI‑based automation. <br> ReadyAPI by SmartBear for Integration Testing (REST, SOAP, JMS, JDBC, TCP and other Web Services).                                                      |
-| Performance Testing            | Microfocus LoadRunner                                                                                                                                                                                                              |
-| Test Data Management           | Currently none selected as requirements unknown. Appropriate data management tools, as dictated by the technology, will be selected and detailed in the appropriate Master Test Plan once requirements and high‑level designs are in place. |
+| Test Area | Tool |
+| - | - |
+| (Test) Requirements Management | JIRA, R4J – Requirements Management for Jira; Zephyr Scale – Test Management for Jira. |
+| This includes Requirements & Design Ambiguity Testing, Test Coverage of Requirements. | |
+| Test Management | JIRA, Zephyr Scale – Test Management for Jira. <br><br> Test case, Test results, create and maintain test packs and manage the day‑to‑day test activities: test design, test execution progress and evidence, defect/issue management, and provision of test metrics/reporting. |
+| Test Automation | Microfocus Unified Functional Testing (UFT) for GUI‑based automation. <br> ReadyAPI by SmartBear for Integration Testing (REST, SOAP, JMS, JDBC, TCP and other Web Services). |
+| Performance Testing | Microfocus LoadRunner |
+| Test Data Management | Currently none selected as requirements unknown. Appropriate data management tools, as dictated by the technology, will be selected and detailed in the appropriate Master Test Plan once requirements and high‑level designs are in place. |
 
 **Table 17:  Test Tooling**
 
@@ -819,7 +884,8 @@ Where the decision has been taken to employ a test automation tool the project w
 - not limit automation to the GUI but include functions that do not use the visible user interface (e.g., web services interfaces)
 
 ## 9.2 Test Environment
-Wherever possible a production replica environment, will be used during testing on UKHSA projects from System Testing onwards. The Test Manager will work collaboratively with the Technical Teams plus UKHSA and 3rd Party suppliers where appropriate to define test environment requirements. 
+
+Wherever possible a production replica environment, will be used during testing on UKHSA projects from System Testing onwards. The Test Manager will work collaboratively with the Technical Teams plus UKHSA and 3rd Party suppliers where appropriate to define test environment requirements.
 
 The environments should be based on the production environment requirements as outlined in the Solution and Technical Designs.
 
@@ -828,6 +894,7 @@ Initial environment requirements will be documented within the Project Master Te
 Both the System Integration and Acceptance test level plans must pay particular attention to the cross-domain environment requirements. However, it is recognized that test environments for the legacy and existing systems which may be required are in very short supply and are of general poor quality. The Project Master Test Plan must address the time and expense required to build and integrate new legacy systems against the benefits of reducing risk.
 
 ## 9.3 Test Data
+
 The UKHSA Project Test Teams must define the test data management process for the projects; this includes data creation, data storage, data security (including obfuscation requirements) and data restore process. The Project Manager will manage this with support from the Supplier Test Manager and the wider Project Team.
 
 Identifying the test data is a key element of test design, the Project Master Test Plan must give consideration to, Master Data requirements, transactional data requirements, currency of data, representation, volumes, generation, masking, and manipulation.  The Test Manager will decide if Test Data Management tools are required and document this decision in the Project Master Test Plan.
@@ -837,7 +904,8 @@ Particular attention will be paid to the UKHSA security requirements in terms of
 However, it must be noted that there is an assumption brought through from the bid stage that the initial projects will be able to use copies of production data within each environment. There is currently no cost or time provision within the programme schedule to deploy and utilise Test Data Management tools.
 
 ## 10 Release and Configuration Management
-All releases used within testing or deployment must be held under configuration management [3].  All releases into test or deployment must have a release note [5].  As a minimum a Release Note will contain:
+
+All releases used within testing or deployment must be held under configuration management \[3].  All releases into test or deployment must have a release note \[5].  As a minimum a Release Note will contain:
 
 - Release Number
 - Release increment number
@@ -859,7 +927,8 @@ All releases used within testing or deployment must be held under configuration 
 The Project will confirm contents of a release by review of the Release Note. As soon as a suitable environment is available, the Project Test Team will request deployment on to specific test environment(s).
 
 ## 11 Defect or Test Issue Management Process
-UKHSA Schedule 6.3 Testing Procedures [1] defines ‘Test Issues’. For the purposes of this document the term ‘test issue’ is understood to indicate a possibility that questionable behavior is not necessarily a true defect.
+
+UKHSA Schedule 6.3 Testing Procedures \[1] defines ‘Test Issues’. For the purposes of this document the term ‘test issue’ is understood to indicate a possibility that questionable behavior is not necessarily a true defect.
 
 11.1 Intended audience
 The following are the stakeholders for the Defect Management process:
@@ -881,6 +950,7 @@ The following are the stakeholders for the Defect Management process:
 **Resolution Teams** – Provides a resolution to a defect e.g., developers, architects
 
 ## 11.2 Defect Logging Process
+
 Defects will be logged in a defect report so they can be followed up and resolutions can be tracked. Wherever possible the     Atlassian Cloud Jira tool will be used to log, classify, manage, analyse & report defects.
 
 The goals of a defect report are to:
@@ -888,7 +958,8 @@ The goals of a defect report are to:
 - Provide fix teams with detailed information about the issue
 - Support the analysis of trends in aggregate issue data
 - Support overall development or test process improvements
-- 
+-
+
 Before recording an Issue in JIRA, the tester will:
 
 - If possible, reproduce the defect, ideally 3 times, (for batch processing this may not be feasible)
@@ -911,11 +982,14 @@ When recording a resolution to a defect the nominated resource(s) will:
 - If the issue cannot be recreated or more information is required; comments will be added and re-assignment of the issue back to the tester
 
 ## 12 Risk Management & Assumptions
+
 ## 12.1 Risk Management
+
 The UKHSA Risk Management Process will be used for monitoring and control of testing-related risks. Any risk identified by the Test Teams will automatically be added to the Project RAID register and be escalated higher to get sufficient management attention.
 
 ## 12.2 General Assumptions
-The following assumptions and constraints have been identified during the preparation of this document.  If any of these assumptions are modified in any way, the schedule, execution, and effectiveness of this strategy may be impacted. 
+
+The following assumptions and constraints have been identified during the preparation of this document.  If any of these assumptions are modified in any way, the schedule, execution, and effectiveness of this strategy may be impacted.
 
 Updates to these assumptions will be documented in the appropriate Project documentation.
 
@@ -935,27 +1009,26 @@ Updates to these assumptions will be documented in the appropriate Project docum
 - The Testing Team(s) will require support from the wider Project team during the test execution phase in order to ensure prompt turnaround on defects raised
 - The Testing Team(s) will require support from the UKHSA and UKHSA SMEs throughout the test planning, execution and reporting activities
 
- 
-
 13. Project Review: Lessons Learned
-At the end of the project a review of the delivery will be undertaken to understand "What Went Well" and "What Can be Improved". The purpose of the review is to identify good process \ best practice which can be reused / adopted in future UKHSA projects. The review is not planned to be "find someone to blame" for any project mistakes or poor decisions.  The review session also provides a learning opportunity and enables all members of the delivery team to improve their understanding and issues / challenges of delivering UKHSA
+    At the end of the project a review of the delivery will be undertaken to understand "What Went Well" and "What Can be Improved". The purpose of the review is to identify good process \ best practice which can be reused / adopted in future UKHSA projects. The review is not planned to be "find someone to blame" for any project mistakes or poor decisions.  The review session also provides a learning opportunity and enables all members of the delivery team to improve their understanding and issues / challenges of delivering UKHSA
 
 The review will be conducted against the following areas using the table below:
 
-| No. | Delivery Area                     | What Went Well | What Can Be Improved | Actions / Comments / Observations |
-| --- | --------------------------------- | -------------- | --------------------- | ---------------------------------- |
-| 1.  | Project Planning                   |                |                       |                                    |
-| 2.  | Requirements Development           |                |                       |                                    |
-| 3.  | Development                        |                |                       |                                    |
-| 4.  | Functional Testing                 |                |                       |                                    |
-| 5.  | Non‑Functional Testing             |                |                       |                                    |
-| 6.  | Risk Management                    |                |                       |                                    |
-| 7.  | Automation                         |                |                       |                                    |
-| 8.  | Change Control / Release Management |                |                       |                                    |
-| 9.  | Project Reporting                  |                |                       |                                    |
-| 10. | Live Support / ELS                 |                |                       |                                    |
+| No. | Delivery Area | What Went Well | What Can Be Improved | Actions / Comments / Observations |
+| - | - | - | - | - |
+| 1. | Project Planning | | | |
+| 2. | Requirements Development | | | |
+| 3. | Development | | | |
+| 4. | Functional Testing | | | |
+| 5. | Non‑Functional Testing | | | |
+| 6. | Risk Management | | | |
+| 7. | Automation | | | |
+| 8. | Change Control / Release Management | | | |
+| 9. | Project Reporting | | | |
+| 10. | Live Support / ELS | | | |
 
 ## 14. Project Closedown
+
 At the completion of the project there should be a close-down of all activities.  The project manager should ensure:
 
 - Project confluence pages are up-to-date with latest content and documents
@@ -966,6 +1039,7 @@ At the completion of the project there should be a close-down of all activities.
 - Test Closure report produced
 
 ## 15. Appendix A - Acronyms & Definitions
+
 **Automated Testing:**  Dynamic testing undertaken using tools which automate the execution of a test script or technical process
 
 **Black box test design technique:** Procedure to derive and/or select test scripts based on an analysis of the specification, either functional or non-functional, of a component or system without reference to its internal structure
@@ -990,7 +1064,7 @@ At the completion of the project there should be a close-down of all activities.
 
 **NSSR:** Non-Standard Service Request
 
-**OAT:** Operational Acceptance Test 
+**OAT:** Operational Acceptance Test
 
 **POAP:** Plan on a Page
 
@@ -998,9 +1072,9 @@ At the completion of the project there should be a close-down of all activities.
 
 **PTM:** Physical Technology Model
 
-**Regression Testing:** Testing of a previously tested program following modification to ensure that defects have not been introduced or uncovered in unchanged areas of the software, as a result of the changes made. 
+**Regression Testing:** Testing of a previously tested program following modification to ensure that defects have not been introduced or uncovered in unchanged areas of the software, as a result of the changes made.
 
-**RDAT:** Requirements and Design Ambiguity 
+**RDAT:** Requirements and Design Ambiguity
 
 **SCCL:** Supply Chain Coordination Limited
 
@@ -1020,7 +1094,7 @@ SCTTP: Supply Chain Technology and Transformation Partner
 
 **Test Script:** set of input values, execution preconditions, expected results and execution post conditions, developed for a particular objective or test condition, such as to exercise a particular program path or to verify compliance with a specific requirement
 
-**UAT:** User Acceptance Testing 
+**UAT:** User Acceptance Testing
 
 **Usability:** The capability of the software to be understood; learned; used and be attractive to the user when used under specified conditions
 
@@ -1031,27 +1105,33 @@ SCTTP: Supply Chain Technology and Transformation Partner
 ## 16 Appendix B - Ambiguity Assessment Criteria
 
 | Quality Attribute | Considerations |
-| ---------------- | -------------- |
+| - | - |
 | **Clarity** | The requirements document will be logically structured and easily readable. For example, the grouping of related items together makes it easier to find and understand them later. |
-|                  | Each requirement will be specific and very clearly written to be understood. |
-|                  | There will be no grey areas that only one interpretation can derive; each that is vague or subjective words, any jargon will be explained. |
-|                  | Be aware if you are making assumptions, even if it is common terminology. |
-|                  | Requirements will be concise – the minimum content (sentences or paragraphs) that are needed to state the point. Any terms or abbreviations will be used consistently and defined in the glossary or definitions section. |
+| | Each requirement will be specific and very clearly written to be understood. |
+| | There will be no grey areas that only one interpretation can derive; each that is vague or subjective words, any jargon will be explained. |
+| | Be aware if you are making assumptions, even if it is common terminology. |
+| | Requirements will be concise – the minimum content (sentences or paragraphs) that are needed to state the point. Any terms or abbreviations will be used consistently and defined in the glossary or definitions section. |
 | **Comprehensiveness** | Each requirement will be uniquely identifiable. This refers to requirements that may be reused. Identify each requirement by a reference that allows them to be subsequently changed or tracked and the amendment recorded. |
-|                    | Ensure that all key stakeholders are within the requirements package, e.g., users, testers, DevOps, designers, governance sign‑offs. |
-|                    | Any areas that are “to be advised” or “to be determined” are unacceptable. The effect of leaving incomplete areas will be significant during the requirements phase. |
-|                    | New or updated requirements must be traceable to a relevant project goal, business requirement or internal/external source to establish achievability. |
-|                    | Note legal and regulatory rules from authorities (e.g., DPA, FOI) as they will be updated as each area is grouped. |
-|                    | Non-functional requirements need to include e.g., Performance, Security and Operational Approaches: availability, resilience and maintainability. |
-|                    | Consider the likelihood of change, especially if the area is dynamic. |
+| | Ensure that all key stakeholders are within the requirements package, e.g., users, testers, DevOps, designers, governance sign‑offs. |
+| | Any areas that are “to be advised” or “to be determined” are unacceptable. The effect of leaving incomplete areas will be significant during the requirements phase. |
+| | New or updated requirements must be traceable to a relevant project goal, business requirement or internal/external source to establish achievability. |
+| | Note legal and regulatory rules from authorities (e.g., DPA, FOI) as they will be updated as each area is grouped. |
+| | Non-functional requirements need to include e.g., Performance, Security and Operational Approaches: availability, resilience and maintainability. |
+| | Consider the likelihood of change, especially if the area is dynamic. |
 | **Testability** | Are the requirements testable as written? Viewed from perspectives of the Architect, Developer and Tester, would they have to search for additional information before they can clearly understand, judge or test it? |
-|                  | Can the requirement be verified or shown to be incorrect? |
-|                  | Ensure that the requirement can be correctly measured. This means no “woolly” statements e.g., “fast”, “correct”, “best”, “reasonable use”, “2 minutes” etc. |
-|                  | Any ranges must clearly define start and end values. |
-|                  | Are all supporting evidence required for the requirement in place? |
+| | Can the requirement be verified or shown to be incorrect? |
+| | Ensure that the requirement can be correctly measured. This means no “woolly” statements e.g., “fast”, “correct”, “best”, “reasonable use”, “2 minutes” etc. |
+| | Any ranges must clearly define start and end values. |
+| | Are all supporting evidence required for the requirement in place? |
 | **Consistency** | Each requirement will be logically granular (e.g., relating to a single piece of functionality, a single entity or process etc). Where possible, one statement will equal one requirement. |
-|                  | Challenge linked requirements. If they are necessary, their links and interdependencies will be clearly explained. |
-|                  | Requirements will not be duplicated in the document. They may relate or validate each other but must not be cloned to implement subsequent changes. |
+| | Challenge linked requirements. If they are necessary, their links and interdependencies will be clearly explained. |
+| | Requirements will not be duplicated in the document. They may relate or validate each other but must not be cloned to implement subsequent changes. |
 | **Correctness** | Does the requirement correctly and accurately describe the functionality to be delivered? |
-|                 | Make sure the requirement is not prescriptive, but what and when it will state, not how it will be done. |
-|                 | Within the known limitations and capabilities of the proposed system, consider if it is possible to deliver the requirement. |
+| | Make sure the requirement is not prescriptive, but what and when it will state, not how it will be done. |
+| | Within the known limitations and capabilities of the proposed system, consider if it is possible to deliver the requirement. |
+
+[1]: ./img/teststrategysequence.PNG
+[2]: ./img/engagement.png
+[3]: ./img/projectlifecycle.png
+[4]: ./img/qualitypipeline.png
+[5]: ./img/RACI.PNG

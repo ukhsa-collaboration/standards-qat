@@ -1,6 +1,7 @@
 ---
 order: 14
 ---
+
 # Functional Testing Planning and Requirements Guidelines
 
 ## Test Planning
@@ -32,6 +33,7 @@ order: 14
   - Communication and Reporting Plan
 
 - The Test Approach/Test Plan must be reviewed and approved by the relevant program stakeholders including UKHSA QA manager prior to start of the testing.
+
 - For Agile/Scrum-based projects, a program-level sprint/junior approach document should be created and frequently updated to align with the iterative progress and evolving requirements of the project.
 
 For sample templates related to the deliverables mentioned above, please refer to this page.
@@ -45,6 +47,7 @@ For sample templates related to the deliverables mentioned above, please refer t
   - How to test
 
 - Once the initial highly agreed-upon requirements or user stories must be reviewed and documented by the relevant project stakeholders and properly communicated to the testing team
+
 - Test team must create and maintain a Requirements Traceability Matrix (RTM) at this stage to ensure clear and efficient tracking of requirements throughout the testing process
 
 # Test Design and Case Creation

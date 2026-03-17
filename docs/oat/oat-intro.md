@@ -1,6 +1,7 @@
 ---
 order: 6
 ---
+
 # Operational Acceptance Testing (OAT) - Overview
 
 ## Introduction
@@ -18,7 +19,7 @@ The OAT process focusses on the following areas:
 
 This section defines the OAT team's standard approach to OAT Assurance.
 
----
+***
 
 ## Discovery Phase
 
@@ -27,35 +28,36 @@ During discovery the OAT team engage with the project to:
 - Gain an understanding of the project and its requirements
 - Outline the OAT team and project team's responsibilities throughout the project lifecycle
 
----
+***
 
 ## NFR & Planning Review Phase
 
-- During this phase the OAT team review the project's NFRs and planning documentation for quality and fitness for purpose.  
+- During this phase the OAT team review the project's NFRs and planning documentation for quality and fitness for purpose.
 
 - Once confirmed, the OAT team should obtain confirmation on the scope of Non‑Functional Requirements (NFRs) for the program from program stakeholders and UKHSA OAT Test Manager
 
 - Approved Non‑Functional Requirements (NFRs) should be added to the appropriate program test‑management tool (e.g., **JIRA**).
 
-- During the test execution process, any deviations should be recorded as **defects** in the chosen management tool.  
+- During the test execution process, any deviations should be recorded as **defects** in the chosen management tool.
 
 - Any risks identified during the OAT phase must be managed in accordance with the established **risk management process**.
 
----
+***
 
 ## Evidence Information
 
 The OAT test team should collate the following acceptable forms of evidence as part of the verification process, with specific comments on their handling and the involvement of stakeholders.
 
 | S.I | Acceptable Form | Comments |
-| --- | ---------------- | -------- |
-| 1   | Email(s)         | This need to be copied to all stakeholders. |
-| 2   | Runbook(s)       | Runbook must be reviewed and accepted by Stakeholders/Support Team. |
-| 3   | Screenshot(s)    | Full screenshots or sanitised for data security as deemed appropriate. |
-| 4   | Witness Testing  | Highly sensitive documents that can't be shared can be witnessed over a pre‑arranged review meeting and for actual testing as well. |
-| 5   | Document(s)      | Design documents covering architecture and need to be signed off. |
+| - | - | - |
+| 1 | Email(s) | This need to be copied to all stakeholders. |
+| 2 | Runbook(s) | Runbook must be reviewed and accepted by Stakeholders/Support Team. |
+| 3 | Screenshot(s) | Full screenshots or sanitised for data security as deemed appropriate. |
+| 4 | Witness Testing | Highly sensitive documents that can't be shared can be witnessed over a pre‑arranged review meeting and for actual testing as well. |
+| 5 | Document(s) | Design documents covering architecture and need to be signed off. |
 
 ## UKHSA Assurance Phase
+
 During this phase, the UKHSA OAT test manager will ensure that the project OAT test team adhere to the established OAT standards. This is accomplished through the following methods:
 
 **Process assurance testing** ensures that engaging project has ensured they are fully onboarded to all relevant ITSM processes. This is done via a checklist and questionnaire process designed to ensure all assurance is done to the same standard. The OAT Team work with both the project and ITSM to ensure all requirements are met.
