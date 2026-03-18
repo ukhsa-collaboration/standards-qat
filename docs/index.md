@@ -3,7 +3,7 @@ caption: QAT Standards
 includeInBreadcrumbs: true
 eleventyNavigation:
   parent: home
-  key: standards-qat
+  key: qat
 order: 1
 ---
 
