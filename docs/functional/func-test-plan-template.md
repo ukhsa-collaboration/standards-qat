@@ -376,4 +376,4 @@ It is recommended to organise RAID review meetings as part of test planning. Hig
 | 9. A11Y | Accessibility Testing |
 | 10. UI | User Interface (i.e., web page, Application’s window, dialogue box etc.) |
 
-[1]: ./img/defectlifecycle.png
+[1]: ../img/defectlifecycle.png
