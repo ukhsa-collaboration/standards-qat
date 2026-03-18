@@ -1130,8 +1130,8 @@ SCTTP: Supply Chain Technology and Transformation Partner
 | | Make sure the requirement is not prescriptive, but what and when it will state, not how it will be done. |
 | | Within the known limitations and capabilities of the proposed system, consider if it is possible to deliver the requirement. |
 
-[1]: ./img/teststrategysequence.PNG
+[1]: ./img/teststrategysequence.png
 [2]: ./img/engagement.png
 [3]: ./img/projectlifecycle.png
 [4]: ./img/qualitypipeline.png
-[5]: ./img/RACI.PNG
+[5]: ./img/RACI.png
