@@ -14,4 +14,4 @@ Please see the flow diagram explaining the risk assessment process:
 
 ![Workflow Diagram][1]
 
-[1]: ./img/riskworkflow.PNG
+[1]: ./img/riskworkflow.png
