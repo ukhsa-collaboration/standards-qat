@@ -1,30 +1,26 @@
 ---
-caption: Standards QAT
+caption: QAT Standards
 includeInBreadcrumbs: true
 eleventyNavigation:
   parent: home
+  key: qat
 order: 1
 ---
 
-# Standards QAT
+# Introduction to Quality Assurance Testing (QAT)
 
-This is the index page for your documentation, update it with your own content!
+The **Quality Assurance Testing (QAT)** Team is responsible for ensuring that software products and systems meet the required UKHSA quality standards before they are released.
 
-## Help
+We offer consulting services to programmes, with the primary objective of promoting early-stage testing adoption and providing comprehensive support throughout project initiation. Our team collaborates with programs at every stage, to deliver high-quality products and services by offering testing and test assurance services
 
-Browse the pages to see how some basic features work with these docs, or for more information have a checkout the [Eleventy][1] docs and the [GovUK Eleventy plugin docs][2].
+## Capabilities
 
-## How to read the guidelines
+The QAT team assists UKHSA programmes in:
 
-The following terms are used throughout this guidance to indicate the strength of each requirement.
-These are adapted from [RFC 2119][3] and contextualised for UKHSA:
-
-- **MUST**: This requirement is mandatory. It applies universally and must be followed without exception unless formally approved.
-- **MUST NOT**: This action is explicitly prohibited. It must not be taken under any circumstances unless an approved exception is in place.
-- **SHOULD**: This is a strong recommendation. There may be valid reasons to deviate, but the implications must be understood, justified and documented.
-- **SHOULD NOT**: This is a strong recommendation against a practice. Exceptions may exist, but they must be carefully considered, justified and documented.
-- **MAY**: This is an optional practice or recommendation. Teams may choose to adopt it based on context, value or preference.
-
-[1]: https://www.11ty.dev/docs/
-[2]: https://x-govuk.github.io/govuk-eleventy-plugin/get-started/
-[3]: https://datatracker.ietf.org/doc/html/rfc2119
+- **Test Assurance Services**: This is a **mandatory service** for all initiatives where the QAT team assure all test delivery by internal and external delivery teams is carried out to UKHSA standards. The primary objective is to provide comprehensive support and consultancy services to programs from project initiation to closure, providing assurance of all the testing completed and issuing assurance reports to senior stakeholders.
+- **Test Delivery Services**: Actively involved in delivering comprehensive testing solutions, including key Quality Assurance and Testing (QAT) services such as:
+  - Test Management
+  - Test Automation
+  - Functional Test Delivery (integration, system and end-to-end testing)
+  - Non-functional testing (performance and operational acceptance testing)
+  - Accessibility testing
