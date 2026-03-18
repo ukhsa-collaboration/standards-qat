@@ -341,7 +341,7 @@ npm run start
 ```
 
 This uses docker to host your docs under the hood.
-After running this script you can view your docs by going to [http://localhost:8080/standards-qat/][9].
+After running this script you can view your docs by going to [http://localhost:8080/qat/][9].
 
 While this script is running it will notice when files change and update them so you can see how they look live.
 

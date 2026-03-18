@@ -2,7 +2,7 @@
 order: 5
 includeInBreadcrumbs: true
 eleventyNavigation:
-  parent: standards-qat
+  parent: qat
   key: oat
 ---
 
