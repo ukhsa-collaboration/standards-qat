@@ -241,7 +241,7 @@ For example, Jira and Xray are used for test planning and execution.
 
 **Guidance:** Explain the defect lifecycle, including how defects will be managed, recorded, reported, and triaged with agreed definitions of severity and priority.
 
-![Workflow Diagram][1]]
+![Workflow Diagram][1]
 
 Formal defect tracking will occur throughout the test execution phase. JIRA will be used to track and manage defects. Defects will be raised when a test case fails and will be linked to the test case or a defect can be raised which is not linked to a test case (ad-hoc defects) generally found during ad-hoc testing.
 
