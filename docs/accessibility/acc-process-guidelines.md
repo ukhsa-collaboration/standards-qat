@@ -28,7 +28,7 @@ Any deviations from the accessibility requirements should be documented, and the
 
 - The Requirements Traceability Matrix (RTM) should be updated with the corresponding Test Case IDs to ensure proper alignment between requirements and test cases
 
-- We recommend utilizing the JIRA-XRAY tool for effective test management. (Please visit our internal page for more information about Jira test management)
+- We recommend utilizing the Jira-Xray tool for effective test management. (Please visit our internal page for more information about Jira test management)
 
 ## Test Execution and Reporting
 
@@ -36,7 +36,7 @@ Any deviations from the accessibility requirements should be documented, and the
 - Defects should be logged in a tracking system and classified by severity and priority.
 - Provide regular status reports and test summary reports to the project management as defined in the test plan document.
 - Test cases that do not pass during testing must be documented in the Test Exit Report, along with relevant justifications and approvals from the respective project stakeholders along with UKHSA QA manager
-- We recommend to use JIRA-XRAY plug in for the test management activities
+- We recommend to use Jira-Xray plug in for the test management activities
 
 ## Accessibility Testing Processes and Tools
 

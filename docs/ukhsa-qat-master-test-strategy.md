@@ -58,8 +58,8 @@ Next Review Date: Version Date + 1 year
 
 ## Location
 
-\| Confluence | Insert link here |
-\| SharePoint | Insert link here |
+Confluence: (Insert link here)
+SharePoint: (Insert link here)
 
 <span style="color:red; font-weight:bold">The Sections below should be reviewed and included as part of a New Project or Initiative as required</span>
 
@@ -176,7 +176,7 @@ A Test Coverage Matrix will be used to trace requirements and solution design el
 - It facilitates easy identification of functional areas when tests fail unexpectedly
 - It demonstrates that all requirements have been tested
 
-Where possible it will be recommended that the test coverage matrix is captured in a Test Management Tool (e.g., JIRA).
+Where possible it will be recommended that the test coverage matrix is captured in a Test Management Tool (e.g., Jira).
 
 - Risk Based Test Approach
 
@@ -867,9 +867,9 @@ The following test tools will be used during the Projects test activities:
 
 | Test Area | Tool |
 | - | - |
-| (Test) Requirements Management | JIRA, R4J – Requirements Management for Jira; Zephyr Scale – Test Management for Jira. |
+| (Test) Requirements Management | Jira, R4J – Requirements Management for Jira; Zephyr Scale – Test Management for Jira. |
 | This includes Requirements & Design Ambiguity Testing, Test Coverage of Requirements. | |
-| Test Management | JIRA, Zephyr Scale – Test Management for Jira. <br><br> Test case, Test results, create and maintain test packs and manage the day‑to‑day test activities: test design, test execution progress and evidence, defect/issue management, and provision of test metrics/reporting. |
+| Test Management | Jira, Zephyr Scale – Test Management for Jira. <br><br> Test case, Test results, create and maintain test packs and manage the day‑to‑day test activities: test design, test execution progress and evidence, defect/issue management, and provision of test metrics/reporting. |
 | Test Automation | Microfocus Unified Functional Testing (UFT) for GUI‑based automation. <br> ReadyAPI by SmartBear for Integration Testing (REST, SOAP, JMS, JDBC, TCP and other Web Services). |
 | Performance Testing | Microfocus LoadRunner |
 | Test Data Management | Currently none selected as requirements unknown. Appropriate data management tools, as dictated by the technology, will be selected and detailed in the appropriate Master Test Plan once requirements and high‑level designs are in place. |
@@ -960,7 +960,7 @@ The goals of a defect report are to:
 - Support overall development or test process improvements
 -
 
-Before recording an Issue in JIRA, the tester will:
+Before recording an Issue in Jira, the tester will:
 
 - If possible, reproduce the defect, ideally 3 times, (for batch processing this may not be feasible)
 - If it is sporadic, explain this in detail
@@ -972,7 +972,7 @@ When reporting a defect, the tester will:
 - Choose appropriate words; neutral, factual, clear, and unambiguous
 - If appropriate relate the defect to other known defects
 - Where possible attach any test evidence to the report
-- After recording an Issue in JIRA use a defect review process to check the description is clear, confirm severity and to filter duplicates. Ideally defects will firstly be reviewed by a Test Team Lead or Test Manager and then assigned to a Triage manager
+- After recording an Issue in Jira use a defect review process to check the description is clear, confirm severity and to filter duplicates. Ideally defects will firstly be reviewed by a Test Team Lead or Test Manager and then assigned to a Triage manager
 
 When recording a resolution to a defect the nominated resource(s) will:
 

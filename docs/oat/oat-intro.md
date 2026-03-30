@@ -12,7 +12,7 @@ Operational Acceptance Testing (OAT), also known as **Operational Readiness**, e
 - Can be effectively managed once live
 - Can be effectively supported once live
 
-The OAT process focusses on the following areas:
+The OAT process focuses on the following areas:
 
 - Onboarding to UKHSA processes
 - Active Operational Acceptance Testing assurance
@@ -36,7 +36,7 @@ During discovery the OAT team engage with the project to:
 
 - Once confirmed, the OAT team should obtain confirmation on the scope of Non‑Functional Requirements (NFRs) for the program from program stakeholders and UKHSA OAT Test Manager
 
-- Approved Non‑Functional Requirements (NFRs) should be added to the appropriate program test‑management tool (e.g., **JIRA**).
+- Approved Non‑Functional Requirements (NFRs) should be added to the appropriate program test‑management tool (e.g., **Jira**).
 
 - During the test execution process, any deviations should be recorded as **defects** in the chosen management tool.
 

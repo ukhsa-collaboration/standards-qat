@@ -2,7 +2,7 @@
 order: 4
 ---
 
-# Performance Testing Plannning, Documentation & Tooling
+# Performance Testing Planning, Documentation & Tooling
 
 Where the QAT NFT team is engaged to deliver training the test artefacts listed below will be created and maintained by the NFT team. At each stage of the process the documents and test assets will be reviewed and agreed with all stakeholders where necessary. Where the performance testing is to be delivered by the project or supplier the artefacts listed below must be presented to and agreed with the QAT NFT team as well as the relevant stakeholders
 

@@ -72,7 +72,7 @@ For sample templates related to the deliverables mentioned above, please refer t
 
 - The Requirements Traceability Matrix (RTM) should be updated with the corresponding Test Case IDs to ensure proper alignment between requirements and test cases.
 
-- We recommend utilising the JIRA-XRAY tool for effective test management. (Please visit our internal page for more information about JIRA test management)
+- We recommend utilising the Jira-Xray tool for effective test management. (Please visit our internal page for more information about Jira test management)
 
 # Test Execution and Reporting
 
@@ -84,11 +84,11 @@ For sample templates related to the deliverables mentioned above, please refer t
 
 - Test team must submit a test execution report daily for project stakeholders and program leadership.
 
-- A comprehensive defect log and testing summary needs to be properly maintained. Defects must be properly documented in the defect management tool and uploaded into JIRA
+- A comprehensive defect log and testing summary needs to be properly maintained. Defects must be properly documented in the defect management tool and uploaded into Jira
 
 - Test execution results during testing must be documented in the Test Exit Report, along with relevant justifications and approvals from the respective project stakeholders along with UKHSA QA manager
 
-- The test team must ensure JIRA-XRAY tool is used for test management activities.
+- The test team must ensure Jira-Xray tool is used for test management activities.
 
 - Status reporting must include the following sections:
   - Introduction and scope

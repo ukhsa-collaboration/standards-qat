@@ -140,8 +140,8 @@ Include references to standard tools for test planning and management (e.g., Jir
 | **Process** | **Activities** |
 | - | - |
 | **1. Planning** | - Analysis of requirement and Test Scenarios development.<br>- Review test resources and requirements.<br>- Review of test plan and test documentation tools.<br>- Review Test Environment requirements and readiness criteria.<br>- Plan and setup Test data types, sources and test data.<br>- Smoke testing, Regression testing, Defect triage.<br>- Test plan review and approval by the project stakeholders and QAT team. |
-| **2. Designing** | - Define test scenarios and create test cases, aligned, updated in JIRA and mapped to the requirements.<br>- Update and refine test cases as per plan prior to the formal test execution.<br>- Identify a set of regression test cases to be run after defect fixes or changes are introduced. |
-| **3. Execution** | - Review the Test Entry Criteria.<br>- Initiate test execution as per the agreed schedule.<br>- Publish interim progress in case of blockers during execution.<br>- Record and update Test Results, JIRA & other tracking tools (e.g., MS Excel).<br>- Ensure defect management triage calls based on the agreed process are in place.<br>- Record and manage issues and defects (JIRA). |
+| **2. Designing** | - Define test scenarios and create test cases, aligned, updated in Jira and mapped to the requirements.<br>- Update and refine test cases as per plan prior to the formal test execution.<br>- Identify a set of regression test cases to be run after defect fixes or changes are introduced. |
+| **3. Execution** | - Review the Test Entry Criteria.<br>- Initiate test execution as per the agreed schedule.<br>- Publish interim progress in case of blockers during execution.<br>- Record and update Test Results, Jira & other tracking tools (e.g., MS Excel).<br>- Ensure defect management triage calls based on the agreed process are in place.<br>- Record and manage issues and defects (Jira). |
 | **4. Progress Reporting** | - Publish interim update in case of blockers during execution.<br>- Publish Daily Status reports. |
 | **5. Defect Triage** | - Based on the Defect Management Process, triage meetings are conducted. |
 | **6. Completion** | - A formal test phase exit with an approved Functional Test Completion Report. |
@@ -243,7 +243,7 @@ For example, Jira and Xray are used for test planning and execution.
 
 ![Workflow Diagram][1]
 
-Formal defect tracking will occur throughout the test execution phase. JIRA will be used to track and manage defects. Defects will be raised when a test case fails and will be linked to the test case or a defect can be raised which is not linked to a test case (ad-hoc defects) generally found during ad-hoc testing.
+Formal defect tracking will occur throughout the test execution phase. Jira will be used to track and manage defects. Defects will be raised when a test case fails and will be linked to the test case or a defect can be raised which is not linked to a test case (ad-hoc defects) generally found during ad-hoc testing.
 
 All defects identified will be recorded within the defect management tool. The Test Manager will ensure defects raised are investigated, and prioritized and plans put in place for their resolution. Defect triage meetings will be planned regularly based on agreed timelines which will look at all defects raised during the time period and decide the validity as well as priority and severity of the defects. It will be chaired by the Test Manager/Defect manager and attended by Project, Development, Product and Infrastructure Teams.
 
@@ -292,7 +292,7 @@ Below are the guidelines that will be used to decide the Severity of the defects
 - Successful unit testing of features or components to be tested.
 - Test Environments are stable and available for test execution.
 - Support Teams available (as necessary)
-- Test cases are created, signed off, uploaded to JIRA Project and mapped to project requirements (for traceability).
+- Test cases are created, signed off, uploaded to Jira Project and mapped to project requirements (for traceability).
 - Test data setup completed (if needed)
 - Test resources available to support test execution.
 - Successful completion of Smoke testing before formal test execution can commence.

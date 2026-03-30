@@ -128,7 +128,7 @@ Below is a list of the types of functional automation tests executed using “ta
 
 ## 4.3 Test Data Management
 
-- Basic test data per FSD (from JIRA, FRS, LIMS/SDW)
+- Basic test data per FSD (from Jira, FRS, LIMS/SDW)
 - Use dynamic test data generation (faker.js, synthetic data)
 - Data stored externally in appropriate formats
 - Use data seeds for APIs / back‑end tests
@@ -148,7 +148,7 @@ Below is a list of the types of functional automation tests executed using “ta
 ## 4.5 Defect Management
 
 - Defect management process must follow UKHSA’s **QAT defect management process**
-- All defects arising from automation regression are logged into JIRA
+- All defects arising from automation regression are logged into Jira
 - Defects must include:
   - Evidence
   - Automated logs
@@ -249,7 +249,7 @@ Below are the key automation milestones to be tracked as part of the project.
 Automation reporting includes (where appropriate):
 
 - Automation Execution Summary (daily/weekly)
-- Defect Summary (via JIRA / Confluence)
+- Defect Summary (via Jira / Confluence)
 - Test Execution Report (SIT / UAT / OAT / CI/CD)
 - Coverage Metrics (Pass, Fail, Blocked, Not Run)
 - Dashboards (GitHub, Azure DevOps, Jira)

@@ -4,23 +4,23 @@ order: 7
 
 # Defect Management & Resolution
 
-## Purpose / Aim of the Defect Management process
+## Purpose / Aim of the Defect Management Process
 
 The purpose of the Defect Management process is to:
 
 - Support the delivery of high quality UKHSA initiatives into production and minimize defect leakage
 - Provide a repeatable and predictable process for managing issue investigation and resolution
 - Measure the quality of UKHSA initiatives and provide common baseline for comparison
-- Avoid unauthorized changes to the code base and test environments i.e. DEV team will only fix and deploy approved defects
+- Avoid unauthorized changes to the code base and test environments i.e. dev team will only fix and deploy approved defects
 - Reduce training and resources required to support Defect Management by having a standard process which can be reused across all initiatives.
 
 ## Definition of a Defect
 
 For the purposes of the Defect Management process; A Defect is an issue which describes the outcome where the result does not meet the required signed-off functional, non-functional or aesthetic requirements of the initiative being delivered. The Defect should only be raised against those requirements which are in-scope for review and where code has been delivered for testing purposes. A Defect will not be raised before the code has been delivered, (except where the code was expected to be delivered and the test was executed), or as a proposed Change, Observation, Risk / Issue although a valid Defect may generate them.
 
-## Defect Lifecycle - Status workflow
+## Defect Lifecycle - Status Workflow
 
-Defect Management life cycle describes the stages the defect progresses from detection to closure. JIRA will be used to log all Defects raised during each phase of the initiative.
+Defect Management life cycle describes the stages the defect progresses from detection to closure. Jira will be used to log all Defects raised during each phase of the initiative.
 
 This diagram provides the basic defect workflow with the relevant statuses:
 
@@ -28,14 +28,15 @@ This diagram provides the basic defect workflow with the relevant statuses:
 
 | Defect Status | Defect Status Set | Status (When Set & Actions) | Next Status (1. Standard Journey / 2. Alternative Journey) |
 | - | - | - | - |
-| **New** | Raiser or Author (Automatically by JIRA) | Status set to **“New”** when the defect is first created or re‑opened and assigned to Delivery or Agile Lead for review and triage. | **“Triaged”** or **Any Status** |
+| **New** | Raiser or Author (Automatically by Jira) | Status set to **“New”** when the defect is first created or re‑opened and assigned to Delivery or Agile Lead for review and triage. | **“Triaged”** or **Any Status** |
 | **Triaged** | Defect Manager or Test Lead or Initiative Lead | Delivery or Agile Lead sets status to **“Triaged”** when the defect has been reviewed and *Priority* and *Severity* have been agreed. Status may be set to **“Closed”** when the defect is *Rejected* and *Root Cause* completed. | **“Back‑log”** / **“In‑progress”** / **“Closed”** or Any Status |
 | **Back‑log** | Defect Manager or Test Lead or Initiative Lead | Delivery or Agile Lead sets status to **“Backlog”** following a meeting with “Triaged”; the defect will not be fixed immediately. | **“In‑progress”** / **“Closed”** or Any Status |
 
-\* The "Any Status" enables the Jira user to assign the defect and change the status without being forced through the standard workflow.
+*\* The "Any Status" enables the Jira user to assign the defect and change the status without being forced through the standard workflow.*
 
-Definition and Setting of Defect Priority And Severity
-Defect Priority:
+## Definition and Setting of Defect Priority and Severity
+
+### Defect Priority
 
 The Priority of the defect relates to the impact the issue has on testing and the Priority may change as the initiative approaches Go-Live. The Priority may be initially set by the Test Lead or Test Manager and will be reviewed at a project level. Priority is set independent and separate from Severity.
 
@@ -48,7 +49,7 @@ Below are the guidelines that will be used to decide the Priority of the defects
 | **3** | **Medium (P3)** | • Group of tests stopped or blocked from execution<br>• Tests relate to non‑core functions or back‑end processing (e.g., batch processing)<br><br>**Example:** Single screen not working or available | Fixed delivery in next sprint |
 | **4** | **Low (P4)** | • Stops or blocks a handful of non‑core test cases from being executed<br>• Tests relate to very infrequently used or very low priority functionality<br><br>**Example:** Cosmetic issue (e.g., spelling on screen or documentation) | Fix delivery optional |
 
-## Defect Severity
+### Defect Severity
 
 The Severity of an issue is the measure of the impact the issue would have to UKHSA users or the UKHSA organization, if the code was in a Production environment.  The Severity of the defect does not change during the delivery of the initiative. Severity is set independent and separate from Priority.
 
@@ -65,7 +66,7 @@ Below are the guidelines that will be used to decide the Severity of the defects
 
 The preferred UKHSA tools to be used to support the Defect Management process and the IssueType required:
 
-## Jira – Issue Types
+### Jira – Issue Types
 
 | Issue Type | Description |
 | - | - |
@@ -75,7 +76,7 @@ The preferred UKHSA tools to be used to support the Defect Management process an
 
 ***
 
-## Xray – Issue Types
+### Xray – Issue Types
 
 | Issue Type | Description |
 | - | - |
@@ -108,7 +109,7 @@ The following key fields / data will be captured when raising a Defect:
 | **Attachments** | Attach images, screenshots, emails, reports, or other documentation to support investigation, recreation, and evidence. **Must include evidence of retest and closure.** | Mandatory |
 | **Comments** | Include in initial comment the action required or key information for consideration. | Optional |
 
-## Roles and responsibilities / RACI for stakeholders
+## Roles and Responsibilities / RACI for Stakeholders
 
 The following roles and responsibilities will be required to support the Defect Management process. NB: The Roles does NOT require a dedicated full-time employee but requires someone to undertake the relevant responsibility:
 
@@ -154,7 +155,7 @@ The following Root Cause will be set when a Defect is Closed and is a mandatory 
 - Documentation / Requirements Ambiguity
 - User / Tester Error
 
-## Management Information: Defect reports using Jira / Xray dashboards
+## Management Information: Defect Reports Using Jira / Xray Dashboards
 
 The following reports will be produced for Defect Management process (For Guidance)
 
@@ -168,7 +169,7 @@ The following reports will be produced for Defect Management process (For Guidan
 
 ## Key Performance Indicators (KPI's) \ Measure of Quality
 
-The following Key Performance Indicators may be used to measure the quality of the Initiative Code being delivered: NB: These KPI's are aspirational and may be subject to agreement with supplier. vendors and development teams.
+The following Key Performance Indicators may be used to measure the quality of the Initiative Code being delivered: NB: These KPIs are aspirational and may be subject to agreement with supplier. vendors and development teams.
 
 | Title | Description | Formula | Recommended Target |
 | - | - | - | - |

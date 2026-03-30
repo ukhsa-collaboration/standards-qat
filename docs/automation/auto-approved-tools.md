@@ -7,7 +7,7 @@
 | Tool | Vendor | Purpose | License Info |
 | - | - | - | - |
 | Confluence | Atlassian | QAT documentation | Managed by LSA |
-| JIRA (with Xray Add‑on) | Atlassian | Test management tool | Managed by LSA |
+| Jira (with Xray Add‑on) | Atlassian | Test management tool | Managed by LSA |
 | Azure DevOps | Microsoft | QAT documentation, resource tracking, reporting | UKHSA |
 
 ***
@@ -38,7 +38,7 @@
 | 8 | ADO (Azure DevOps Pipelines) | CI/CD | CI/CD automation for builds and releases | Licensed |
 | 9 | RESTSharp | API Automation | Automation of API testing | Open Source |
 | 10 | GitHub | Repository | Stores scripts and version control | Licensed |
-| 11 | JIRA / Xray | Defect Management & Test Management | Manage defects and test execution | Licensed |
+| 11 | Jira / Xray | Defect Management & Test Management | Manage defects and test execution | Licensed |
 | 12 | Postman | API Automation | API test automation and execution | Licensed |
 
 ## Performance Testing
